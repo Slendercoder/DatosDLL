@@ -1,0 +1,5721 @@
+[{
+    "time": 16314,
+    "timeup": false,
+    "done": true,
+    "player": "548382253851741",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955026762
+}, {
+    "time": 88236,
+    "timeup": false,
+    "done": true,
+    "player": "324213043786585",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955099033
+}, {
+    "time": 16970,
+    "timeup": false,
+    "correct": true,
+    "rounds": [
+        1
+    ],
+    "jarra": [
+        1
+    ],
+    "puntos": [
+        1
+    ],
+    "done": true,
+    "player": "548382253851741",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955116157
+}, {
+    "time": 22772,
+    "timeup": false,
+    "correct": true,
+    "rounds": [
+        1
+    ],
+    "jarra": [
+        1
+    ],
+    "puntos": [
+        1
+    ],
+    "done": true,
+    "player": "324213043786585",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955121961
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Triangulo",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955132120
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Triangulo",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955136791
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Circulo",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955137358
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Circulo",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955140432
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Triangulo",
+        5
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955142934
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Cuadrado",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955143704
+}, {
+    "Comunicacion": [
+        "xol",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955147149
+}, {
+    "Comunicacion": [
+        "Ignorar",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955152829
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Circulo",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955159231
+}, {
+    "Comunicacion": [
+        "zab",
+        2
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955165481
+}, {
+    "Comunicacion": [
+        "zab",
+        2
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955170962
+}, {
+    "Comunicacion": [
+        "Triangulo",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955171749
+}, {
+    "Comunicacion": [
+        "dup",
+        2
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955176123
+}, {
+    "Comunicacion": [
+        "Circulo",
+        2
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955186172
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Cuadrado",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955190814
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Circulo",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955193138
+}, {
+    "Comunicacion": [
+        "zab",
+        2
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955196374
+}, {
+    "Comunicacion": [
+        "Cuadrado",
+        3
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955199259
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Triangulo",
+        5
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955202775
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Circulo",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955206537
+}, {
+    "Comunicacion": [
+        "dup",
+        2
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955209392
+}, {
+    "Comunicacion": [
+        "Cuadrado",
+        4
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955214221
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Triangulo",
+        5
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955214886
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Triangulo",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955219474
+}, {
+    "Comunicacion": [
+        "zab",
+        5
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955220071
+}, {
+    "Comunicacion": [
+        "Triangulo",
+        2
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955224456
+}, {
+    "Comunicacion": [
+        "zab",
+        3
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955227054
+}, {
+    "Comunicacion": [
+        "Ignorar",
+        5
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955228645
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Circulo",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955234351
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Cuadrado",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955238502
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Circulo",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955242038
+}, {
+    "Comunicacion": [
+        "zab",
+        3
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955247112
+}, {
+    "Comunicacion": [
+        "Ignorar",
+        6
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955248915
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Circulo",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955250872
+}, {
+    "Comunicacion": [
+        "dup",
+        3
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955255622
+}, {
+    "Comunicacion": [
+        "Ignorar",
+        7
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955256934
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Circulo",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955258878
+}, {
+    "Comunicacion": [
+        "xol",
+        8
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955267212
+}, {
+    "Comunicacion": [
+        "Circulo",
+        3
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955271944
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Triangulo",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955272560
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Triangulo",
+        5
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955274660
+}, {
+    "Comunicacion": [
+        "zab",
+        4
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955276373
+}, {
+    "Comunicacion": [
+        "Ignorar",
+        8
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955278350
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Triangulo",
+        5
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955281855
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Triangulo",
+        5
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955285207
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Cuadrado",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955287822
+}, {
+    "Comunicacion": [
+        "xol",
+        4
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955288823
+}, {
+    "Comunicacion": [
+        "xol",
+        9
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955299811
+}, {
+    "Comunicacion": [
+        "zab",
+        4
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955301614
+}, {
+    "Comunicacion": [
+        "dup",
+        9
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955302217
+}, {
+    "Comunicacion": [
+        "Ignorar",
+        9
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955304182
+}, {
+    "Comunicacion": [
+        "xol",
+        10
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955306547
+}, {
+    "Comunicacion": [
+        "Ignorar",
+        4
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955306609
+}, {
+    "Comunicacion": [
+        "dup",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955311893
+}, {
+    "Comunicacion": [
+        "Ignorar",
+        10
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955316100
+}, {
+    "Comunicacion": [
+        "xol",
+        11
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955318700
+}, {
+    "Comunicacion": [
+        "zab",
+        11
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955321051
+}, {
+    "Comunicacion": [
+        "dup",
+        11
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955323091
+}, {
+    "Comunicacion": [
+        "Circulo",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955324158
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Circulo",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955330986
+}, {
+    "Comunicacion": [
+        "zab",
+        11
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955332253
+}, {
+    "Comunicacion": [
+        "dup",
+        6
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955333934
+}, {
+    "Comunicacion": [
+        "xol",
+        11
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955334699
+}, {
+    "Comunicacion": [
+        "Ignorar",
+        6
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955335192
+}, {
+    "Comunicacion": [
+        "Ignorar",
+        11
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955338343
+}, {
+    "Comunicacion": [
+        "dup",
+        7
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955340133
+}, {
+    "Comunicacion": [
+        "Ignorar",
+        12
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955344039
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Circulo",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955345225
+}, {
+    "Comunicacion": [
+        "xol",
+        13
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955347507
+}, {
+    "Comunicacion": [
+        "Ignorar",
+        7
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955349041
+}, {
+    "Comunicacion": [
+        "zab",
+        13
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955349516
+}, {
+    "Comunicacion": [
+        "Ignorar",
+        8
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955350777
+}, {
+    "Comunicacion": [
+        "dup",
+        13
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955352339
+}, {
+    "Comunicacion": [
+        "dup",
+        9
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955353541
+}, {
+    "Comunicacion": [
+        "Ignorar",
+        9
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955354457
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Circulo",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955359322
+}, {
+    "time": 239999,
+    "timeup": true,
+    "done": true,
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955362146
+}, {
+    "time": 240000,
+    "timeup": true,
+    "done": true,
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534955362648
+}, {
+    "Encuesta": [
+        "Circulo",
+        true,
+        false,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 1
+    },
+    "timestamp": 1534955368962
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        false,
+        true,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 1
+    },
+    "timestamp": 1534955371562
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        false,
+        true,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 1
+    },
+    "timestamp": 1534955374084
+}, {
+    "Encuesta": [
+        "Circulo",
+        true,
+        false,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 1
+    },
+    "timestamp": 1534955375215
+}, {
+    "Encuesta": [
+        "Circulo",
+        true,
+        false,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 1
+    },
+    "timestamp": 1534955377714
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        false,
+        true,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 1
+    },
+    "timestamp": 1534955377761
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        false,
+        true,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 1
+    },
+    "timestamp": 1534955379604
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        false,
+        true,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 1
+    },
+    "timestamp": 1534955381410
+}, {
+    "Encuesta": [
+        "Circulo",
+        true,
+        false,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 1
+    },
+    "timestamp": 1534955382103
+}, {
+    "Encuesta": [
+        "Circulo",
+        true,
+        false,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 1
+    },
+    "timestamp": 1534955384047
+}, {
+    "Encuesta": [
+        "Circulo",
+        true,
+        false,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 1
+    },
+    "timestamp": 1534955384586
+}, {
+    "Encuesta": [
+        "Triangulo",
+        false,
+        false,
+        true
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 1
+    },
+    "timestamp": 1534955385783
+}, {
+    "Encuesta": [
+        "Circulo",
+        true,
+        false,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 1
+    },
+    "timestamp": 1534955386754
+}, {
+    "Encuesta": [
+        "Circulo",
+        true,
+        false,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 1
+    },
+    "timestamp": 1534955387359
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        false,
+        true,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 1
+    },
+    "timestamp": 1534955388935
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        false,
+        true,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 1
+    },
+    "timestamp": 1534955388978
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        false,
+        true,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 1
+    },
+    "timestamp": 1534955390488
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        false,
+        true,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 1
+    },
+    "timestamp": 1534955392927
+}, {
+    "time": 32153,
+    "timeup": false,
+    "done": true,
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 1
+    },
+    "timestamp": 1534955394972
+}, {
+    "time": 35461,
+    "timeup": false,
+    "done": true,
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 1
+    },
+    "timestamp": 1534955398563
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Triangulo",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1534955404490
+}, {
+    "time": 6261,
+    "timeup": false,
+    "done": true,
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1534955404993
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Cuadrado",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1534955408156
+}, {
+    "Comunicacion": [
+        "xol",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1534955411562
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Triangulo",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1534955415948
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Circulo",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1534955421027
+}, {
+    "Comunicacion": [
+        "zab",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1534955424241
+}, {
+    "Comunicacion": [
+        "zab",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1534955439545
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Circulo",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1534955449459
+}, {
+    "Comunicacion": [
+        "dup",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1534955455291
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Circulo",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1534955477812
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Circulo",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1534955482072
+}, {
+    "Comunicacion": [
+        "zab",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1534955485171
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Circulo",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1534955500612
+}, {
+    "Comunicacion": [
+        "xol",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1534955515374
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Circulo",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1534955525053
+}, {
+    "Comunicacion": [
+        "dup",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1534955530938
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Triangulo",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1534955544933
+}, {
+    "Comunicacion": [
+        "dup",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1534955553450
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Circulo",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1534955568333
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Circulo",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1534955571974
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Circulo",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1534955578382
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Circulo",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1534955581694
+}, {
+    "Comunicacion": [
+        "zab",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1534955586170
+}, {
+    "time": 239998,
+    "timeup": true,
+    "done": true,
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1534955638753
+}, {
+    "Encuesta": [
+        "Triangulo",
+        false,
+        false,
+        true
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 2
+    },
+    "timestamp": 1534955643806
+}, {
+    "Encuesta": [
+        "Circulo",
+        true,
+        false,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 2
+    },
+    "timestamp": 1534955646024
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        false,
+        true,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 2
+    },
+    "timestamp": 1534955647446
+}, {
+    "Encuesta": [
+        "Circulo",
+        true,
+        false,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 2
+    },
+    "timestamp": 1534955648973
+}, {
+    "Encuesta": [
+        "Triangulo",
+        false,
+        false,
+        true
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 2
+    },
+    "timestamp": 1534955649354
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        false,
+        true,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 2
+    },
+    "timestamp": 1534955650646
+}, {
+    "Encuesta": [
+        "Circulo",
+        true,
+        false,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 2
+    },
+    "timestamp": 1534955650849
+}, {
+    "Encuesta": [
+        "Circulo",
+        true,
+        false,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 2
+    },
+    "timestamp": 1534955652235
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        false,
+        true,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 2
+    },
+    "timestamp": 1534955652462
+}, {
+    "Encuesta": [
+        "Circulo",
+        true,
+        false,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 2
+    },
+    "timestamp": 1534955653586
+}, {
+    "Encuesta": [
+        "Triangulo",
+        false,
+        false,
+        true
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 2
+    },
+    "timestamp": 1534955654007
+}, {
+    "Encuesta": [
+        "Circulo",
+        true,
+        false,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 2
+    },
+    "timestamp": 1534955656070
+}, {
+    "Encuesta": [
+        "Triangulo",
+        false,
+        false,
+        true
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 2
+    },
+    "timestamp": 1534955656099
+}, {
+    "Encuesta": [
+        "Circulo",
+        true,
+        false,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 2
+    },
+    "timestamp": 1534955657402
+}, {
+    "Encuesta": [
+        "Triangulo",
+        false,
+        false,
+        true
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 2
+    },
+    "timestamp": 1534955657718
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        false,
+        true,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 2
+    },
+    "timestamp": 1534955659129
+}, {
+    "Encuesta": [
+        "Triangulo",
+        false,
+        false,
+        true
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 2
+    },
+    "timestamp": 1534955660842
+}, {
+    "time": 22153,
+    "timeup": false,
+    "done": true,
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 2
+    },
+    "timestamp": 1534955661063
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        false,
+        true,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 2
+    },
+    "timestamp": 1534955663946
+}, {
+    "time": 59998,
+    "timeup": true,
+    "done": true,
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 2
+    },
+    "timestamp": 1534955698906
+}, {
+    "Comunicacion": [
+        "dup",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955704673
+}, {
+    "Comunicacion": [
+        "Ignorar",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955708969
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Cuadrado",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955712831
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Circulo",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955717456
+}, {
+    "Comunicacion": [
+        "xol",
+        2
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955718528
+}, {
+    "Comunicacion": [
+        "Cuadrado",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955722838
+}, {
+    "Comunicacion": [
+        "dup",
+        2
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955726157
+}, {
+    "Comunicacion": [
+        "dup",
+        2
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955726768
+}, {
+    "Comunicacion": [
+        "Cuadrado",
+        2
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955730621
+}, {
+    "Comunicacion": [
+        "dup",
+        3
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955734376
+}, {
+    "Comunicacion": [
+        "Cuadrado",
+        2
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955736145
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Circulo",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955741209
+}, {
+    "Comunicacion": [
+        "zab",
+        3
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955741321
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Cuadrado",
+        5
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955744307
+}, {
+    "Comunicacion": [
+        "Circulo",
+        3
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955744836
+}, {
+    "Comunicacion": [
+        "zab",
+        4
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955747316
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Cuadrado",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955751751
+}, {
+    "Comunicacion": [
+        "Triangulo",
+        3
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955755682
+}, {
+    "Comunicacion": [
+        "dup",
+        4
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955759990
+}, {
+    "Comunicacion": [
+        "Circulo",
+        4
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955763464
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Circulo",
+        5
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955765099
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Cuadrado",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955765560
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Triangulo",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955767891
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Cuadrado",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955770840
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Triangulo",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955771195
+}, {
+    "Comunicacion": [
+        "zab",
+        4
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955774369
+}, {
+    "Comunicacion": [
+        "Triangulo",
+        5
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955778778
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Circulo",
+        5
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955780676
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Circulo",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955785776
+}, {
+    "Comunicacion": [
+        "dup",
+        6
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955787062
+}, {
+    "Comunicacion": [
+        "Cuadrado",
+        4
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955792559
+}, {
+    "Comunicacion": [
+        "dup",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955796077
+}, {
+    "Comunicacion": [
+        "Circulo",
+        6
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955800380
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Triangulo",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955802652
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Circulo",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955804465
+}, {
+    "Comunicacion": [
+        "xol",
+        7
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955807043
+}, {
+    "Comunicacion": [
+        "dup",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955808049
+}, {
+    "Comunicacion": [
+        "Circulo",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955810637
+}, {
+    "Comunicacion": [
+        "Circulo",
+        7
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955814049
+}, {
+    "Comunicacion": [
+        "zab",
+        8
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955819760
+}, {
+    "Comunicacion": [
+        "zab",
+        6
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955820335
+}, {
+    "Comunicacion": [
+        "Circulo",
+        6
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955822944
+}, {
+    "Comunicacion": [
+        "Cuadrado",
+        8
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955828353
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Circulo",
+        5
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955831644
+}, {
+    "Comunicacion": [
+        "xol",
+        7
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955832638
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Cuadrado",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955839424
+}, {
+    "Comunicacion": [
+        "dup",
+        9
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955839544
+}, {
+    "Comunicacion": [
+        "Circulo",
+        7
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955842248
+}, {
+    "Comunicacion": [
+        "xol",
+        8
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955844711
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Circulo",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955848329
+}, {
+    "Comunicacion": [
+        "Cuadrado",
+        9
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955850440
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Triangulo",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955852241
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Circulo",
+        5
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955855844
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Cuadrado",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955858721
+}, {
+    "Comunicacion": [
+        "dup",
+        10
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955859440
+}, {
+    "Comunicacion": [
+        "Circulo",
+        8
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955862079
+}, {
+    "Comunicacion": [
+        "dup",
+        9
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955864798
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Circulo",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955869649
+}, {
+    "Comunicacion": [
+        "Triangulo",
+        10
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955870657
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Cuadrado",
+        5
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955874316
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Cuadrado",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955875161
+}, {
+    "Comunicacion": [
+        "xol",
+        9
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955877475
+}, {
+    "Comunicacion": [
+        "xol",
+        11
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955879888
+}, {
+    "Comunicacion": [
+        "Circulo",
+        9
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955884351
+}, {
+    "Comunicacion": [
+        "xol",
+        10
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955886823
+}, {
+    "Comunicacion": [
+        "Cuadrado",
+        11
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955887921
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Cuadrado",
+        5
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955891404
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Cuadrado",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955891761
+}, {
+    "Comunicacion": [
+        "xol",
+        10
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955894078
+}, {
+    "Comunicacion": [
+        "Triangulo",
+        12
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955898328
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Triangulo",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955900148
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Cuadrado",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955904913
+}, {
+    "Comunicacion": [
+        "xol",
+        13
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955909008
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Triangulo",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955919141
+}, {
+    "Comunicacion": [
+        "dup",
+        13
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955921953
+}, {
+    "Comunicacion": [
+        "Ignorar",
+        10
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955925226
+}, {
+    "time": 240000,
+    "timeup": true,
+    "done": true,
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955939074
+}, {
+    "time": 240000,
+    "timeup": true,
+    "done": true,
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1534955939074
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        true,
+        false,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 3
+    },
+    "timestamp": 1534955945442
+}, {
+    "Encuesta": [
+        "Circulo",
+        false,
+        true,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 3
+    },
+    "timestamp": 1534955947004
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        true,
+        false,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 3
+    },
+    "timestamp": 1534955948811
+}, {
+    "Encuesta": [
+        "Circulo",
+        true,
+        false,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 3
+    },
+    "timestamp": 1534955949091
+}, {
+    "Encuesta": [
+        "Triangulo",
+        false,
+        false,
+        true
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 3
+    },
+    "timestamp": 1534955950218
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        false,
+        true,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 3
+    },
+    "timestamp": 1534955951994
+}, {
+    "Encuesta": [
+        "Triangulo",
+        false,
+        false,
+        true
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 3
+    },
+    "timestamp": 1534955953341
+}, {
+    "Encuesta": [
+        "Triangulo",
+        false,
+        false,
+        true
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 3
+    },
+    "timestamp": 1534955953676
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        true,
+        false,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 3
+    },
+    "timestamp": 1534955955307
+}, {
+    "Encuesta": [
+        "Circulo",
+        true,
+        false,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 3
+    },
+    "timestamp": 1534955956334
+}, {
+    "Encuesta": [
+        "Triangulo",
+        false,
+        false,
+        true
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 3
+    },
+    "timestamp": 1534955956507
+}, {
+    "Encuesta": [
+        "Circulo",
+        false,
+        true,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 3
+    },
+    "timestamp": 1534955957826
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        false,
+        true,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 3
+    },
+    "timestamp": 1534955958229
+}, {
+    "Encuesta": [
+        "Circulo",
+        true,
+        false,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 3
+    },
+    "timestamp": 1534955959724
+}, {
+    "time": 20670,
+    "timeup": false,
+    "done": true,
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 3
+    },
+    "timestamp": 1534955959908
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        false,
+        true,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 3
+    },
+    "timestamp": 1534955961788
+}, {
+    "Encuesta": [
+        "Circulo",
+        true,
+        false,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 3
+    },
+    "timestamp": 1534955966277
+}, {
+    "Encuesta": [
+        "Circulo",
+        true,
+        false,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 3
+    },
+    "timestamp": 1534955967884
+}, {
+    "Encuesta": [
+        "Circulo",
+        true,
+        false,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 3
+    },
+    "timestamp": 1534955969645
+}, {
+    "time": 53292,
+    "timeup": false,
+    "done": true,
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 3
+    },
+    "timestamp": 1534955992520
+}, {
+    "Comunicacion": [
+        "zab",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534955997660
+}, {
+    "Comunicacion": [
+        "Circulo",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956002004
+}, {
+    "Comunicacion": [
+        "zab",
+        2
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956004082
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Cuadrado",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956007475
+}, {
+    "Comunicacion": [
+        "Triangulo",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956009444
+}, {
+    "Comunicacion": [
+        "xol",
+        2
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956015443
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Cuadrado",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956019644
+}, {
+    "Comunicacion": [
+        "Cuadrado",
+        2
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956021140
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Cuadrado",
+        5
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956024814
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Triangulo",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956027652
+}, {
+    "Comunicacion": [
+        "xol",
+        2
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956030281
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Circulo",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956034422
+}, {
+    "Comunicacion": [
+        "Cuadrado",
+        3
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956036466
+}, {
+    "Comunicacion": [
+        "zab",
+        4
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956040260
+}, {
+    "Comunicacion": [
+        "Cuadrado",
+        2
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956043370
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Cuadrado",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956043964
+}, {
+    "Comunicacion": [
+        "dup",
+        3
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956048667
+}, {
+    "Comunicacion": [
+        "Triangulo",
+        4
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956056130
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Triangulo",
+        5
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956058886
+}, {
+    "Comunicacion": [
+        "zab",
+        3
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956060609
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Triangulo",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956064173
+}, {
+    "Comunicacion": [
+        "Triangulo",
+        5
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956067435
+}, {
+    "Comunicacion": [
+        "zab",
+        6
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956070314
+}, {
+    "Comunicacion": [
+        "Circulo",
+        3
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956073596
+}, {
+    "Comunicacion": [
+        "xol",
+        4
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956076026
+}, {
+    "Comunicacion": [
+        "Circulo",
+        6
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956079138
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Triangulo",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956082678
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Cuadrado",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956083237
+}, {
+    "Comunicacion": [
+        "dup",
+        7
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956086690
+}, {
+    "Comunicacion": [
+        "xol",
+        4
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956087144
+}, {
+    "Comunicacion": [
+        "Cuadrado",
+        4
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956089931
+}, {
+    "Comunicacion": [
+        "Circulo",
+        7
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956091348
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Cuadrado",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956094591
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Circulo",
+        5
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956097895
+}, {
+    "Comunicacion": [
+        "dup",
+        8
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956101395
+}, {
+    "Comunicacion": [
+        "Cuadrado",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956104774
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Circulo",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956107837
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Cuadrado",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956109550
+}, {
+    "Comunicacion": [
+        "xol",
+        6
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956111106
+}, {
+    "Comunicacion": [
+        "Circulo",
+        8
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956113483
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Triangulo",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956117470
+}, {
+    "Comunicacion": [
+        "dup",
+        6
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956119530
+}, {
+    "Comunicacion": [
+        "dup",
+        9
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956120611
+}, {
+    "Comunicacion": [
+        "Cuadrado",
+        6
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956123298
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Circulo",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956127205
+}, {
+    "Comunicacion": [
+        "Cuadrado",
+        9
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956129171
+}, {
+    "Comunicacion": [
+        "xol",
+        10
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956133707
+}, {
+    "Comunicacion": [
+        "Circulo",
+        7
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956136717
+}, {
+    "Comunicacion": [
+        "zab",
+        8
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956139939
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Circulo",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956143677
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Circulo",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956151453
+}, {
+    "Comunicacion": [
+        "Triangulo",
+        10
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956152395
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Cuadrado",
+        5
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956155647
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Cuadrado",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956157669
+}, {
+    "Comunicacion": [
+        "dup",
+        11
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956158602
+}, {
+    "Comunicacion": [
+        "dup",
+        8
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956160203
+}, {
+    "Comunicacion": [
+        "Circulo",
+        8
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956162363
+}, {
+    "Comunicacion": [
+        "Cuadrado",
+        11
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956164435
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Circulo",
+        5
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956167015
+}, {
+    "Comunicacion": [
+        "xol",
+        9
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956168476
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Triangulo",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956172287
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Triangulo",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956175264
+}, {
+    "Comunicacion": [
+        "dup",
+        12
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956177756
+}, {
+    "Comunicacion": [
+        "Cuadrado",
+        9
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956180340
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Circulo",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956180974
+}, {
+    "Comunicacion": [
+        "zab",
+        12
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956185941
+}, {
+    "Comunicacion": [
+        "dup",
+        10
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956187844
+}, {
+    "Comunicacion": [
+        "Cuadrado",
+        12
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956190516
+}, {
+    "Comunicacion": [
+        "Circulo",
+        10
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956192491
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Triangulo",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956194813
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Cuadrado",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956195998
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Cuadrado",
+        5
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956197736
+}, {
+    "Comunicacion": [
+        "xol",
+        13
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956200466
+}, {
+    "Comunicacion": [
+        "zab",
+        11
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956200627
+}, {
+    "Comunicacion": [
+        "Ignorar",
+        11
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956202774
+}, {
+    "Comunicacion": [
+        "zab",
+        12
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956210627
+}, {
+    "Comunicacion": [
+        "xol",
+        12
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956222567
+}, {
+    "Comunicacion": [
+        "Ignorar",
+        13
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956226646
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Circulo",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956230991
+}, {
+    "time": 239999,
+    "timeup": true,
+    "done": true,
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956232683
+}, {
+    "time": 239999,
+    "timeup": true,
+    "done": true,
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1534956232716
+}, {
+    "Encuesta": [
+        "Circulo",
+        false,
+        true,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 4
+    },
+    "timestamp": 1534956237183
+}, {
+    "Encuesta": [
+        "Triangulo",
+        true,
+        false,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 4
+    },
+    "timestamp": 1534956240288
+}, {
+    "Encuesta": [
+        "Circulo",
+        true,
+        false,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 4
+    },
+    "timestamp": 1534956240470
+}, {
+    "Encuesta": [
+        "Circulo",
+        false,
+        true,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 4
+    },
+    "timestamp": 1534956241641
+}, {
+    "Encuesta": [
+        "Circulo",
+        true,
+        false,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 4
+    },
+    "timestamp": 1534956242496
+}, {
+    "Encuesta": [
+        "Circulo",
+        false,
+        true,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 4
+    },
+    "timestamp": 1534956243073
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        false,
+        true,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 4
+    },
+    "timestamp": 1534956244159
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        false,
+        false,
+        true
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 4
+    },
+    "timestamp": 1534956244952
+}, {
+    "Encuesta": [
+        "Circulo",
+        false,
+        true,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 4
+    },
+    "timestamp": 1534956246150
+}, {
+    "Encuesta": [
+        "Circulo",
+        false,
+        true,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 4
+    },
+    "timestamp": 1534956247034
+}, {
+    "Encuesta": [
+        "Triangulo",
+        true,
+        false,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 4
+    },
+    "timestamp": 1534956248920
+}, {
+    "Encuesta": [
+        "Triangulo",
+        true,
+        false,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 4
+    },
+    "timestamp": 1534956250032
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        true,
+        false,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 4
+    },
+    "timestamp": 1534956250392
+}, {
+    "Encuesta": [
+        "Circulo",
+        false,
+        true,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 4
+    },
+    "timestamp": 1534956251416
+}, {
+    "Encuesta": [
+        "Triangulo",
+        false,
+        false,
+        true
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 4
+    },
+    "timestamp": 1534956251888
+}, {
+    "Encuesta": [
+        "Circulo",
+        true,
+        false,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 4
+    },
+    "timestamp": 1534956254159
+}, {
+    "time": 21305,
+    "timeup": false,
+    "done": true,
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 4
+    },
+    "timestamp": 1534956254175
+}, {
+    "Encuesta": [
+        "Circulo",
+        true,
+        false,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 4
+    },
+    "timestamp": 1534956256423
+}, {
+    "Encuesta": [
+        "Triangulo",
+        false,
+        false,
+        true
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 4
+    },
+    "timestamp": 1534956257399
+}, {
+    "time": 26965,
+    "timeup": false,
+    "done": true,
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 4
+    },
+    "timestamp": 1534956259840
+}, {
+    "Comunicacion": [
+        "xol",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956265103
+}, {
+    "Comunicacion": [
+        "Circulo",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956267622
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Triangulo",
+        5
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956270280
+}, {
+    "Comunicacion": [
+        "xol",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956271574
+}, {
+    "Comunicacion": [
+        "Circulo",
+        2
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956274574
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Triangulo",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956277823
+}, {
+    "Comunicacion": [
+        "zab",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956280973
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Cuadrado",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956284936
+}, {
+    "Comunicacion": [
+        "Triangulo",
+        3
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956285413
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Triangulo",
+        5
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956287752
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Circulo",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956290095
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Circulo",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956290769
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Cuadrado",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956293129
+}, {
+    "Comunicacion": [
+        "dup",
+        4
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956295606
+}, {
+    "Comunicacion": [
+        "Cuadrado",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956298084
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Triangulo",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956301217
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Circulo",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956304137
+}, {
+    "Comunicacion": [
+        "xol",
+        2
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956306510
+}, {
+    "Comunicacion": [
+        "Circulo",
+        4
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956309300
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Triangulo",
+        5
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956310154
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Triangulo",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956313080
+}, {
+    "Comunicacion": [
+        "zab",
+        5
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956314750
+}, {
+    "Comunicacion": [
+        "xol",
+        2
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956315758
+}, {
+    "Comunicacion": [
+        "Circulo",
+        5
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956318733
+}, {
+    "Comunicacion": [
+        "Cuadrado",
+        2
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956320454
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Triangulo",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956324116
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Cuadrado",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956326001
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Circulo",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956327560
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Circulo",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956329058
+}, {
+    "Comunicacion": [
+        "zab",
+        3
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956329955
+}, {
+    "Comunicacion": [
+        "zab",
+        6
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956335719
+}, {
+    "Comunicacion": [
+        "Triangulo",
+        3
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956339333
+}, {
+    "Comunicacion": [
+        "xol",
+        4
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956342053
+}, {
+    "Comunicacion": [
+        "Circulo",
+        6
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956344654
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Circulo",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956348385
+}, {
+    "Comunicacion": [
+        "xol",
+        7
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956348987
+}, {
+    "Comunicacion": [
+        "Cuadrado",
+        4
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956351376
+}, {
+    "Comunicacion": [
+        "zab",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956354390
+}, {
+    "Comunicacion": [
+        "Triangulo",
+        7
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956356758
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Cuadrado",
+        1
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956360025
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Triangulo",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956362128
+}, {
+    "Comunicacion": [
+        "zab",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956364957
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Cuadrado",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956369513
+}, {
+    "Comunicacion": [
+        "zab",
+        8
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956370159
+}, {
+    "Comunicacion": [
+        "Triangulo",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956373686
+}, {
+    "Comunicacion": [
+        "dup",
+        6
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956378366
+}, {
+    "Comunicacion": [
+        "Cuadrado",
+        8
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956381309
+}, {
+    "Comunicacion": [
+        "xol",
+        9
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956387965
+}, {
+    "Comunicacion": [
+        "dup",
+        6
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956387966
+}, {
+    "Comunicacion": [
+        "Cuadrado",
+        9
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956390725
+}, {
+    "Comunicacion": [
+        "Cuadrado",
+        6
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956391967
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Triangulo",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956396761
+}, {
+    "Comunicacion": [
+        "xol",
+        7
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956399551
+}, {
+    "Comunicacion": [
+        "dup",
+        10
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956400950
+}, {
+    "Comunicacion": [
+        "Circulo",
+        10
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956403966
+}, {
+    "Comunicacion": [
+        "Triangulo",
+        7
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956406845
+}, {
+    "Puntaje": [
+        "Circulo",
+        "Cuadrado",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956410657
+}, {
+    "Comunicacion": [
+        "dup",
+        8
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956414301
+}, {
+    "Comunicacion": [
+        "xol",
+        11
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956416222
+}, {
+    "Comunicacion": [
+        "Cuadrado",
+        11
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956418519
+}, {
+    "Comunicacion": [
+        "Triangulo",
+        8
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956421570
+}, {
+    "Comunicacion": [
+        "xol",
+        9
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956423870
+}, {
+    "Comunicacion": [
+        "Circulo",
+        12
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956426190
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Circulo",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956431225
+}, {
+    "Comunicacion": [
+        "xol",
+        13
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956433438
+}, {
+    "Comunicacion": [
+        "dup",
+        9
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956434679
+}, {
+    "Comunicacion": [
+        "Cuadrado",
+        13
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956437126
+}, {
+    "Comunicacion": [
+        "Triangulo",
+        9
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956439719
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Cuadrado",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956442962
+}, {
+    "Puntaje": [
+        "Triangulo",
+        "Cuadrado",
+        5
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956444394
+}, {
+    "Comunicacion": [
+        "dup",
+        10
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956445383
+}, {
+    "Comunicacion": [
+        "Cuadrado",
+        14
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956449006
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Cuadrado",
+        1
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956452337
+}, {
+    "Comunicacion": [
+        "xol",
+        10
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956454943
+}, {
+    "Comunicacion": [
+        "dup",
+        15
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956456390
+}, {
+    "Comunicacion": [
+        "Circulo",
+        15
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956458893
+}, {
+    "Comunicacion": [
+        "Ignorar",
+        10
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956462570
+}, {
+    "Puntaje": [
+        "Cuadrado",
+        "Circulo",
+        5
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956465810
+}, {
+    "Comunicacion": [
+        "dup",
+        16
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956471808
+}, {
+    "Comunicacion": [
+        "Ignorar",
+        11
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956477618
+}, {
+    "Comunicacion": [
+        "dup",
+        16
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956486554
+}, {
+    "Comunicacion": [
+        "Ignorar",
+        12
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956498066
+}, {
+    "time": 239999,
+    "timeup": true,
+    "done": true,
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956500000
+}, {
+    "time": 239999,
+    "timeup": true,
+    "done": true,
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1534956500044
+}, {
+    "Encuesta": [
+        "Triangulo",
+        true,
+        false,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 5
+    },
+    "timestamp": 1534956505137
+}, {
+    "Encuesta": [
+        "Circulo",
+        false,
+        true,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 5
+    },
+    "timestamp": 1534956506596
+}, {
+    "Encuesta": [
+        "Circulo",
+        false,
+        true,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 5
+    },
+    "timestamp": 1534956507906
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        false,
+        false,
+        true
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 5
+    },
+    "timestamp": 1534956509162
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        false,
+        false,
+        true
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 5
+    },
+    "timestamp": 1534956509964
+}, {
+    "Encuesta": [
+        "Circulo",
+        false,
+        true,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 5
+    },
+    "timestamp": 1534956511218
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        false,
+        false,
+        true
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 5
+    },
+    "timestamp": 1534956512434
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        false,
+        false,
+        true
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 5
+    },
+    "timestamp": 1534956512987
+}, {
+    "Encuesta": [
+        "Circulo",
+        false,
+        true,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 5
+    },
+    "timestamp": 1534956513652
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        false,
+        true,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 5
+    },
+    "timestamp": 1534956514540
+}, {
+    "Encuesta": [
+        "Triangulo",
+        true,
+        false,
+        false
+    ],
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 5
+    },
+    "timestamp": 1534956515162
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        false,
+        true,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 5
+    },
+    "timestamp": 1534956515850
+}, {
+    "Encuesta": [
+        "Circulo",
+        true,
+        false,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 5
+    },
+    "timestamp": 1534956517203
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        false,
+        true,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 5
+    },
+    "timestamp": 1534956518531
+}, {
+    "Encuesta": [
+        "Cuadrado",
+        false,
+        true,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 5
+    },
+    "timestamp": 1534956519883
+}, {
+    "Encuesta": [
+        "Triangulo",
+        false,
+        false,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 5
+    },
+    "timestamp": 1534956519929
+}, {
+    "time": 20507,
+    "timeup": false,
+    "done": true,
+    "player": "324213043786585",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 5
+    },
+    "timestamp": 1534956520700
+}, {
+    "Encuesta": [
+        "Triangulo",
+        false,
+        false,
+        true
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 5
+    },
+    "timestamp": 1534956521083
+}, {
+    "Encuesta": [
+        "Triangulo",
+        false,
+        false,
+        false
+    ],
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 5
+    },
+    "timestamp": 1534956521130
+}, {
+    "time": 23277,
+    "timeup": false,
+    "done": true,
+    "player": "548382253851741",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 5
+    },
+    "timestamp": 1534956523477
+}, {
+    "time": 42056,
+    "timeup": false,
+    "done": true,
+    "player": "548382253851741",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534956565717
+}, {
+    "time": 52379,
+    "timeup": false,
+    "done": true,
+    "player": "324213043786585",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1534956576013
+}]
