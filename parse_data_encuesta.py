@@ -28,8 +28,6 @@ for i in range(1, int(End) + 1):
 	except:
 		print "No good! No indice " + str(i)
 
-matrizFrecuencias = [[0,0,0], [0,0,0], [0,0,0]]
-
 for counter in indices:
 	# Opens json file with data from DCL experiment and uploads it into Data
 	data_archivo = 'data_lgc' + counter + '.json'
@@ -43,57 +41,34 @@ for counter in indices:
 
 
 	# Getting data from stage 3
+	matricesFrecuenciasP1 = [[[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]]]
+	matricesFrecuenciasP2 = [[[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]]]
+	# Each matrix in the list represents a round in the game. The rows and columns in the matrices represent the words and the shapes in the game
 	contador = 0
+	player1 = Data[0][u'player']
 	for d in Data:
 		print "Counter: ", contador
 		if d[u'stage'][u'stage'] == 3:
 			if d[u'stage'][u'step'] == 2:
-				d[u'Encuesta']
 				try:
-					Player.append(str(d[u'player']))
-					Round.append(int(d[u'stage'][u'round']))
+					for i in range(1, 4):
+						if d[u'Encuesta'][i]:
+							if d[u'Encuesta'][0] == "Circulo":
+								if d[u'player'] == player1:
+									matrizFrecuenciasp1[d[u'stage'][u'round']-1][i-1][0] += 1
+								else:
+									matrizFrecuenciasp2[d[u'stage'][u'round']-1][i-1][0] += 1
+							elif d[u'Encuesta'][0] == "Cuadrado":
+								if d[u'player'] == player1:
+									matrizFrecuenciasp1[d[u'stage'][u'round']-1][i-1][1] += 1
+								else:
+									matrizFrecuenciasp2[d[u'stage'][u'round']-1][i-1][1] += 1
+							else:
+								if d[u'player'] == player1:
+									matrizFrecuenciasp1[d[u'stage'][u'round']-1][i-1][2] += 1
+								else:
+									matrizFrecuenciasp2[d[u'stage'][u'round']-1][i-1][2] += 1
+							break
 				except:
 					print "No communication phase. Skip!"
 		contador += 1
-
-	# Creating Dyad's name
-	assert(len(set(Player)) == 2), "Oops, more than two players"
-	Players = list(set(Player))
-	dyad = str(Player[0][:4]) + "-" + str(Player[1][:4])
-	Dyad = [dyad] * len(Player)
-
-	# Initialize column names
-	cols = ['Dyad','Round','Player','Turn','Say','Give']
-
-	# Prepare dictionary for dataframe
-	print "len(Dyad): ", len(Dyad)
-	print "len(Round): ", len(Round)
-	print "len(Player): ", len(Player)
-	print "len(Turn): ", len(Turn)
-	print "len(Say): ", len(Say)
-	print "len(Give): ", len(Give)
-
-	DF_Performance = {}
-	DF_Performance['Dyad'] = Dyad
-	DF_Performance['Round'] = Round
-	DF_Performance['Player'] = Player
-	DF_Performance['Turn'] = Turn
-	DF_Performance['Say'] = Say
-	DF_Performance['Give'] = Give
-
-	D_Frames.append(pd.DataFrame.from_dict(DF_Performance))
-	print 'Performance from data_lgc' + str(counter) + '.json found!'
-	# print DF_Performance
-
-
-data = pd.concat(D_Frames, ignore_index=True)
-data = data.sort_values(['Dyad','Round','Turn','Player'], \
-				ascending=[True, True, True, True]).reset_index()
-
-# print data
-print "Performances processed successfully!"
-
-data.to_csv('performances.csv', index=False)
-print "Data saved as performances.csv"
-
-print "Done!"
