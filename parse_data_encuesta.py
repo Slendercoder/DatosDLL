@@ -15,7 +15,7 @@ print "Done!"
 N = input("How many data_lgc*.json files are to be parsed?: ")
 End = int(N)
 
-indices = []            # Saves the numbers that correspond to data_lgc*.json in folder
+indices = []      # Saves the numbers that correspond to data_lgc*.json in folder
 D_Frames = []     # Saves the dataframes created for performance from each file
 
 for i in range(1, int(End) + 1):
@@ -29,7 +29,7 @@ for i in range(1, int(End) + 1):
 		print "No good! No indice " + str(i)
 
 for counter in indices:
-	# Opens json file with data from DCL experiment and uploads it into Data
+	# Opens json file with data from experiment and uploads it into Data
 	data_archivo = 'data_lgc' + counter + '.json'
 	with open(data_archivo) as data_file:
 		Data = json.load(data_file)
@@ -38,7 +38,6 @@ for counter in indices:
 	# --------------------------------------------------
 	# Processing information of players performance
 	# --------------------------------------------------
-
 
 	# Getting data from stage 3
 	matricesFrecuenciasP1 = [[[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]]]
@@ -72,11 +71,11 @@ for counter in indices:
 				except:
 					print "No communication phase. Skip!"
 		contador += 1
-	
+
 	# Relative frequencies of every word in each round
 	frecuenciasRelP1 = [[[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]]]
 	frecuenciasRelP2 = [[[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]]]
-	
+
 	# Filling the data in the matrices
 	for rnd in range(5):
 		for word in range(3):
