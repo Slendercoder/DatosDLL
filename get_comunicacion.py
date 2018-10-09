@@ -68,44 +68,63 @@ for counter in indices:
 			print("Reading line with recibido data...", len(d[u'Respuesta']))
 			p = d[u'player']
 			r = d[u'stage'][u'round']
-			m = d[u'Respuesta'][1]
+			m = int(d[u'Respuesta'][1])
 			dictRecibido[(p, r, m)] = d[u'Respuesta'][0]
+			print(dictRecibido)
 		except:
 			print("No respuesta. Skip!")
-		# Verificar el mal marcado Comunicacion: Ignorar
-		try:
-			print("Verificando Ignorar escondido", len(d[u'Comunicacion']))
-			if d[u'Comunicacion'][0] == 'Ignorar':
-				print("Pillado!")
-				p = d[u'player']
-				r = d[u'stage'][u'round']
-				m = d[u'Comunicacion'][1]
-				dictRecibido[(p, r, m)] = 'Ignorar'
-				print(dictRecibido)
-		except:
-			print("Continue")
+		# # Verificar el mal marcado Comunicacion: Ignorar
+		# try:
+		# 	print("Verificando Ignorar escondido", len(d[u'Comunicacion']))
+		# 	if d[u'Comunicacion'][0] == 'Ignorar':
+		# 		print("Pillado!")
+		# 		p = d[u'player']
+		# 		r = d[u'stage'][u'round']
+		# 		m = d[u'Comunicacion'][1]
+		# 		dictRecibido[(p, r, m)] = 'Ignorar'
+		# 		print(dictRecibido)
+		# except:
+		# 	print("Continue")
 
 	for d in Data:
 		try:
 			print("Reading line with comunicacion data...", len(d[u'Comunicacion']))
 			# Verifica el mal marcado Comunicacion: Ignorar
-			if d[u'Comunicacion'][0] != 'Ignorar':
-				pareja.append(dyadName)
-				jugador.append(d[u'player'])
-				r = d[u'stage'][u'round']
-				ronda.append(r)
-				objetoSolicitado.append(d[u'Comunicacion'][0])
-				m = d[u'Comunicacion'][1]
-				if Players[0] == d[u'player']:
-					p = Players[1]
-				else:
-					p = Players[0]
-				try:
-					o = dictRecibido[(p, r,m)]
-					objetoRecibido.append(o)
-				except:
-					print("No response!")
-					objetoRecibido.append('-')
+			# if d[u'Comunicacion'][0] != 'Ignorar':
+			# 	pareja.append(dyadName)
+			# 	jugador.append(d[u'player'])
+			# 	r = d[u'stage'][u'round']
+			# 	ronda.append(r)
+			# 	objetoSolicitado.append(d[u'Comunicacion'][0])
+			# 	m = d[u'Comunicacion'][1]
+			# 	if Players[0] == d[u'player']:
+			# 		p = Players[1]
+			# 	else:
+			# 		p = Players[0]
+			# 	try:
+			# 		o = dictRecibido[(p, r,m)]
+			# 		objetoRecibido.append(o)
+			# 	except:
+			# 		print("No response!")
+			# 		objetoRecibido.append('-')
+			print('Intentando...')
+			pareja.append(dyadName)
+			jugador.append(d[u'player'])
+			r = d[u'stage'][u'round']
+			ronda.append(r)
+			objetoSolicitado.append(d[u'Comunicacion'][0])
+			m = d[u'Comunicacion'][1]
+			if Players[0] == d[u'player']:
+				p = Players[1]
+			else:
+				p = Players[0]
+			print("Tupla: ", (p, r, m))
+			try:
+				o = dictRecibido[(p, r, m)]
+				objetoRecibido.append(o)
+			except:
+				print("No response!")
+				objetoRecibido.append('-')
 		except:
 			print("No comunicacion. Skip!")
 
