@@ -1,0 +1,6400 @@
+[{
+    "Puntaje": [
+        "Otro-A-B-VP-HI",
+        "Otro-R-G-VP-HI",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540476842103
+}, {
+    "Puntaje": [
+        "Otro-R-B-VP-HI",
+        "Dup",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540476861158
+}, {
+    "Puntaje": [
+        "Xol",
+        "Otro-R-G-VP-HI",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540476861837
+}, {
+    "Puntaje": [
+        "Dup",
+        "Dup",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540476885199
+}, {
+    "Puntaje": [
+        "Otro-A-B-VP-HI",
+        "Xol",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540476888062
+}, {
+    "Puntaje": [
+        "Otro-A-G-VP-HI",
+        "Dup",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540476913432
+}, {
+    "Puntaje": [
+        "Xol",
+        "Otro-A-G-VP-HI",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540476916462
+}, {
+    "Puntaje": [
+        "Dup",
+        "Dup",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540476918230
+}, {
+    "Puntaje": [
+        "Xol",
+        "Xol",
+        1
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540476924702
+}, {
+    "Puntaje": [
+        "Otro-R-B-VP-HI",
+        "Xol",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540476928695
+}, {
+    "Comunicacion": [
+        "DUP",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540476939128
+}, {
+    "time": 120364,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540476943631
+}, {
+    "Respuesta": [
+        "Otro-A-B-VP-HI",
+        "1"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540476951737
+}, {
+    "time": 154447,
+    "timeup": true,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540476977655
+}, {
+    "time": 6352,
+    "timeup": false,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 1
+    },
+    "timestamp": 1540476984263
+}, {
+    "time": 7076,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 1
+    },
+    "timestamp": 1540476984998
+}, {
+    "Comunicacion": [
+        "XOL",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1540476990008
+}, {
+    "Comunicacion": [
+        "ZAB",
+        2
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1540476995720
+}, {
+    "Respuesta": [
+        "Ignorar",
+        "2"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1540476996751
+}, {
+    "Respuesta": [
+        "Ignorar",
+        "3"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1540477000799
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1540477003943
+}, {
+    "Puntaje": [
+        "Dup",
+        "Otro-A-G-VP-HI",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1540477016838
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1540477020039
+}, {
+    "Puntaje": [
+        "Otro-R-G-VP-HI",
+        "Dup",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1540477024150
+}, {
+    "Puntaje": [
+        "Xol",
+        "Otro-A-B-VP-HI",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1540477032720
+}, {
+    "Puntaje": [
+        "Dup",
+        "Otro-R-B-VP-HI",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1540477033879
+}, {
+    "Puntaje": [
+        "Dup",
+        "Dup",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1540477043494
+}, {
+    "Puntaje": [
+        "Otro-A-B-VP-HI",
+        "Dup",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1540477050655
+}, {
+    "Puntaje": [
+        "Otro-R-G-VP-HI",
+        "Xol",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1540477060231
+}, {
+    "time": 76996,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1540477062190
+}, {
+    "Puntaje": [
+        "Otro-A-G-VP-HI",
+        "Xol",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1540477064263
+}, {
+    "Puntaje": [
+        "Otro-R-B-VP-HI",
+        "Xol",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1540477073040
+}, {
+    "Puntaje": [
+        "Xol",
+        "Xol",
+        1
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1540477076311
+}, {
+    "time": 150000,
+    "timeup": true,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1540477135222
+}, {
+    "time": 2655,
+    "timeup": false,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 2
+    },
+    "timestamp": 1540477138072
+}, {
+    "time": 17384,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 2
+    },
+    "timestamp": 1540477152782
+}, {
+    "Comunicacion": [
+        "DUP",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1540477158463
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1540477159025
+}, {
+    "Puntaje": [
+        "Dup",
+        "Dup",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1540477169926
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1540477171752
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1540477175856
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1540477178289
+}, {
+    "Puntaje": [
+        "Dup",
+        "Otro-A-G-VP-HI",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1540477179542
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1540477187708
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1540477189160
+}, {
+    "Puntaje": [
+        "Otro-A-B-VP-HI",
+        "Otro-R-G-VP-HI",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1540477195822
+}, {
+    "Puntaje": [
+        "Xol",
+        "Xol",
+        1
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1540477196913
+}, {
+    "Puntaje": [
+        "Xol",
+        "Otro-A-B-VP-HI",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1540477207729
+}, {
+    "Puntaje": [
+        "Xol",
+        "Otro-R-B-VP-HI",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1540477216033
+}, {
+    "Puntaje": [
+        "Dup",
+        "Otro-R-B-VP-HI",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1540477219574
+}, {
+    "Puntaje": [
+        "Otro-A-G-VP-HI",
+        "Otro-R-G-VP-HI",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1540477220505
+}, {
+    "Puntaje": [
+        "Dup",
+        "Dup",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1540477223488
+}, {
+    "Puntaje": [
+        "Xol",
+        "Xol",
+        1
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1540477228393
+}, {
+    "time": 78168,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1540477231150
+}, {
+    "Respuesta": [
+        "Otro-A-G-VP-HI",
+        "4"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1540477268122
+}, {
+    "time": 152907,
+    "timeup": true,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1540477305897
+}, {
+    "time": 2174,
+    "timeup": false,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 3
+    },
+    "timestamp": 1540477308249
+}, {
+    "time": 24109,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 3
+    },
+    "timestamp": 1540477330166
+}, {
+    "Comunicacion": [
+        "ZAB",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1540477334631
+}, {
+    "Comunicacion": [
+        "DUP",
+        1
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1540477338820
+}, {
+    "Respuesta": [
+        "Otro-A-B-VP-HI",
+        "5"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1540477352010
+}, {
+    "Comunicacion": [
+        "DUP",
+        2
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1540477360803
+}, {
+    "Respuesta": [
+        "Dup",
+        "1"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1540477367951
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1540477374218
+}, {
+    "Puntaje": [
+        "Xol",
+        "Dup-Recibido",
+        5
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1540477379162
+}, {
+    "Respuesta": [
+        "Otro-R-G-VP-HI",
+        "2"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1540477381294
+}, {
+    "Puntaje": [
+        "Otro-R-G-VP-HI-Recibido",
+        "Xol",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1540477397771
+}, {
+    "Puntaje": [
+        "Dup",
+        "Otro-A-G-VP-HI",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1540477401942
+}, {
+    "Puntaje": [
+        "Dup",
+        "Dup",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1540477411463
+}, {
+    "Puntaje": [
+        "Xol",
+        "Xol",
+        1
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1540477414947
+}, {
+    "Puntaje": [
+        "Dup",
+        "Otro-A-B-VP-HI",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1540477417262
+}, {
+    "Puntaje": [
+        "Dup",
+        "Otro-R-B-VP-HI",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1540477421398
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1540477435035
+}, {
+    "time": 110602,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1540477440966
+}, {
+    "Puntaje": [
+        "Otro-R-B-VP-HI",
+        "Xol",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1540477444323
+}, {
+    "Puntaje": [
+        "Otro-A-G-VP-HI",
+        "Otro-R-G-VP-HI",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1540477450723
+}, {
+    "Comunicacion": [
+        "DUP",
+        3
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1540477462540
+}, {
+    "time": 159728,
+    "timeup": true,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1540477490100
+}, {
+    "time": 3227,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 4
+    },
+    "timestamp": 1540477493510
+}, {
+    "time": 4902,
+    "timeup": false,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 4
+    },
+    "timestamp": 1540477495171
+}, {
+    "Marcacion": "Otro-A-G-VP-HI",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1540477497795
+}, {
+    "Puntaje": [
+        "Otro-R-G-VP-HI",
+        "Otro-R-B-VP-HI",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1540477502982
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1540477505819
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1540477507932
+}, {
+    "Puntaje": [
+        "Otro-A-G-VP-HI",
+        "Dup",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1540477510597
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1540477512067
+}, {
+    "Puntaje": [
+        "Dup",
+        "Dup",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1540477514637
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1540477515220
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1540477518588
+}, {
+    "Puntaje": [
+        "Otro-A-B-VP-HI",
+        "Dup",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1540477519149
+}, {
+    "Puntaje": [
+        "Dup",
+        "Dup",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1540477522293
+}, {
+    "time": 41502,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1540477536869
+}, {
+    "Puntaje": [
+        "Xol",
+        "Otro-R-G-VP-HI",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1540477561060
+}, {
+    "Puntaje": [
+        "Xol",
+        "Otro-A-B-VP-HI",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1540477571932
+}, {
+    "Puntaje": [
+        "Xol",
+        "Otro-R-B-VP-HI",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1540477584036
+}, {
+    "Puntaje": [
+        "Xol",
+        "Otro-A-G-VP-HI",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1540477589228
+}, {
+    "Puntaje": [
+        "Xol",
+        "Xol",
+        1
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1540477592717
+}, {
+    "time": 100715,
+    "timeup": false,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1540477596084
+}, {
+    "time": 3054,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 5
+    },
+    "timestamp": 1540477599326
+}, {
+    "time": 3786,
+    "timeup": false,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 5
+    },
+    "timestamp": 1540477600028
+}, {
+    "Marcacion": "Otro-A-B-VP-HI",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1540477603660
+}, {
+    "Marcacion": "Otro-A-B-VP-HI",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1540477610804
+}, {
+    "Puntaje": [
+        "Xol",
+        "Xol",
+        1
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1540477616828
+}, {
+    "Puntaje": [
+        "Otro-A-B-VP-HI",
+        "Otro-R-B-VP-HI",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1540477620180
+}, {
+    "Puntaje": [
+        "Otro-A-B-VP-HI",
+        "Otro-A-G-VP-HI",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1540477623709
+}, {
+    "Puntaje": [
+        "Otro-R-G-VP-HI",
+        "Xol",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1540477624277
+}, {
+    "Puntaje": [
+        "Xol",
+        "Xol",
+        1
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1540477627172
+}, {
+    "Puntaje": [
+        "Otro-A-G-VP-HI",
+        "Xol",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1540477630652
+}, {
+    "time": 33469,
+    "timeup": false,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1540477633700
+}, {
+    "Puntaje": [
+        "Otro-R-G-VP-HI",
+        "Dup",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1540477634509
+}, {
+    "Puntaje": [
+        "Dup",
+        "Dup",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1540477639822
+}, {
+    "Comunicacion": [
+        "ZAB",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1540477647526
+}, {
+    "Puntaje": [
+        "Dup",
+        "Dup",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1540477656045
+}, {
+    "Comunicacion": [
+        "DUP",
+        2
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1540477695950
+}, {
+    "Puntaje": [
+        "Otro-R-B-VP-HI",
+        "Dup",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1540477728622
+}, {
+    "time": 131497,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1540477731725
+}, {
+    "time": 3494,
+    "timeup": false,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 6
+    },
+    "timestamp": 1540477735397
+}, {
+    "time": 4777,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 6
+    },
+    "timestamp": 1540477736677
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1540477739285
+}, {
+    "Comunicacion": [
+        "ZAB",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1540477744238
+}, {
+    "Comunicacion": [
+        "DUP",
+        2
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1540477751294
+}, {
+    "Comunicacion": [
+        "DUP",
+        1
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1540477752260
+}, {
+    "Respuesta": [
+        "Otro-A-G-VP-HI",
+        "8"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1540477759663
+}, {
+    "Respuesta": [
+        "Xol",
+        "9"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1540477766494
+}, {
+    "Comunicacion": [
+        "DUP",
+        2
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1540477770223
+}, {
+    "Puntaje": [
+        "Dup",
+        "Otro-A-G-VP-HI",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1540477773349
+}, {
+    "Puntaje": [
+        "Dup",
+        "Dup",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1540477791117
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1540477793534
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1540477796766
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1540477799854
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1540477802566
+}, {
+    "Respuesta": [
+        "Otro-R-G-VP-HI",
+        "4"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1540477803901
+}, {
+    "Respuesta": [
+        "Dup",
+        "5"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1540477813677
+}, {
+    "Marcacion": "Otro-R-B-VP-HI",
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1540477823485
+}, {
+    "Puntaje": [
+        "Dup-Recibido",
+        "Xol",
+        5
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1540477828742
+}, {
+    "Puntaje": [
+        "Dup",
+        "Dup",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1540477832053
+}, {
+    "Puntaje": [
+        "Xol",
+        "Otro-R-G-VP-HI-Recibido",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1540477836766
+}, {
+    "Puntaje": [
+        "Dup",
+        "Otro-A-B-VP-HI",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1540477836957
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1540477838462
+}, {
+    "Puntaje": [
+        "Xol-Recibido",
+        "Otro-R-B-VP-HI",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1540477847348
+}, {
+    "Puntaje": [
+        "Otro-R-G-VP-HI",
+        "Xol",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1540477848662
+}, {
+    "Puntaje": [
+        "Otro-R-B-VP-HI",
+        "Xol",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1540477855102
+}, {
+    "Puntaje": [
+        "Xol",
+        "Otro-A-B-VP-HI",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1540477858174
+}, {
+    "Comunicacion": [
+        "DUP",
+        3
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1540477860814
+}, {
+    "time": 128359,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1540477865229
+}, {
+    "Respuesta": [
+        "Otro-R-G-VP-HI",
+        "10"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1540477868527
+}, {
+    "time": 147843,
+    "timeup": false,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1540477884702
+}, {
+    "time": 3261,
+    "timeup": false,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 7
+    },
+    "timestamp": 1540477888134
+}, {
+    "time": 3712,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 7
+    },
+    "timestamp": 1540477888588
+}, {
+    "Comunicacion": [
+        "DUP",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540477892645
+}, {
+    "Comunicacion": [
+        "XOL",
+        2
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540477895270
+}, {
+    "Respuesta": [
+        "Xol",
+        "11"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540477898424
+}, {
+    "Comunicacion": [
+        "DUP",
+        1
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540477901624
+}, {
+    "Puntaje": [
+        "Dup",
+        "Otro-R-G-VP-HI",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540477904965
+}, {
+    "Respuesta": [
+        "Xol",
+        "12"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540477909263
+}, {
+    "Comunicacion": [
+        "ZAB",
+        2
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540477912760
+}, {
+    "Comunicacion": [
+        "ZAB",
+        3
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540477915768
+}, {
+    "Respuesta": [
+        "Otro-A-B-VP-HI",
+        "6"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540477924973
+}, {
+    "Marcacion": "Dup",
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540477933901
+}, {
+    "Respuesta": [
+        "Otro-R-G-VP-HI",
+        "7"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540477939669
+}, {
+    "Puntaje": [
+        "Otro-A-B-VP-HI-Recibido",
+        "Xol",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540477948263
+}, {
+    "Respuesta": [
+        "Dup",
+        "8"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540477951669
+}, {
+    "Puntaje": [
+        "Dup",
+        "Dup",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540477961220
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540477965375
+}, {
+    "Puntaje": [
+        "Otro-A-G-VP-HI",
+        "Otro-R-B-VP-HI",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540477966397
+}, {
+    "Puntaje": [
+        "Otro-R-G-VP-HI-Recibido",
+        "Xol",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540477971047
+}, {
+    "Puntaje": [
+        "Dup",
+        "Dup",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540477971556
+}, {
+    "Marcacion": "Otro-A-B-VP-HI",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540477978903
+}, {
+    "Puntaje": [
+        "Xol-Recibido",
+        "Xol-Recibido",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540477979060
+}, {
+    "Puntaje": [
+        "Dup-Recibido",
+        "Xol",
+        5
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540477983535
+}, {
+    "Puntaje": [
+        "Otro-R-B-VP-HI",
+        "Otro-R-G-VP-HI",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540477999119
+}, {
+    "Comunicacion": [
+        "XOL",
+        3
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540477999926
+}, {
+    "Puntaje": [
+        "Otro-A-B-VP-HI",
+        "Xol",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540478003239
+}, {
+    "Respuesta": [
+        "Xol",
+        "13"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540478011048
+}, {
+    "Comunicacion": [
+        "DUP",
+        4
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540478015747
+}, {
+    "Respuesta": [
+        "Otro-R-B-VP-HI",
+        "9"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540478032989
+}, {
+    "Puntaje": [
+        "Dup",
+        "Xol-Recibido",
+        5
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540478039732
+}, {
+    "Puntaje": [
+        "Otro-R-B-VP-HI-Recibido",
+        "Otro-A-G-VP-HI",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540478043479
+}, {
+    "time": 155645,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540478044428
+}, {
+    "time": 157160,
+    "timeup": false,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1540478045960
+}, {
+    "time": 1193,
+    "timeup": false,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 8
+    },
+    "timestamp": 1540478047320
+}, {
+    "time": 5977,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 8
+    },
+    "timestamp": 1540478052116
+}, {
+    "Comunicacion": [
+        "ZAB",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478058029
+}, {
+    "Comunicacion": [
+        "ZAB",
+        1
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478060497
+}, {
+    "Comunicacion": [
+        "ZAB",
+        2
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478060951
+}, {
+    "Marcacion": "Dup",
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478062492
+}, {
+    "Respuesta": [
+        "Xol",
+        "14"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478065849
+}, {
+    "Respuesta": [
+        "Otro-R-G-VP-HI",
+        "15"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478070424
+}, {
+    "Comunicacion": [
+        "DUP",
+        2
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478074849
+}, {
+    "Puntaje": [
+        "Dup",
+        "Otro-A-G-VP-HI",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478075908
+}, {
+    "Comunicacion": [
+        "DUP",
+        3
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478078040
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478088704
+}, {
+    "Respuesta": [
+        "Dup",
+        "10"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478090197
+}, {
+    "Puntaje": [
+        "Otro-R-G-VP-HI",
+        "Otro-R-G-VP-HI-Recibido",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478098588
+}, {
+    "Puntaje": [
+        "Dup-Recibido",
+        "Xol",
+        5
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478103296
+}, {
+    "Marcacion": "Otro-R-B-VP-HI",
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478103916
+}, {
+    "Marcacion": "Otro-R-B-VP-HI",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478108472
+}, {
+    "Puntaje": [
+        "Xol-Recibido",
+        "Dup",
+        5
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478108900
+}, {
+    "Respuesta": [
+        "Dup",
+        "11"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478115908
+}, {
+    "Respuesta": [
+        "Dup",
+        "12"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478123036
+}, {
+    "Marcacion": "Otro-R-B-VP-HI",
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478124444
+}, {
+    "Marcacion": "Otro-R-B-VP-HI",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478128008
+}, {
+    "Puntaje": [
+        "Dup",
+        "Dup",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478132612
+}, {
+    "Puntaje": [
+        "Dup-Recibido",
+        "Xol",
+        5
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478134256
+}, {
+    "Comunicacion": [
+        "DUP",
+        3
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478140357
+}, {
+    "Comunicacion": [
+        "ZAB",
+        4
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478142877
+}, {
+    "Puntaje": [
+        "Dup-Recibido",
+        "Xol",
+        5
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478146112
+}, {
+    "Respuesta": [
+        "Xol",
+        "16"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478161274
+}, {
+    "Respuesta": [
+        "Xol",
+        "17"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478167961
+}, {
+    "Marcacion": "Otro-R-B-VP-HI",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478168769
+}, {
+    "Puntaje": [
+        "Otro-R-B-VP-HI",
+        "Xol-Recibido",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478180868
+}, {
+    "Puntaje": [
+        "Xol-Recibido",
+        "Otro-A-B-VP-HI",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478185452
+}, {
+    "Puntaje": [
+        "Otro-R-B-VP-HI",
+        "Otro-A-B-VP-HI",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478188504
+}, {
+    "time": 136601,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478188899
+}, {
+    "Puntaje": [
+        "Xol",
+        "Otro-A-G-VP-HI",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478192185
+}, {
+    "time": 142796,
+    "timeup": false,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1540478195105
+}, {
+    "time": 3285,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 9
+    },
+    "timestamp": 1540478198572
+}, {
+    "time": 6713,
+    "timeup": false,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 9
+    },
+    "timestamp": 1540478201985
+}, {
+    "Marcacion": "Otro-A-B-VP-HI",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478203593
+}, {
+    "Comunicacion": [
+        "XOL",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478206061
+}, {
+    "Comunicacion": [
+        "ZAB",
+        1
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478208058
+}, {
+    "Comunicacion": [
+        "ZAB",
+        2
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478208751
+}, {
+    "Comunicacion": [
+        "ZAB",
+        3
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478211229
+}, {
+    "Comunicacion": [
+        "ZAB",
+        2
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478214102
+}, {
+    "Respuesta": [
+        "Xol",
+        "18"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478219794
+}, {
+    "Respuesta": [
+        "Xol",
+        "19"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478223594
+}, {
+    "Respuesta": [
+        "Otro-A-B-VP-HI",
+        "13"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478226344
+}, {
+    "Respuesta": [
+        "Otro-R-B-VP-HI",
+        "20"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478226746
+}, {
+    "Respuesta": [
+        "Otro-R-B-VP-HI",
+        "14"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478232276
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478236321
+}, {
+    "Puntaje": [
+        "Otro-A-B-VP-HI-Recibido",
+        "Xol",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478239770
+}, {
+    "Puntaje": [
+        "Dup",
+        "Dup",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478248188
+}, {
+    "Puntaje": [
+        "Otro-R-B-VP-HI-Recibido",
+        "Xol",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478252761
+}, {
+    "Puntaje": [
+        "Xol",
+        "Otro-A-G-VP-HI",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478255401
+}, {
+    "Comunicacion": [
+        "DUP",
+        4
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478258461
+}, {
+    "Puntaje": [
+        "Xol",
+        "Otro-R-G-VP-HI",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478259474
+}, {
+    "Comunicacion": [
+        "XOL",
+        5
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478261654
+}, {
+    "Puntaje": [
+        "Otro-A-G-VP-HI",
+        "Dup",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478269661
+}, {
+    "Respuesta": [
+        "Xol",
+        "21"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478270570
+}, {
+    "Respuesta": [
+        "Otro-A-G-VP-HI",
+        "22"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478275586
+}, {
+    "Comunicacion": [
+        "ZAB",
+        3
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478279547
+}, {
+    "Comunicacion": [
+        "XOL",
+        6
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478282549
+}, {
+    "Comunicacion": [
+        "XOL",
+        7
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478284677
+}, {
+    "Respuesta": [
+        "Xol",
+        "23"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478289523
+}, {
+    "Respuesta": [
+        "Xol",
+        "24"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478294843
+}, {
+    "Puntaje": [
+        "Xol-Recibido",
+        "Otro-R-G-VP-HI",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478301083
+}, {
+    "Comunicacion": [
+        "DUP",
+        4
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478301628
+}, {
+    "Comunicacion": [
+        "DUP",
+        5
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478304347
+}, {
+    "Comunicacion": [
+        "XOL",
+        6
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478307995
+}, {
+    "Puntaje": [
+        "Dup",
+        "Otro-A-G-VP-HI-Recibido",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478309076
+}, {
+    "Respuesta": [
+        "Dup",
+        "15"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478314580
+}, {
+    "Puntaje": [
+        "Otro-A-B-VP-HI",
+        "Dup-Recibido",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478319506
+}, {
+    "Respuesta": [
+        "Otro-R-G-VP-HI",
+        "16"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478319756
+}, {
+    "Respuesta": [
+        "Dup",
+        "17"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478323388
+}, {
+    "Puntaje": [
+        "Otro-R-G-VP-HI-Recibido",
+        "Dup-Recibido",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478324722
+}, {
+    "Respuesta": [
+        "Dup",
+        "18"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478326380
+}, {
+    "Puntaje": [
+        "Otro-R-B-VP-HI-Recibido",
+        "Xol-Recibido",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478337708
+}, {
+    "Puntaje": [
+        "Xol-Recibido",
+        "Xol-Recibido",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478341507
+}, {
+    "time": 140202,
+    "timeup": false,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478342378
+}, {
+    "Puntaje": [
+        "Xol-Recibido",
+        "Dup",
+        5
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478345563
+}, {
+    "Comunicacion": [
+        "DUP",
+        8
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478350252
+}, {
+    "time": 155930,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1540478358107
+}, {
+    "time": 2696,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 10
+    },
+    "timestamp": 1540478360971
+}, {
+    "time": 4608,
+    "timeup": false,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 10
+    },
+    "timestamp": 1540478362890
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478365226
+}, {
+    "Comunicacion": [
+        "DUP",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478366916
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478367906
+}, {
+    "Comunicacion": [
+        "DUP",
+        2
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478369452
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478369714
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478371258
+}, {
+    "Comunicacion": [
+        "DUP",
+        3
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478371429
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478374738
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478376818
+}, {
+    "Puntaje": [
+        "Dup",
+        "Dup",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478381772
+}, {
+    "Respuesta": [
+        "Otro-A-B-VP-HI",
+        "26"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478387964
+}, {
+    "Puntaje": [
+        "Dup",
+        "Dup",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478388204
+}, {
+    "Respuesta": [
+        "Otro-R-B-VP-HI",
+        "27"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478393651
+}, {
+    "Comunicacion": [
+        "DUP",
+        4
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478396271
+}, {
+    "Respuesta": [
+        "Otro-A-G-VP-HI",
+        "28"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478397917
+}, {
+    "Comunicacion": [
+        "DUP",
+        5
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478399861
+}, {
+    "Comunicacion": [
+        "ZAB",
+        1
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478400940
+}, {
+    "Comunicacion": [
+        "ZAB",
+        2
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478404052
+}, {
+    "Comunicacion": [
+        "ZAB",
+        3
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478406308
+}, {
+    "Respuesta": [
+        "Otro-A-G-VP-HI",
+        "19"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478408100
+}, {
+    "Comunicacion": [
+        "ZAB",
+        4
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478409292
+}, {
+    "Respuesta": [
+        "Dup",
+        "20"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478411244
+}, {
+    "Comunicacion": [
+        "ZAB",
+        5
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478411829
+}, {
+    "Respuesta": [
+        "Dup",
+        "21"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478414316
+}, {
+    "Respuesta": [
+        "Otro-R-G-VP-HI",
+        "29"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478416486
+}, {
+    "Respuesta": [
+        "Dup",
+        "22"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478417348
+}, {
+    "Respuesta": [
+        "Xol",
+        "30"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478420852
+}, {
+    "Respuesta": [
+        "Otro-R-B-VP-HI",
+        "23"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478422540
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478427731
+}, {
+    "Puntaje": [
+        "Otro-A-G-VP-HI-Recibido",
+        "Xol",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478432027
+}, {
+    "Puntaje": [
+        "Otro-R-G-VP-HI-Recibido",
+        "Otro-R-G-VP-HI",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478434003
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478436083
+}, {
+    "Puntaje": [
+        "Dup-Recibido",
+        "Xol",
+        5
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478437852
+}, {
+    "Puntaje": [
+        "Dup",
+        "Dup",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478440803
+}, {
+    "Puntaje": [
+        "Dup-Recibido",
+        "Xol",
+        5
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478446235
+}, {
+    "Puntaje": [
+        "Dup-Recibido",
+        "Xol",
+        5
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478451651
+}, {
+    "Comunicacion": [
+        "DUP",
+        6
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478452845
+}, {
+    "Comunicacion": [
+        "DUP",
+        7
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478459117
+}, {
+    "Puntaje": [
+        "Otro-R-B-VP-HI-Recibido",
+        "Xol",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478460803
+}, {
+    "Comunicacion": [
+        "DUP",
+        8
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478461485
+}, {
+    "time": 102438,
+    "timeup": false,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478465531
+}, {
+    "Puntaje": [
+        "Otro-A-G-VP-HI-Recibido",
+        "Otro-A-B-VP-HI",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478471083
+}, {
+    "Puntaje": [
+        "Xol-Recibido",
+        "Otro-A-B-VP-HI-Recibido",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478479427
+}, {
+    "time": 161793,
+    "timeup": true,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1540478524883
+}, {
+    "time": 4491,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 11
+    },
+    "timestamp": 1540478529547
+}, {
+    "time": 9561,
+    "timeup": false,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 11
+    },
+    "timestamp": 1540478534628
+}, {
+    "Marcacion": "Otro-R-B-VP-HI",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478537508
+}, {
+    "Comunicacion": [
+        "ZAB",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478539548
+}, {
+    "Comunicacion": [
+        "XOL",
+        2
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478541901
+}, {
+    "Comunicacion": [
+        "XOL",
+        3
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478544307
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478545020
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478547283
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478549812
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478551691
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478553244
+}, {
+    "Puntaje": [
+        "Otro-A-G-VP-HI",
+        "Dup",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478554227
+}, {
+    "Puntaje": [
+        "Dup",
+        "Dup",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478557507
+}, {
+    "Respuesta": [
+        "Otro-R-G-VP-HI",
+        "34"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478557973
+}, {
+    "Respuesta": [
+        "Otro-R-B-VP-HI",
+        "35"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478562164
+}, {
+    "Comunicacion": [
+        "DUP",
+        4
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478562556
+}, {
+    "Respuesta": [
+        "Otro-A-G-VP-HI",
+        "36"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478566245
+}, {
+    "Comunicacion": [
+        "DUP",
+        1
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478570085
+}, {
+    "Comunicacion": [
+        "DUP",
+        2
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478572229
+}, {
+    "Puntaje": [
+        "Otro-R-B-VP-HI",
+        "Otro-R-G-VP-HI-Recibido",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478572835
+}, {
+    "Comunicacion": [
+        "DUP",
+        3
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478574709
+}, {
+    "Comunicacion": [
+        "DUP",
+        4
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478577871
+}, {
+    "Respuesta": [
+        "Otro-R-G-VP-HI",
+        "24"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478578038
+}, {
+    "Respuesta": [
+        "Otro-A-G-VP-HI",
+        "25"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478580957
+}, {
+    "Respuesta": [
+        "Otro-A-B-VP-HI",
+        "37"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478581997
+}, {
+    "Respuesta": [
+        "Dup",
+        "26"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478585972
+}, {
+    "Puntaje": [
+        "Otro-R-G-VP-HI-Recibido",
+        "Xol",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478588364
+}, {
+    "Respuesta": [
+        "Otro-A-B-VP-HI",
+        "27"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478589236
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478592044
+}, {
+    "Puntaje": [
+        "Otro-A-G-VP-HI-Recibido",
+        "Xol",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478594148
+}, {
+    "Puntaje": [
+        "Otro-A-G-VP-HI-Recibido",
+        "Dup",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478598682
+}, {
+    "Comunicacion": [
+        "XOL",
+        5
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478605252
+}, {
+    "Puntaje": [
+        "Otro-A-B-VP-HI-Recibido",
+        "Xol",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478606325
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478610540
+}, {
+    "Puntaje": [
+        "Dup-Recibido",
+        "Xol",
+        5
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478612077
+}, {
+    "Comunicacion": [
+        "DUP",
+        5
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478618278
+}, {
+    "Puntaje": [
+        "Otro-R-B-VP-HI-Recibido",
+        "Dup",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478619434
+}, {
+    "Respuesta": [
+        "Xol",
+        "38"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478624005
+}, {
+    "Respuesta": [
+        "Otro-R-B-VP-HI",
+        "28"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478629867
+}, {
+    "Marcacion": "Otro-A-G-VP-HI",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478633828
+}, {
+    "Puntaje": [
+        "Otro-R-B-VP-HI-Recibido",
+        "Xol",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478635756
+}, {
+    "Puntaje": [
+        "Xol-Recibido",
+        "Otro-A-B-VP-HI-Recibido",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478638731
+}, {
+    "Comunicacion": [
+        "ZAB",
+        6
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478641726
+}, {
+    "time": 107597,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478642443
+}, {
+    "time": 118368,
+    "timeup": false,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1540478653181
+}, {
+    "time": 5379,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 12
+    },
+    "timestamp": 1540478658739
+}, {
+    "time": 6911,
+    "timeup": false,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 12
+    },
+    "timestamp": 1540478660260
+}, {
+    "Comunicacion": [
+        "DUP",
+        1
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478664870
+}, {
+    "Comunicacion": [
+        "ZAB",
+        2
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478667517
+}, {
+    "Respuesta": [
+        "Otro-R-B-VP-HI",
+        "30"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478673107
+}, {
+    "Respuesta": [
+        "Dup",
+        "31"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478677395
+}, {
+    "Marcacion": "Dup",
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478680795
+}, {
+    "Puntaje": [
+        "Otro-R-B-VP-HI-Recibido",
+        "Xol",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478691845
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478694813
+}, {
+    "Marcacion": "Dup",
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478695251
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478697029
+}, {
+    "Puntaje": [
+        "Dup",
+        "Dup",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478697203
+}, {
+    "Puntaje": [
+        "Xol",
+        "Dup-Recibido",
+        5
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478701957
+}, {
+    "Comunicacion": [
+        "XOL",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478702980
+}, {
+    "Comunicacion": [
+        "DUP",
+        3
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478708719
+}, {
+    "Marcacion": "Otro-A-B-VP-HI",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478711037
+}, {
+    "Respuesta": [
+        "Otro-A-B-VP-HI",
+        "32"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478714291
+}, {
+    "Respuesta": [
+        "Xol",
+        "39"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478718653
+}, {
+    "Marcacion": "Otro-A-B-VP-HI",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478722173
+}, {
+    "Comunicacion": [
+        "ZAB",
+        2
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478729971
+}, {
+    "Puntaje": [
+        "Xol",
+        "Otro-A-B-VP-HI-Recibido",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478733957
+}, {
+    "Respuesta": [
+        "Otro-A-B-VP-HI",
+        "40"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478743478
+}, {
+    "Puntaje": [
+        "Xol-Recibido",
+        "Otro-R-G-VP-HI",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478744090
+}, {
+    "Puntaje": [
+        "Xol",
+        "Otro-A-G-VP-HI",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478749813
+}, {
+    "Comunicacion": [
+        "ZAB",
+        3
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478750403
+}, {
+    "Puntaje": [
+        "Xol",
+        "Otro-R-B-VP-HI",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478753222
+}, {
+    "Puntaje": [
+        "Dup",
+        "Otro-A-B-VP-HI-Recibido",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478756282
+}, {
+    "Puntaje": [
+        "Otro-R-G-VP-HI",
+        "Xol",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478758149
+}, {
+    "Respuesta": [
+        "Xol",
+        "41"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478762542
+}, {
+    "Comunicacion": [
+        "ZAB",
+        4
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478765470
+}, {
+    "Comunicacion": [
+        "XOL",
+        5
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478768215
+}, {
+    "Puntaje": [
+        "Xol-Recibido",
+        "Dup",
+        5
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478771811
+}, {
+    "Respuesta": [
+        "Otro-R-G-VP-HI",
+        "33"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478776700
+}, {
+    "Respuesta": [
+        "Dup",
+        "34"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478780355
+}, {
+    "Puntaje": [
+        "Otro-R-G-VP-HI-Recibido",
+        "Dup-Recibido",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478782542
+}, {
+    "time": 125867,
+    "timeup": false,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478786317
+}, {
+    "Puntaje": [
+        "Dup",
+        "Otro-A-G-VP-HI",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478786570
+}, {
+    "time": 128864,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1540478789330
+}, {
+    "time": 2626,
+    "timeup": false,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 13
+    },
+    "timestamp": 1540478792126
+}, {
+    "time": 4842,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 13
+    },
+    "timestamp": 1540478794338
+}, {
+    "Comunicacion": [
+        "DUP",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478798595
+}, {
+    "Comunicacion": [
+        "DUP",
+        1
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478799535
+}, {
+    "Comunicacion": [
+        "XOL",
+        2
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478800813
+}, {
+    "Respuesta": [
+        "Otro-R-B-VP-HI",
+        "35"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478804195
+}, {
+    "Respuesta": [
+        "Ignorar",
+        "42"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478804982
+}, {
+    "Respuesta": [
+        "Ignorar",
+        "43"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478808829
+}, {
+    "Comunicacion": [
+        "XOL",
+        3
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478814140
+}, {
+    "Comunicacion": [
+        "XOL",
+        4
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478817955
+}, {
+    "Puntaje": [
+        "Otro-R-B-VP-HI-Recibido",
+        "Xol",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478825029
+}, {
+    "Comunicacion": [
+        "ZAB",
+        5
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478825611
+}, {
+    "Puntaje": [
+        "Xol",
+        "Otro-R-B-VP-HI",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478834622
+}, {
+    "Puntaje": [
+        "Dup",
+        "Dup",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478836746
+}, {
+    "Puntaje": [
+        "Otro-A-B-VP-HI",
+        "Xol",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478838319
+}, {
+    "Puntaje": [
+        "Xol",
+        "Otro-R-G-VP-HI",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478841438
+}, {
+    "Puntaje": [
+        "Dup",
+        "Otro-A-G-VP-HI",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478844267
+}, {
+    "Puntaje": [
+        "Xol",
+        "Xol",
+        1
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478845126
+}, {
+    "Comunicacion": [
+        "DUP",
+        6
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478850405
+}, {
+    "Respuesta": [
+        "Xol",
+        "44"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478851272
+}, {
+    "Respuesta": [
+        "Xol",
+        "45"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478856303
+}, {
+    "Respuesta": [
+        "Xol",
+        "46"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478861007
+}, {
+    "Respuesta": [
+        "Xol",
+        "47"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478864599
+}, {
+    "Puntaje": [
+        "Xol-Recibido",
+        "Otro-A-B-VP-HI",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478864770
+}, {
+    "Comunicacion": [
+        "DUP",
+        2
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478867576
+}, {
+    "Comunicacion": [
+        "ZAB",
+        3
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478871880
+}, {
+    "Puntaje": [
+        "Xol-Recibido",
+        "Dup",
+        5
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478873011
+}, {
+    "Comunicacion": [
+        "XOL",
+        4
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478874879
+}, {
+    "Respuesta": [
+        "Dup",
+        "36"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478877235
+}, {
+    "Respuesta": [
+        "Dup",
+        "37"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478880476
+}, {
+    "Puntaje": [
+        "Dup-Recibido",
+        "Dup-Recibido",
+        1
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478882070
+}, {
+    "Respuesta": [
+        "Dup",
+        "38"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478888195
+}, {
+    "Puntaje": [
+        "Otro-A-G-VP-HI",
+        "Dup-Recibido",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478889646
+}, {
+    "time": 98920,
+    "timeup": false,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478893454
+}, {
+    "Puntaje": [
+        "Xol-Recibido",
+        "Otro-R-G-VP-HI",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478904018
+}, {
+    "Puntaje": [
+        "Dup",
+        "Xol-Recibido",
+        5
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478910330
+}, {
+    "Comunicacion": [
+        "ZAB",
+        7
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478914755
+}, {
+    "Comunicacion": [
+        "DUP",
+        8
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478917843
+}, {
+    "Comunicacion": [
+        "DUP",
+        9
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478920763
+}, {
+    "Comunicacion": [
+        "DUP",
+        10
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478923331
+}, {
+    "time": 155363,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1540478949882
+}, {
+    "time": 1749,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 14
+    },
+    "timestamp": 1540478951810
+}, {
+    "time": 8325,
+    "timeup": false,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 14
+    },
+    "timestamp": 1540478958383
+}, {
+    "Marcacion": "Dup",
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540478960114
+}, {
+    "Comunicacion": [
+        "ZAB",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540478965019
+}, {
+    "Comunicacion": [
+        "DUP",
+        1
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540478965092
+}, {
+    "Comunicacion": [
+        "DUP",
+        2
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540478967267
+}, {
+    "Respuesta": [
+        "Ignorar",
+        "52"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540478968104
+}, {
+    "Comunicacion": [
+        "ZAB",
+        3
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540478969403
+}, {
+    "Respuesta": [
+        "Dup",
+        "39"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540478973171
+}, {
+    "Comunicacion": [
+        "DUP",
+        4
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540478976619
+}, {
+    "Comunicacion": [
+        "DUP",
+        5
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540478982571
+}, {
+    "Marcacion": "Otro-A-G-VP-HI",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540478982775
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540478983423
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540478983927
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540478985455
+}, {
+    "Marcacion": "Otro-A-G-VP-HI",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540478985975
+}, {
+    "Marcacion": "Otro-R-B-VP-HI",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540478986504
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540478986959
+}, {
+    "Marcacion": "Otro-A-B-VP-HI",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540478987496
+}, {
+    "Marcacion": "Otro-R-G-VP-HI",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540478988456
+}, {
+    "Marcacion": "Otro-A-B-VP-HI",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540478989039
+}, {
+    "Marcacion": "Xol",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540478989695
+}, {
+    "Puntaje": [
+        "Dup",
+        "Otro-R-B-VP-HI",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540478993874
+}, {
+    "Puntaje": [
+        "Dup-Recibido",
+        "Xol",
+        5
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540478994567
+}, {
+    "Puntaje": [
+        "Dup",
+        "Dup",
+        1
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540478997154
+}, {
+    "Comunicacion": [
+        "DUP",
+        2
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540478999057
+}, {
+    "Comunicacion": [
+        "ZAB",
+        6
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479002692
+}, {
+    "Respuesta": [
+        "Xol",
+        "53"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479004816
+}, {
+    "Respuesta": [
+        "Ignorar",
+        "54"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479008391
+}, {
+    "Respuesta": [
+        "Otro-R-G-VP-HI",
+        "40"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479010554
+}, {
+    "Marcacion": "Otro-A-B-VP-HI",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479014743
+}, {
+    "Comunicacion": [
+        "DUP",
+        7
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479021587
+}, {
+    "Puntaje": [
+        "Otro-R-G-VP-HI-Recibido",
+        "Xol",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479025208
+}, {
+    "Respuesta": [
+        "Xol",
+        "55"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479029568
+}, {
+    "Puntaje": [
+        "Xol-Recibido",
+        "Otro-A-B-VP-HI",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479030970
+}, {
+    "Comunicacion": [
+        "DUP",
+        3
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479033225
+}, {
+    "Comunicacion": [
+        "DUP",
+        4
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479037522
+}, {
+    "Respuesta": [
+        "Otro-A-B-VP-HI",
+        "41"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479038915
+}, {
+    "Puntaje": [
+        "Xol-Recibido",
+        "Dup",
+        5
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479045466
+}, {
+    "Marcacion": "Otro-A-B-VP-HI",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479047096
+}, {
+    "Respuesta": [
+        "Dup",
+        "42"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479049410
+}, {
+    "Puntaje": [
+        "Otro-A-B-VP-HI-Recibido",
+        "Xol",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479051200
+}, {
+    "Respuesta": [
+        "Xol",
+        "56"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479055281
+}, {
+    "Comunicacion": [
+        "DUP",
+        8
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479060235
+}, {
+    "Marcacion": "Otro-R-G-VP-HI",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479064464
+}, {
+    "Puntaje": [
+        "Xol-Recibido",
+        "Otro-A-G-VP-HI",
+        0
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479068298
+}, {
+    "Puntaje": [
+        "Dup-Recibido",
+        "Xol",
+        5
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479070376
+}, {
+    "Respuesta": [
+        "Xol",
+        "57"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479075553
+}, {
+    "Puntaje": [
+        "Xol-Recibido",
+        "Dup",
+        5
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479080074
+}, {
+    "Comunicacion": [
+        "DUP",
+        5
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479080889
+}, {
+    "Respuesta": [
+        "Dup",
+        "43"
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479085290
+}, {
+    "Marcacion": "Otro-A-B-VP-HI",
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479089032
+}, {
+    "Puntaje": [
+        "Dup-Recibido",
+        "Xol",
+        5
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479092840
+}, {
+    "Comunicacion": [
+        "XOL",
+        9
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479097523
+}, {
+    "Puntaje": [
+        "Otro-A-B-VP-HI",
+        "Otro-R-G-VP-HI",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479106568
+}, {
+    "time": 148289,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479106866
+}, {
+    "Puntaje": [
+        "Xol",
+        "Otro-A-G-VP-HI",
+        0
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479110416
+}, {
+    "Respuesta": [
+        "Otro-A-B-VP-HI",
+        "58"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479116137
+}, {
+    "Respuesta": [
+        "Xol",
+        "59"
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479120881
+}, {
+    "time": 163983,
+    "timeup": true,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1540479122558
+}, {
+    "time": 2616,
+    "timeup": false,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 15
+    },
+    "timestamp": 1540479125353
+}, {
+    "time": 4267,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 1,
+        "step": 2,
+        "round": 15
+    },
+    "timestamp": 1540479126994
+}, {
+    "Encuesta": [
+        "dup",
+        true,
+        false,
+        false
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479138322
+}, {
+    "Encuesta": [
+        "xol",
+        false,
+        true,
+        false
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479140369
+}, {
+    "Encuesta": [
+        "Otro-A-B-VP-HP",
+        false,
+        false,
+        true
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479141698
+}, {
+    "Encuesta": [
+        "xol",
+        true,
+        false,
+        false
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479144025
+}, {
+    "Encuesta": [
+        "Otro-A-B-VP-HP",
+        false,
+        true,
+        false
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479145409
+}, {
+    "Encuesta": [
+        "Otro-R-B-VP-HP",
+        false,
+        false,
+        true
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479146649
+}, {
+    "Encuesta": [
+        "Otro-A-B-VP-HP",
+        true,
+        false,
+        false
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479149265
+}, {
+    "Encuesta": [
+        "dup",
+        false,
+        false,
+        true
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479149649
+}, {
+    "Encuesta": [
+        "Otro-A-G-VI-HI",
+        false,
+        true,
+        false
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479150642
+}, {
+    "Encuesta": [
+        "dup",
+        false,
+        false,
+        true
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479152145
+}, {
+    "Encuesta": [
+        "xol",
+        true,
+        false,
+        false
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479153730
+}, {
+    "Encuesta": [
+        "xol",
+        false,
+        true,
+        false
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479154817
+}, {
+    "Encuesta": [
+        "dup",
+        false,
+        false,
+        true
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479155930
+}, {
+    "Encuesta": [
+        "dup",
+        true,
+        false,
+        false
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479157330
+}, {
+    "Encuesta": [
+        "dup",
+        false,
+        true,
+        false
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479158585
+}, {
+    "Encuesta": [
+        "dup",
+        true,
+        false,
+        false
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479159632
+}, {
+    "Encuesta": [
+        "Otro-A-B-VP-HP",
+        false,
+        false,
+        true
+    ],
+    "player": "793179846249445",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479160002
+}, {
+    "time": 32826,
+    "timeup": false,
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479160003
+}, {
+    "Encuesta": [
+        "Otro-A-G-VI-HI",
+        false,
+        false,
+        true
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479182497
+}, {
+    "Encuesta": [
+        "dup",
+        true,
+        false,
+        false
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479193977
+}, {
+    "Encuesta": [
+        "dup",
+        true,
+        false,
+        false
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479206994
+}, {
+    "Encuesta": [
+        "Otro-A-G-VI-HI",
+        false,
+        false,
+        true
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479229201
+}, {
+    "Encuesta": [
+        "dup",
+        true,
+        false,
+        false
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479242210
+}, {
+    "Encuesta": [
+        "xol",
+        false,
+        true,
+        false
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479246721
+}, {
+    "Encuesta": [
+        "xol",
+        false,
+        true,
+        false
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479250641
+}, {
+    "Encuesta": [
+        "xol",
+        false,
+        true,
+        false
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479257281
+}, {
+    "Encuesta": [
+        "Otro-A-B-VP-HP",
+        true,
+        false,
+        false
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479268297
+}, {
+    "Encuesta": [
+        "dup",
+        false,
+        false,
+        true
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479278282
+}, {
+    "Encuesta": [
+        "dup",
+        true,
+        false,
+        false
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479290562
+}, {
+    "Encuesta": [
+        "xol",
+        false,
+        true,
+        false
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479296546
+}, {
+    "Encuesta": [
+        "Otro-R-B-VP-HP",
+        false,
+        true,
+        false
+    ],
+    "player": "477779844461679",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479299578
+}, {
+    "time": 172418,
+    "timeup": false,
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479299579
+}, {
+    "time": 23422,
+    "timeup": false,
+    "Guesses": [],
+    "Performance": [],
+    "Strategy": [],
+    "valores": {
+        "id": "demo",
+        "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "forms": {
+            "gender": {
+                "id": "gender",
+                "choice": "0",
+                "time": 3231,
+                "nClicks": 1,
+                "isCorrect": true,
+                "attempts": []
+            },
+            "age": {
+                "id": "age",
+                "choice": "0",
+                "time": 4863,
+                "nClicks": 1,
+                "isCorrect": true,
+                "attempts": []
+            },
+            "carreer": {
+                "id": "carreer",
+                "choice": "2",
+                "time": 7510,
+                "nClicks": 1,
+                "isCorrect": true,
+                "attempts": []
+            },
+            "strategy": {
+                "id": "strategy",
+                "choice": "2",
+                "time": 12775,
+                "nClicks": 1,
+                "isCorrect": true,
+                "attempts": []
+            },
+            "messages": {
+                "id": "messages",
+                "choice": "1",
+                "time": 16855,
+                "nClicks": 1,
+                "isCorrect": true,
+                "attempts": []
+            },
+            "recognition": {
+                "id": "recognition",
+                "choice": "0",
+                "time": 21766,
+                "nClicks": 1,
+                "isCorrect": true,
+                "attempts": []
+            }
+        },
+        "missValues": []
+    },
+    "done": true,
+    "player": "477779844461679",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479323171
+}, {
+    "time": 39337,
+    "timeup": false,
+    "Guesses": [],
+    "Performance": [],
+    "Strategy": [],
+    "valores": {
+        "id": "demo",
+        "order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "forms": {
+            "gender": {
+                "id": "gender",
+                "choice": "0",
+                "time": 5169,
+                "nClicks": 1,
+                "isCorrect": true,
+                "attempts": []
+            },
+            "age": {
+                "id": "age",
+                "choice": "1",
+                "time": 6872,
+                "nClicks": 1,
+                "isCorrect": true,
+                "attempts": []
+            },
+            "carreer": {
+                "id": "carreer",
+                "choice": "2",
+                "time": 11512,
+                "nClicks": 1,
+                "isCorrect": true,
+                "attempts": []
+            },
+            "strategy": {
+                "id": "strategy",
+                "choice": "2",
+                "time": 23592,
+                "nClicks": 1,
+                "isCorrect": true,
+                "attempts": []
+            },
+            "messages": {
+                "id": "messages",
+                "choice": "2",
+                "time": 30584,
+                "nClicks": 1,
+                "isCorrect": true,
+                "attempts": []
+            },
+            "recognition": {
+                "id": "recognition",
+                "choice": "2",
+                "time": 37928,
+                "nClicks": 2,
+                "isCorrect": true,
+                "attempts": []
+            }
+        },
+        "missValues": []
+    },
+    "done": true,
+    "player": "793179846249445",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1540479339106
+}]
