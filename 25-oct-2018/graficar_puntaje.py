@@ -44,7 +44,7 @@ d = 'Graficas/'
 
 try:
     os.makedirs(d)
-    print "Creando " + d
+    print("Creando " + d)
 except OSError:
     if not os.path.isdir(d):
         raise
@@ -75,9 +75,25 @@ for Key, grp in data.groupby(['Dyad']):
         fig.suptitle('Dyad: ' + str(Key))
         Grp[['Score', 'Threshold']].plot(use_index=False, x=Grp['Round'], ax=axes[i], \
                             title='Player: ' + str(key))
-        print "Score of player " + str(Key) + " dibujado"
+        print("Score of player " + str(Key) + " dibujado")
         i += 1
 
     archivo = d + str(Key) + '_score.png'
     fig.savefig(archivo)
     print("Figura score de la pareja " + str(Key) + " dibujada en " + archivo)
+    fig.close()
+
+print("Buscando promedios...")
+promedioScore = pd.DataFrame(data.groupby('Round')[['Score', 'Threshold']].mean())
+
+promedioScore['umbralPropuesto'] = [1, 2, 3, 4, 5, 5, 5, 5, 6, 7, 8, 9, 10, 15, 15]
+
+print(promedioScore)
+
+fig, axes = plt.subplots()
+
+promedioScore.plot(use_index=False, ax=axes, \
+                    title='Player: ' + str(key))
+
+archivo = d + 'meanScore.png'
+fig.savefig(archivo)
