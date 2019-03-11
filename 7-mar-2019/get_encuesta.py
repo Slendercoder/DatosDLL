@@ -69,16 +69,41 @@ for counter in indices:
 			print("Reading line with encuesta data...", len(d[u'valores']))
 			pareja.append(dyadName)
 			estrategia.append(d[u'valores'][u'forms'][u'strategy'][u'choice'])
+			genero.append(d[u'valores'][u'forms'][u'gender'][u'choice'])
+			edad.append(d[u'valores'][u'forms'][u'age'][u'choice'])
+			carrera.append(d[u'valores'][u'forms'][u'carreer'][u'choice'])
+			# mensajes.append((d[u'valores'][u'forms'][u'messages'][u'choice'])[0])
+			# categorias.append((d[u'valores'][u'forms'][u'recognition'][u'choice'])[0])
+			cat = ''
+			for i in d[u'valores'][u'forms'][u'recognition'][u'choice']:
+				val = i + ', '
+				cat += val
+			categorias.append(cat)
+			mes = ''
+			for i in d[u'valores'][u'forms'][u'messages'][u'choice']:
+				val = i + ', '
+				mes += val
+			mensajes.append(mes)
 
 		except:
 			print("No communication phase. Skip!")
 
 dict = {
 	'Dyad': pareja,
-	'Player': jugador,
-	'typeOfObject': objeto,
-	'Label': marcadoCon
+	# 'Player': jugador,
+	'Genero': genero,
+	'Edad': edad,
+	'Carrera': carrera,
+	'Estrategia': estrategia,
+	'Mensajes': mensajes,
+	'Categoria': categorias
 }
+
+# print(len(estrategia))
+# print(estrategia)
+# print(len(categorias))
+# print(categorias)
+
 data = pd.DataFrame.from_dict(dict)
 
 archivo = 'encuesta.csv'

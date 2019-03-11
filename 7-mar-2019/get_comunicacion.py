@@ -129,7 +129,7 @@ dict = {
 	'Player': jugador,
 	'Stage': stage,
 	'Round': ronda,
-	'Contador': Contador,
+	'Contador': contador,
 	'Perro': objetoSolicitado,
 	'Rotulo': rotulo,
 	'suposicion': Sups,
@@ -140,6 +140,7 @@ data = pd.DataFrame.from_dict(dict)
 archivo = 'comunicacion.csv'
 data.to_csv(archivo, index=False)
 print("Data saved to ", archivo)
+
 
 	# matricesFrecuenciasP1 = [[[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]]]
 	# matricesFrecuenciasP2 = [[[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]]]
