@@ -66,9 +66,15 @@ for counter in indices:
 	# Getting data from Encuesta
 	for d in Data:
 		try:
-			print("Reading line with encuesta data...", len(d[u'valores']))
+			print("Reading line with encuesta data...", len(d[u'valores_demogra']))
 			pareja.append(dyadName)
-			estrategia.append(d[u'valores'][u'forms'][u'strategy'][u'choice'])
+			jugador.append(d[u'player'])
+			genero.append(d[u'valores_demogra'][u'forms'][u'gender'][u'choice'])
+			edad.append(d[u'valores_demogra'][u'forms'][u'age'][u'choice'])
+			carrera.append(d[u'valores_demogra'][u'forms'][u'carreer'][u'choice'])
+			estrategia.append(d[u'valores_strat'][u'forms'][u'strategy'][u'choice'])
+			mensajes.append(d[u'valores_strat'][u'forms'][u'messages'][u'choice'])
+			categorias.append(d[u'valores_strat'][u'forms'][u'recognition'][u'choice'])
 
 		except:
 			print("No communication phase. Skip!")
@@ -76,8 +82,12 @@ for counter in indices:
 dict = {
 	'Dyad': pareja,
 	'Player': jugador,
-	'typeOfObject': objeto,
-	'Label': marcadoCon
+	'Genero': genero,
+	'Edad': edad,
+	'Carrera': carrera,
+	'Estrategia': estrategia,
+	'Mensajes': mensajes,
+	'Categorias': categorias
 }
 data = pd.DataFrame.from_dict(dict)
 
