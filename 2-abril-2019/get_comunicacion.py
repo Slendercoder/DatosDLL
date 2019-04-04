@@ -130,7 +130,7 @@ dict = {
 	'Player': jugador,
 	'Stage': stage,
 	'Round': ronda,
-	'Contador': contador,
+	'Contador': Contador,
 	'Perro': objetoSolicitado,
 	'Rotulo': rotulo,
 	'suposicion': Sups,
