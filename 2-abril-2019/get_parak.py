@@ -35,7 +35,8 @@ pareja = []
 jugador = []
 stage = []
 ronda = []
-puntaje = []
+Imagen = []
+Rotulo = []
 
 for counter in indices:
 	# Opens json file with data from experiment and uploads it into Data
@@ -60,28 +61,30 @@ for counter in indices:
 	dyadName = str(Players[0][:5]) + '-' + str(Players[1][:5])
 	print("Dyad name: ", dyadName)
 
-	# Getting data from Puntaje
+	# Getting data from paraK
 	for d in Data:
 		try:
-			print("Reading line with puntaje data...", len(d[u'Puntaje']))
+			print("Reading line with paraK data...", len(d[u'ParaK']))
 			pareja.append(dyadName)
 			jugador.append(d[u'player'])
 			stage.append(d[u'stage'][u'stage'])
 			ronda.append(d[u'stage'][u'round'])
-			puntaje.append(d[u'Puntaje'][2])
+			Imagen.append(d[u'ParaK'][0])
+			Rotulo.append(d[u'ParaK'][1])
 		except:
-			print("No score. Skip!")
+			print("No paraK. Skip!")
 
 dict = {
 	'Dyad': pareja,
 	'Player': jugador,
 	'Stage': stage,
 	'Round': ronda,
-	'Score': puntaje
+	'Object': Imagen,
+	'Label': Rotulo
 }
 data = pd.DataFrame.from_dict(dict)
 
-archivo = 'puntaje.csv'
+archivo = 'paraK.csv'
 data.to_csv(archivo, index=False)
 print("Data saved to ", archivo)
 
