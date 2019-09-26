@@ -1,0 +1,5547 @@
+[{
+    "time": 1600802,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 1,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1569261809374
+}, {
+    "time": 18225,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 2,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1569261827755
+}, {
+    "time": 67241,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 3,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1569261895197
+}, {
+    "time": 21054,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 3,
+        "step": 2,
+        "round": 1
+    },
+    "timestamp": 1569261916484
+}, {
+    "time": 45154,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 3,
+        "step": 3,
+        "round": 1
+    },
+    "timestamp": 1569261961806
+}, {
+    "time": 10541,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 3,
+        "step": 4,
+        "round": 1
+    },
+    "timestamp": 1569261972500
+}, {
+    "time": 8886,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 3,
+        "step": 5,
+        "round": 1
+    },
+    "timestamp": 1569261981532
+}, {
+    "time": 32786,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 4,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1569262014481
+}, {
+    "ParaK": [
+        "B2.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1569262071278
+}, {
+    "ParaK": [
+        "B4.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1569262071280
+}, {
+    "ParaK": [
+        "B12.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1569262071280
+}, {
+    "ParaK": [
+        "D6.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1569262071281
+}, {
+    "ParaK": [
+        "B11.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1569262071282
+}, {
+    "Puntaje": [
+        [
+            "B",
+            "D",
+            "B",
+            "D",
+            "B"
+        ],
+        [
+            "B",
+            "B",
+            "B",
+            "D",
+            "B"
+        ],
+        4
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1569262071283
+}, {
+    "time": 56637,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1569262071283
+}, {
+    "time": 5711,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 2,
+        "round": 1
+    },
+    "timestamp": 1569262077180
+}, {
+    "ParaK": [
+        "D5.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1569262113133
+}, {
+    "ParaK": [
+        "B3.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1569262113135
+}, {
+    "ParaK": [
+        "D11.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1569262113135
+}, {
+    "ParaK": [
+        "B4.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1569262113136
+}, {
+    "ParaK": [
+        "B2.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1569262113136
+}, {
+    "Puntaje": [
+        [
+            "D",
+            "B",
+            "D",
+            "B",
+            "B"
+        ],
+        [
+            "D",
+            "B",
+            "D",
+            "B",
+            "B"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1569262113137
+}, {
+    "time": 35789,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1569262113137
+}, {
+    "time": 1572,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 2,
+        "round": 2
+    },
+    "timestamp": 1569262114876
+}, {
+    "ParaK": [
+        "D3.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1569262151333
+}, {
+    "ParaK": [
+        "D7.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1569262151335
+}, {
+    "ParaK": [
+        "B5.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1569262151335
+}, {
+    "ParaK": [
+        "B2.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1569262151335
+}, {
+    "ParaK": [
+        "B9.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1569262151336
+}, {
+    "Puntaje": [
+        [
+            "D",
+            "D",
+            "B",
+            "B",
+            "B"
+        ],
+        [
+            "D",
+            "D",
+            "B",
+            "B",
+            "B"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1569262151337
+}, {
+    "time": 36302,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1569262151337
+}, {
+    "time": 1702,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 2,
+        "round": 3
+    },
+    "timestamp": 1569262153213
+}, {
+    "ParaK": [
+        "B4.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1569262173954
+}, {
+    "ParaK": [
+        "B10.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1569262173955
+}, {
+    "ParaK": [
+        "D3.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1569262173956
+}, {
+    "ParaK": [
+        "B7.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1569262173956
+}, {
+    "ParaK": [
+        "D9.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1569262173956
+}, {
+    "Puntaje": [
+        [
+            "B",
+            "B",
+            "D",
+            "B",
+            "D"
+        ],
+        [
+            "B",
+            "B",
+            "D",
+            "B",
+            "D"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1569262173957
+}, {
+    "time": 20590,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1569262173957
+}, {
+    "time": 1009,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 2,
+        "round": 4
+    },
+    "timestamp": 1569262175141
+}, {
+    "ParaK": [
+        "D2.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1569262188765
+}, {
+    "ParaK": [
+        "B9.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1569262188766
+}, {
+    "ParaK": [
+        "D1.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1569262188767
+}, {
+    "ParaK": [
+        "D5.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1569262188767
+}, {
+    "ParaK": [
+        "D9.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1569262188768
+}, {
+    "Puntaje": [
+        [
+            "D",
+            "B",
+            "B",
+            "D",
+            "D"
+        ],
+        [
+            "D",
+            "B",
+            "D",
+            "D",
+            "D"
+        ],
+        4
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1569262188768
+}, {
+    "time": 13467,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1569262188769
+}, {
+    "time": 2755,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 2,
+        "round": 5
+    },
+    "timestamp": 1569262191694
+}, {
+    "ParaK": [
+        "B10.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1569262204349
+}, {
+    "ParaK": [
+        "D12.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1569262204351
+}, {
+    "ParaK": [
+        "D6.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1569262204351
+}, {
+    "ParaK": [
+        "D4.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1569262204353
+}, {
+    "ParaK": [
+        "B7.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1569262204353
+}, {
+    "Puntaje": [
+        [
+            "B",
+            "D",
+            "D",
+            "D",
+            "B"
+        ],
+        [
+            "B",
+            "D",
+            "D",
+            "D",
+            "B"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1569262204354
+}, {
+    "time": 12500,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1569262204354
+}, {
+    "time": 2962,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 2,
+        "round": 6
+    },
+    "timestamp": 1569262207485
+}, {
+    "ParaK": [
+        "B5.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1569262229541
+}, {
+    "ParaK": [
+        "D11.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1569262229543
+}, {
+    "ParaK": [
+        "D10.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1569262229543
+}, {
+    "ParaK": [
+        "B12.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1569262229544
+}, {
+    "ParaK": [
+        "D4.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1569262229544
+}, {
+    "Puntaje": [
+        [
+            "B",
+            "D",
+            "D",
+            "B",
+            "D"
+        ],
+        [
+            "B",
+            "D",
+            "D",
+            "B",
+            "D"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1569262229544
+}, {
+    "time": 21900,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1569262229545
+}, {
+    "time": 1195,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 2,
+        "round": 7
+    },
+    "timestamp": 1569262230909
+}, {
+    "ParaK": [
+        "B8.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1569262251487
+}, {
+    "ParaK": [
+        "B4.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1569262251488
+}, {
+    "ParaK": [
+        "B7.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1569262251489
+}, {
+    "ParaK": [
+        "D1.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1569262251490
+}, {
+    "ParaK": [
+        "B11.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1569262251490
+}, {
+    "Puntaje": [
+        [
+            "D",
+            "B",
+            "B",
+            "D",
+            "B"
+        ],
+        [
+            "B",
+            "B",
+            "B",
+            "D",
+            "B"
+        ],
+        4
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1569262251491
+}, {
+    "time": 20410,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1569262251491
+}, {
+    "time": 2606,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 2,
+        "round": 8
+    },
+    "timestamp": 1569262254269
+}, {
+    "ParaK": [
+        "B3.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1569262268077
+}, {
+    "ParaK": [
+        "B11.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1569262268079
+}, {
+    "ParaK": [
+        "B10.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1569262268079
+}, {
+    "ParaK": [
+        "D4.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1569262268080
+}, {
+    "ParaK": [
+        "B8.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1569262268080
+}, {
+    "Puntaje": [
+        [
+            "B",
+            "B",
+            "B",
+            "D",
+            "D"
+        ],
+        [
+            "B",
+            "B",
+            "B",
+            "D",
+            "B"
+        ],
+        4
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1569262268081
+}, {
+    "time": 13648,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1569262268081
+}, {
+    "time": 2030,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 2,
+        "round": 9
+    },
+    "timestamp": 1569262270278
+}, {
+    "ParaK": [
+        "D10.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1569262282366
+}, {
+    "ParaK": [
+        "D3.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1569262282367
+}, {
+    "ParaK": [
+        "B5.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1569262282368
+}, {
+    "ParaK": [
+        "B8.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1569262282369
+}, {
+    "ParaK": [
+        "D5.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1569262282370
+}, {
+    "Puntaje": [
+        [
+            "D",
+            "D",
+            "B",
+            "B",
+            "D"
+        ],
+        [
+            "D",
+            "D",
+            "B",
+            "B",
+            "D"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1569262282370
+}, {
+    "time": 11926,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1569262282370
+}, {
+    "time": 1010,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 2,
+        "round": 10
+    },
+    "timestamp": 1569262283549
+}, {
+    "ParaK": [
+        "D6.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1569262291621
+}, {
+    "ParaK": [
+        "D5.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1569262291622
+}, {
+    "ParaK": [
+        "B6.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1569262291623
+}, {
+    "ParaK": [
+        "B7.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1569262291623
+}, {
+    "ParaK": [
+        "B11.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1569262291623
+}, {
+    "Puntaje": [
+        [
+            "D",
+            "D",
+            "B",
+            "B",
+            "B"
+        ],
+        [
+            "D",
+            "D",
+            "B",
+            "B",
+            "B"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1569262291624
+}, {
+    "time": 7909,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1569262291624
+}, {
+    "time": 1439,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 2,
+        "round": 11
+    },
+    "timestamp": 1569262293229
+}, {
+    "ParaK": [
+        "B3.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1569262309782
+}, {
+    "ParaK": [
+        "D8.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1569262309784
+}, {
+    "ParaK": [
+        "D1.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1569262309784
+}, {
+    "ParaK": [
+        "D6.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1569262309785
+}, {
+    "ParaK": [
+        "D7.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1569262309785
+}, {
+    "Puntaje": [
+        [
+            "B",
+            "B",
+            "B",
+            "D",
+            "D"
+        ],
+        [
+            "B",
+            "D",
+            "D",
+            "D",
+            "D"
+        ],
+        3
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1569262309785
+}, {
+    "time": 16399,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1569262309786
+}, {
+    "time": 1156,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 2,
+        "round": 12
+    },
+    "timestamp": 1569262311118
+}, {
+    "ParaK": [
+        "B2.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1569262320182
+}, {
+    "ParaK": [
+        "D1.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1569262320183
+}, {
+    "ParaK": [
+        "B5.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1569262320184
+}, {
+    "ParaK": [
+        "D6.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1569262320184
+}, {
+    "ParaK": [
+        "D9.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1569262320184
+}, {
+    "Puntaje": [
+        [
+            "B",
+            "D",
+            "B",
+            "D",
+            "D"
+        ],
+        [
+            "B",
+            "D",
+            "B",
+            "D",
+            "D"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1569262320185
+}, {
+    "time": 8908,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1569262320185
+}, {
+    "time": 881,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 2,
+        "round": 13
+    },
+    "timestamp": 1569262321237
+}, {
+    "ParaK": [
+        "B2.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1569262334509
+}, {
+    "ParaK": [
+        "D8.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1569262334511
+}, {
+    "ParaK": [
+        "B12.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1569262334511
+}, {
+    "ParaK": [
+        "B3.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1569262334513
+}, {
+    "ParaK": [
+        "B9.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1569262334513
+}, {
+    "Puntaje": [
+        [
+            "B",
+            "D",
+            "B",
+            "B",
+            "B"
+        ],
+        [
+            "B",
+            "D",
+            "B",
+            "B",
+            "B"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1569262334513
+}, {
+    "time": 13115,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1569262334514
+}, {
+    "time": 1022,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 2,
+        "round": 14
+    },
+    "timestamp": 1569262335711
+}, {
+    "ParaK": [
+        "B4.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1569262346897
+}, {
+    "ParaK": [
+        "D12.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1569262346899
+}, {
+    "ParaK": [
+        "B5.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1569262346899
+}, {
+    "ParaK": [
+        "D11.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1569262346900
+}, {
+    "ParaK": [
+        "D7.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1569262346900
+}, {
+    "Puntaje": [
+        [
+            "B",
+            "D",
+            "B",
+            "D",
+            "D"
+        ],
+        [
+            "B",
+            "D",
+            "B",
+            "D",
+            "D"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1569262346900
+}, {
+    "time": 11031,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1569262346901
+}, {
+    "time": 1087,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 2,
+        "round": 15
+    },
+    "timestamp": 1569262348182
+}, {
+    "ParaK": [
+        "D1.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 16
+    },
+    "timestamp": 1569262360623
+}, {
+    "ParaK": [
+        "B5.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 16
+    },
+    "timestamp": 1569262360624
+}, {
+    "ParaK": [
+        "D4.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 16
+    },
+    "timestamp": 1569262360624
+}, {
+    "ParaK": [
+        "D11.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 16
+    },
+    "timestamp": 1569262360625
+}, {
+    "ParaK": [
+        "B7.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 16
+    },
+    "timestamp": 1569262360625
+}, {
+    "Puntaje": [
+        [
+            "D",
+            "B",
+            "D",
+            "D",
+            "B"
+        ],
+        [
+            "D",
+            "B",
+            "D",
+            "D",
+            "B"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 16
+    },
+    "timestamp": 1569262360625
+}, {
+    "time": 12279,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 16
+    },
+    "timestamp": 1569262360626
+}, {
+    "time": 1005,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 2,
+        "round": 16
+    },
+    "timestamp": 1569262361806
+}, {
+    "ParaK": [
+        "B11.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 17
+    },
+    "timestamp": 1569262369549
+}, {
+    "ParaK": [
+        "B2.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 17
+    },
+    "timestamp": 1569262369551
+}, {
+    "ParaK": [
+        "B9.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 17
+    },
+    "timestamp": 1569262369551
+}, {
+    "ParaK": [
+        "D4.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 17
+    },
+    "timestamp": 1569262369552
+}, {
+    "ParaK": [
+        "D1.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 17
+    },
+    "timestamp": 1569262369552
+}, {
+    "Puntaje": [
+        [
+            "B",
+            "B",
+            "B",
+            "D",
+            "D"
+        ],
+        [
+            "B",
+            "B",
+            "B",
+            "D",
+            "D"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 17
+    },
+    "timestamp": 1569262369552
+}, {
+    "time": 7589,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 17
+    },
+    "timestamp": 1569262369553
+}, {
+    "time": 994,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 2,
+        "round": 17
+    },
+    "timestamp": 1569262370725
+}, {
+    "ParaK": [
+        "B1.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 18
+    },
+    "timestamp": 1569262380646
+}, {
+    "ParaK": [
+        "B5.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 18
+    },
+    "timestamp": 1569262380647
+}, {
+    "ParaK": [
+        "D6.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 18
+    },
+    "timestamp": 1569262380648
+}, {
+    "ParaK": [
+        "D10.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 18
+    },
+    "timestamp": 1569262380648
+}, {
+    "ParaK": [
+        "B4.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 18
+    },
+    "timestamp": 1569262380649
+}, {
+    "Puntaje": [
+        [
+            "B",
+            "B",
+            "D",
+            "D",
+            "B"
+        ],
+        [
+            "B",
+            "B",
+            "D",
+            "D",
+            "B"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 18
+    },
+    "timestamp": 1569262380649
+}, {
+    "time": 9765,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 18
+    },
+    "timestamp": 1569262380649
+}, {
+    "time": 833,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 2,
+        "round": 18
+    },
+    "timestamp": 1569262381654
+}, {
+    "ParaK": [
+        "B7.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 19
+    },
+    "timestamp": 1569262392285
+}, {
+    "ParaK": [
+        "B5.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 19
+    },
+    "timestamp": 1569262392286
+}, {
+    "ParaK": [
+        "B2.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 19
+    },
+    "timestamp": 1569262392287
+}, {
+    "ParaK": [
+        "D11.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 19
+    },
+    "timestamp": 1569262392287
+}, {
+    "ParaK": [
+        "D10.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 19
+    },
+    "timestamp": 1569262392287
+}, {
+    "Puntaje": [
+        [
+            "B",
+            "B",
+            "B",
+            "D",
+            "D"
+        ],
+        [
+            "B",
+            "B",
+            "B",
+            "D",
+            "D"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 19
+    },
+    "timestamp": 1569262392288
+}, {
+    "time": 10472,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 19
+    },
+    "timestamp": 1569262392288
+}, {
+    "time": 1035,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 2,
+        "round": 19
+    },
+    "timestamp": 1569262393494
+}, {
+    "ParaK": [
+        "D8.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 20
+    },
+    "timestamp": 1569262401775
+}, {
+    "ParaK": [
+        "B6.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 20
+    },
+    "timestamp": 1569262401775
+}, {
+    "ParaK": [
+        "D7.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 20
+    },
+    "timestamp": 1569262401776
+}, {
+    "ParaK": [
+        "B10.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 20
+    },
+    "timestamp": 1569262401776
+}, {
+    "ParaK": [
+        "D11.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 20
+    },
+    "timestamp": 1569262401776
+}, {
+    "Puntaje": [
+        [
+            "D",
+            "B",
+            "D",
+            "B",
+            "D"
+        ],
+        [
+            "D",
+            "B",
+            "D",
+            "B",
+            "D"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 20
+    },
+    "timestamp": 1569262401777
+}, {
+    "time": 8119,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 20
+    },
+    "timestamp": 1569262401777
+}, {
+    "time": 1502,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 2,
+        "round": 20
+    },
+    "timestamp": 1569262403453
+}, {
+    "ParaK": [
+        "B3.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 21
+    },
+    "timestamp": 1569262413622
+}, {
+    "ParaK": [
+        "B2.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 21
+    },
+    "timestamp": 1569262413623
+}, {
+    "ParaK": [
+        "B9.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 21
+    },
+    "timestamp": 1569262413624
+}, {
+    "ParaK": [
+        "B8.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 21
+    },
+    "timestamp": 1569262413624
+}, {
+    "ParaK": [
+        "D12.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 21
+    },
+    "timestamp": 1569262413624
+}, {
+    "Puntaje": [
+        [
+            "B",
+            "B",
+            "B",
+            "D",
+            "D"
+        ],
+        [
+            "B",
+            "B",
+            "B",
+            "B",
+            "D"
+        ],
+        4
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 21
+    },
+    "timestamp": 1569262413625
+}, {
+    "time": 10013,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 21
+    },
+    "timestamp": 1569262413625
+}, {
+    "time": 1186,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 2,
+        "round": 21
+    },
+    "timestamp": 1569262414990
+}, {
+    "ParaK": [
+        "B11.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 22
+    },
+    "timestamp": 1569262423151
+}, {
+    "ParaK": [
+        "B4.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 22
+    },
+    "timestamp": 1569262423152
+}, {
+    "ParaK": [
+        "B8.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 22
+    },
+    "timestamp": 1569262423152
+}, {
+    "ParaK": [
+        "D3.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 22
+    },
+    "timestamp": 1569262423152
+}, {
+    "ParaK": [
+        "D9.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 22
+    },
+    "timestamp": 1569262423153
+}, {
+    "Puntaje": [
+        [
+            "B",
+            "B",
+            "B",
+            "D",
+            "D"
+        ],
+        [
+            "B",
+            "B",
+            "B",
+            "D",
+            "D"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 22
+    },
+    "timestamp": 1569262423153
+}, {
+    "time": 8004,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 22
+    },
+    "timestamp": 1569262423154
+}, {
+    "time": 2090,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 2,
+        "round": 22
+    },
+    "timestamp": 1569262425414
+}, {
+    "ParaK": [
+        "B5.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 23
+    },
+    "timestamp": 1569262435741
+}, {
+    "ParaK": [
+        "B2.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 23
+    },
+    "timestamp": 1569262435744
+}, {
+    "ParaK": [
+        "D4.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 23
+    },
+    "timestamp": 1569262435744
+}, {
+    "ParaK": [
+        "B11.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 23
+    },
+    "timestamp": 1569262435744
+}, {
+    "ParaK": [
+        "B3.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 23
+    },
+    "timestamp": 1569262435745
+}, {
+    "Puntaje": [
+        [
+            "B",
+            "B",
+            "D",
+            "B",
+            "B"
+        ],
+        [
+            "B",
+            "B",
+            "D",
+            "B",
+            "B"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 23
+    },
+    "timestamp": 1569262435745
+}, {
+    "time": 10173,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 23
+    },
+    "timestamp": 1569262435745
+}, {
+    "time": 1790,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 2,
+        "round": 23
+    },
+    "timestamp": 1569262437702
+}, {
+    "ParaK": [
+        "D3.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 24
+    },
+    "timestamp": 1569262445950
+}, {
+    "ParaK": [
+        "B7.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 24
+    },
+    "timestamp": 1569262445952
+}, {
+    "ParaK": [
+        "D5.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 24
+    },
+    "timestamp": 1569262445953
+}, {
+    "ParaK": [
+        "B3.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 24
+    },
+    "timestamp": 1569262445953
+}, {
+    "ParaK": [
+        "B9.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 24
+    },
+    "timestamp": 1569262445953
+}, {
+    "Puntaje": [
+        [
+            "D",
+            "B",
+            "D",
+            "B",
+            "B"
+        ],
+        [
+            "D",
+            "B",
+            "D",
+            "B",
+            "B"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 24
+    },
+    "timestamp": 1569262445954
+}, {
+    "time": 8091,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 24
+    },
+    "timestamp": 1569262445954
+}, {
+    "time": 1155,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 2,
+        "round": 24
+    },
+    "timestamp": 1569262447277
+}, {
+    "ParaK": [
+        "D4.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 25
+    },
+    "timestamp": 1569262462711
+}, {
+    "ParaK": [
+        "D10.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 25
+    },
+    "timestamp": 1569262462712
+}, {
+    "ParaK": [
+        "B4.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 25
+    },
+    "timestamp": 1569262462713
+}, {
+    "ParaK": [
+        "D6.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 25
+    },
+    "timestamp": 1569262462713
+}, {
+    "ParaK": [
+        "D2.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 25
+    },
+    "timestamp": 1569262462713
+}, {
+    "Puntaje": [
+        [
+            "D",
+            "D",
+            "B",
+            "D",
+            "D"
+        ],
+        [
+            "D",
+            "D",
+            "B",
+            "D",
+            "D"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 25
+    },
+    "timestamp": 1569262462714
+}, {
+    "time": 15277,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 1,
+        "round": 25
+    },
+    "timestamp": 1569262462714
+}, {
+    "time": 956,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 5,
+        "step": 2,
+        "round": 25
+    },
+    "timestamp": 1569262463846
+}, {
+    "ParaK": [
+        "D2.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1569262533863
+}, {
+    "ParaK": [
+        "A4.jpg",
+        "A"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1569262533865
+}, {
+    "ParaK": [
+        "C3.jpg",
+        "A"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1569262533866
+}, {
+    "ParaK": [
+        "B4.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1569262533867
+}, {
+    "ParaK": [
+        "A9.jpg",
+        "C"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1569262533867
+}, {
+    "Puntaje": [
+        [
+            "D",
+            "A",
+            "A",
+            "B",
+            "C"
+        ],
+        [
+            "D",
+            "A",
+            "C",
+            "B",
+            "A"
+        ],
+        3
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1569262533867
+}, {
+    "time": 69863,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1569262533868
+}, {
+    "time": 7935,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 2,
+        "round": 1
+    },
+    "timestamp": 1569262541975
+}, {
+    "ParaK": [
+        "B10.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1569262583112
+}, {
+    "ParaK": [
+        "D4.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1569262583113
+}, {
+    "ParaK": [
+        "D7.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1569262583113
+}, {
+    "ParaK": [
+        "A6.jpg",
+        "A"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1569262583113
+}, {
+    "ParaK": [
+        "C8.jpg",
+        "C"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1569262583114
+}, {
+    "Puntaje": [
+        [
+            "B",
+            "D",
+            "D",
+            "A",
+            "C"
+        ],
+        [
+            "B",
+            "D",
+            "D",
+            "A",
+            "C"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1569262583114
+}, {
+    "time": 40979,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 2
+    },
+    "timestamp": 1569262583114
+}, {
+    "time": 3747,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 2,
+        "round": 2
+    },
+    "timestamp": 1569262587039
+}, {
+    "ParaK": [
+        "D2.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1569262609937
+}, {
+    "ParaK": [
+        "B12.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1569262609939
+}, {
+    "ParaK": [
+        "B5.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1569262609939
+}, {
+    "ParaK": [
+        "B4.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1569262609939
+}, {
+    "ParaK": [
+        "D7.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1569262609940
+}, {
+    "Puntaje": [
+        [
+            "D",
+            "B",
+            "B",
+            "B",
+            "D"
+        ],
+        [
+            "D",
+            "B",
+            "B",
+            "B",
+            "D"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1569262609940
+}, {
+    "time": 22738,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 3
+    },
+    "timestamp": 1569262609940
+}, {
+    "time": 1453,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 2,
+        "round": 3
+    },
+    "timestamp": 1569262611567
+}, {
+    "ParaK": [
+        "C9.jpg",
+        "C"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1569262646000
+}, {
+    "ParaK": [
+        "B10.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1569262646001
+}, {
+    "ParaK": [
+        "D10.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1569262646001
+}, {
+    "ParaK": [
+        "B8.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1569262646002
+}, {
+    "ParaK": [
+        "A11.jpg",
+        "A"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1569262646002
+}, {
+    "Puntaje": [
+        [
+            "C",
+            "B",
+            "D",
+            "B",
+            "A"
+        ],
+        [
+            "C",
+            "B",
+            "D",
+            "B",
+            "A"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1569262646002
+}, {
+    "time": 34280,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 4
+    },
+    "timestamp": 1569262646003
+}, {
+    "time": 3643,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 2,
+        "round": 4
+    },
+    "timestamp": 1569262649823
+}, {
+    "ParaK": [
+        "A6.jpg",
+        "A"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1569262674617
+}, {
+    "ParaK": [
+        "D3.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1569262674619
+}, {
+    "ParaK": [
+        "C4.jpg",
+        "A"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1569262674620
+}, {
+    "ParaK": [
+        "D11.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1569262674620
+}, {
+    "ParaK": [
+        "A10.jpg",
+        "C"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1569262674620
+}, {
+    "Puntaje": [
+        [
+            "A",
+            "D",
+            "A",
+            "D",
+            "C"
+        ],
+        [
+            "A",
+            "D",
+            "C",
+            "D",
+            "A"
+        ],
+        3
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1569262674621
+}, {
+    "time": 24634,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 5
+    },
+    "timestamp": 1569262674621
+}, {
+    "time": 13004,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 2,
+        "round": 5
+    },
+    "timestamp": 1569262687799
+}, {
+    "ParaK": [
+        "B7.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1569262701975
+}, {
+    "ParaK": [
+        "C2.jpg",
+        "A"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1569262701977
+}, {
+    "ParaK": [
+        "B4.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1569262701978
+}, {
+    "ParaK": [
+        "B6.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1569262701978
+}, {
+    "ParaK": [
+        "B3.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1569262701978
+}, {
+    "Puntaje": [
+        [
+            "B",
+            "A",
+            "B",
+            "B",
+            "B"
+        ],
+        [
+            "B",
+            "C",
+            "B",
+            "B",
+            "B"
+        ],
+        4
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1569262701979
+}, {
+    "time": 14018,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 6
+    },
+    "timestamp": 1569262701979
+}, {
+    "time": 2791,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 2,
+        "round": 6
+    },
+    "timestamp": 1569262704943
+}, {
+    "ParaK": [
+        "A6.jpg",
+        "A"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1569262727865
+}, {
+    "ParaK": [
+        "D9.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1569262727866
+}, {
+    "ParaK": [
+        "D1.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1569262727867
+}, {
+    "ParaK": [
+        "D5.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1569262727867
+}, {
+    "ParaK": [
+        "A9.jpg",
+        "A"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1569262727867
+}, {
+    "Puntaje": [
+        [
+            "A",
+            "D",
+            "D",
+            "D",
+            "A"
+        ],
+        [
+            "A",
+            "D",
+            "D",
+            "D",
+            "A"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1569262727868
+}, {
+    "time": 22765,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 7
+    },
+    "timestamp": 1569262727868
+}, {
+    "time": 4209,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 2,
+        "round": 7
+    },
+    "timestamp": 1569262732255
+}, {
+    "ParaK": [
+        "D9.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1569262772192
+}, {
+    "ParaK": [
+        "C10.jpg",
+        "A"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1569262772194
+}, {
+    "ParaK": [
+        "C1.jpg",
+        "C"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1569262772194
+}, {
+    "ParaK": [
+        "A8.jpg",
+        "A"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1569262772195
+}, {
+    "ParaK": [
+        "D6.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1569262772195
+}, {
+    "Puntaje": [
+        [
+            "D",
+            "A",
+            "C",
+            "A",
+            "D"
+        ],
+        [
+            "D",
+            "C",
+            "C",
+            "A",
+            "D"
+        ],
+        4
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1569262772195
+}, {
+    "time": 39780,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 8
+    },
+    "timestamp": 1569262772196
+}, {
+    "time": 4106,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 2,
+        "round": 8
+    },
+    "timestamp": 1569262776480
+}, {
+    "ParaK": [
+        "B10.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1569262792657
+}, {
+    "ParaK": [
+        "D6.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1569262792658
+}, {
+    "ParaK": [
+        "B12.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1569262792659
+}, {
+    "ParaK": [
+        "B2.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1569262792659
+}, {
+    "ParaK": [
+        "A4.jpg",
+        "C"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1569262792659
+}, {
+    "Puntaje": [
+        [
+            "B",
+            "D",
+            "B",
+            "B",
+            "C"
+        ],
+        [
+            "B",
+            "D",
+            "B",
+            "B",
+            "A"
+        ],
+        4
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1569262792660
+}, {
+    "time": 16013,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 9
+    },
+    "timestamp": 1569262792660
+}, {
+    "time": 4492,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 2,
+        "round": 9
+    },
+    "timestamp": 1569262797328
+}, {
+    "ParaK": [
+        "D7.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1569262841744
+}, {
+    "ParaK": [
+        "C3.jpg",
+        "C"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1569262841746
+}, {
+    "ParaK": [
+        "B10.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1569262841746
+}, {
+    "ParaK": [
+        "C9.jpg",
+        "A"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1569262841747
+}, {
+    "ParaK": [
+        "C12.jpg",
+        "A"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1569262841747
+}, {
+    "Puntaje": [
+        [
+            "D",
+            "C",
+            "B",
+            "A",
+            "A"
+        ],
+        [
+            "D",
+            "C",
+            "B",
+            "C",
+            "C"
+        ],
+        3
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1569262841747
+}, {
+    "time": 44262,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 10
+    },
+    "timestamp": 1569262841748
+}, {
+    "time": 7987,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 2,
+        "round": 10
+    },
+    "timestamp": 1569262849912
+}, {
+    "ParaK": [
+        "B11.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1569262865360
+}, {
+    "ParaK": [
+        "C2.jpg",
+        "A"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1569262865362
+}, {
+    "ParaK": [
+        "B9.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1569262865362
+}, {
+    "ParaK": [
+        "C3.jpg",
+        "C"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1569262865362
+}, {
+    "ParaK": [
+        "D5.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1569262865363
+}, {
+    "Puntaje": [
+        [
+            "B",
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        [
+            "B",
+            "C",
+            "B",
+            "C",
+            "D"
+        ],
+        4
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1569262865363
+}, {
+    "time": 15278,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 11
+    },
+    "timestamp": 1569262865364
+}, {
+    "time": 2608,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 2,
+        "round": 11
+    },
+    "timestamp": 1569262868145
+}, {
+    "ParaK": [
+        "B7.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1569262886193
+}, {
+    "ParaK": [
+        "C5.jpg",
+        "C"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1569262886195
+}, {
+    "ParaK": [
+        "C6.jpg",
+        "C"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1569262886196
+}, {
+    "ParaK": [
+        "B10.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1569262886196
+}, {
+    "ParaK": [
+        "B12.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1569262886196
+}, {
+    "Puntaje": [
+        [
+            "B",
+            "C",
+            "C",
+            "B",
+            "B"
+        ],
+        [
+            "B",
+            "C",
+            "C",
+            "B",
+            "B"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1569262886197
+}, {
+    "time": 17893,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 12
+    },
+    "timestamp": 1569262886197
+}, {
+    "time": 2431,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 2,
+        "round": 12
+    },
+    "timestamp": 1569262888808
+}, {
+    "ParaK": [
+        "B1.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1569262903106
+}, {
+    "ParaK": [
+        "C5.jpg",
+        "C"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1569262903107
+}, {
+    "ParaK": [
+        "D1.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1569262903107
+}, {
+    "ParaK": [
+        "D9.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1569262903108
+}, {
+    "ParaK": [
+        "C6.jpg",
+        "C"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1569262903108
+}, {
+    "Puntaje": [
+        [
+            "B",
+            "C",
+            "D",
+            "D",
+            "C"
+        ],
+        [
+            "B",
+            "C",
+            "D",
+            "D",
+            "C"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1569262903108
+}, {
+    "time": 14140,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 13
+    },
+    "timestamp": 1569262903109
+}, {
+    "time": 1160,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 2,
+        "round": 13
+    },
+    "timestamp": 1569262904449
+}, {
+    "ParaK": [
+        "C9.jpg",
+        "C"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1569262918840
+}, {
+    "ParaK": [
+        "B6.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1569262918842
+}, {
+    "ParaK": [
+        "A3.jpg",
+        "A"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1569262918842
+}, {
+    "ParaK": [
+        "C11.jpg",
+        "C"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1569262918843
+}, {
+    "ParaK": [
+        "D1.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1569262918843
+}, {
+    "Puntaje": [
+        [
+            "C",
+            "B",
+            "A",
+            "C",
+            "D"
+        ],
+        [
+            "C",
+            "B",
+            "A",
+            "C",
+            "D"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1569262918843
+}, {
+    "time": 14236,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 14
+    },
+    "timestamp": 1569262918844
+}, {
+    "time": 3507,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 2,
+        "round": 14
+    },
+    "timestamp": 1569262922528
+}, {
+    "ParaK": [
+        "B12.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1569262936936
+}, {
+    "ParaK": [
+        "C12.jpg",
+        "C"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1569262936938
+}, {
+    "ParaK": [
+        "B11.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1569262936938
+}, {
+    "ParaK": [
+        "B4.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1569262936939
+}, {
+    "ParaK": [
+        "A2.jpg",
+        "A"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1569262936939
+}, {
+    "Puntaje": [
+        [
+            "B",
+            "C",
+            "B",
+            "B",
+            "A"
+        ],
+        [
+            "B",
+            "C",
+            "B",
+            "B",
+            "A"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1569262936939
+}, {
+    "time": 14249,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 15
+    },
+    "timestamp": 1569262936941
+}, {
+    "time": 2135,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 2,
+        "round": 15
+    },
+    "timestamp": 1569262939249
+}, {
+    "ParaK": [
+        "A10.jpg",
+        "A"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 16
+    },
+    "timestamp": 1569262958818
+}, {
+    "ParaK": [
+        "C7.jpg",
+        "C"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 16
+    },
+    "timestamp": 1569262958821
+}, {
+    "ParaK": [
+        "A3.jpg",
+        "A"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 16
+    },
+    "timestamp": 1569262958821
+}, {
+    "ParaK": [
+        "B9.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 16
+    },
+    "timestamp": 1569262958821
+}, {
+    "ParaK": [
+        "B6.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 16
+    },
+    "timestamp": 1569262958822
+}, {
+    "Puntaje": [
+        [
+            "A",
+            "C",
+            "A",
+            "B",
+            "B"
+        ],
+        [
+            "A",
+            "C",
+            "A",
+            "B",
+            "B"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 16
+    },
+    "timestamp": 1569262958822
+}, {
+    "time": 19418,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 16
+    },
+    "timestamp": 1569262958822
+}, {
+    "time": 1197,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 2,
+        "round": 16
+    },
+    "timestamp": 1569262960201
+}, {
+    "ParaK": [
+        "D10.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 17
+    },
+    "timestamp": 1569262974553
+}, {
+    "ParaK": [
+        "D3.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 17
+    },
+    "timestamp": 1569262974554
+}, {
+    "ParaK": [
+        "D9.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 17
+    },
+    "timestamp": 1569262974555
+}, {
+    "ParaK": [
+        "A12.jpg",
+        "A"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 17
+    },
+    "timestamp": 1569262974555
+}, {
+    "ParaK": [
+        "D11.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 17
+    },
+    "timestamp": 1569262974555
+}, {
+    "Puntaje": [
+        [
+            "D",
+            "D",
+            "D",
+            "A",
+            "D"
+        ],
+        [
+            "D",
+            "D",
+            "D",
+            "A",
+            "D"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 17
+    },
+    "timestamp": 1569262974556
+}, {
+    "time": 14191,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 17
+    },
+    "timestamp": 1569262974556
+}, {
+    "time": 896,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 2,
+        "round": 17
+    },
+    "timestamp": 1569262975625
+}, {
+    "ParaK": [
+        "A4.jpg",
+        "A"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 18
+    },
+    "timestamp": 1569263000010
+}, {
+    "ParaK": [
+        "A7.jpg",
+        "A"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 18
+    },
+    "timestamp": 1569263000012
+}, {
+    "ParaK": [
+        "B12.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 18
+    },
+    "timestamp": 1569263000013
+}, {
+    "ParaK": [
+        "B10.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 18
+    },
+    "timestamp": 1569263000013
+}, {
+    "ParaK": [
+        "C9.jpg",
+        "C"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 18
+    },
+    "timestamp": 1569263000013
+}, {
+    "Puntaje": [
+        [
+            "A",
+            "A",
+            "B",
+            "B",
+            "C"
+        ],
+        [
+            "A",
+            "A",
+            "B",
+            "B",
+            "C"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 18
+    },
+    "timestamp": 1569263000014
+}, {
+    "time": 24225,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 18
+    },
+    "timestamp": 1569263000014
+}, {
+    "time": 1059,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 2,
+        "round": 18
+    },
+    "timestamp": 1569263001249
+}, {
+    "ParaK": [
+        "C7.jpg",
+        "C"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 19
+    },
+    "timestamp": 1569263015665
+}, {
+    "ParaK": [
+        "A5.jpg",
+        "A"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 19
+    },
+    "timestamp": 1569263015667
+}, {
+    "ParaK": [
+        "D11.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 19
+    },
+    "timestamp": 1569263015667
+}, {
+    "ParaK": [
+        "C6.jpg",
+        "C"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 19
+    },
+    "timestamp": 1569263015667
+}, {
+    "ParaK": [
+        "D9.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 19
+    },
+    "timestamp": 1569263015669
+}, {
+    "Puntaje": [
+        [
+            "C",
+            "A",
+            "D",
+            "C",
+            "D"
+        ],
+        [
+            "C",
+            "A",
+            "D",
+            "C",
+            "D"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 19
+    },
+    "timestamp": 1569263015669
+}, {
+    "time": 14260,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 19
+    },
+    "timestamp": 1569263015669
+}, {
+    "time": 1335,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 2,
+        "round": 19
+    },
+    "timestamp": 1569263017194
+}, {
+    "ParaK": [
+        "B11.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 20
+    },
+    "timestamp": 1569263045274
+}, {
+    "ParaK": [
+        "D8.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 20
+    },
+    "timestamp": 1569263045276
+}, {
+    "ParaK": [
+        "A6.jpg",
+        "C"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 20
+    },
+    "timestamp": 1569263045277
+}, {
+    "ParaK": [
+        "D6.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 20
+    },
+    "timestamp": 1569263045277
+}, {
+    "ParaK": [
+        "C4.jpg",
+        "C"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 20
+    },
+    "timestamp": 1569263045277
+}, {
+    "Puntaje": [
+        [
+            "B",
+            "D",
+            "C",
+            "D",
+            "C"
+        ],
+        [
+            "B",
+            "D",
+            "A",
+            "D",
+            "C"
+        ],
+        4
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 20
+    },
+    "timestamp": 1569263045278
+}, {
+    "time": 27927,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 20
+    },
+    "timestamp": 1569263045278
+}, {
+    "time": 1276,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 2,
+        "round": 20
+    },
+    "timestamp": 1569263046729
+}, {
+    "ParaK": [
+        "C3.jpg",
+        "C"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 21
+    },
+    "timestamp": 1569263058453
+}, {
+    "ParaK": [
+        "D1.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 21
+    },
+    "timestamp": 1569263058466
+}, {
+    "ParaK": [
+        "D6.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 21
+    },
+    "timestamp": 1569263058467
+}, {
+    "ParaK": [
+        "C5.jpg",
+        "C"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 21
+    },
+    "timestamp": 1569263058467
+}, {
+    "ParaK": [
+        "A7.jpg",
+        "A"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 21
+    },
+    "timestamp": 1569263058467
+}, {
+    "Puntaje": [
+        [
+            "C",
+            "D",
+            "D",
+            "C",
+            "A"
+        ],
+        [
+            "C",
+            "D",
+            "D",
+            "C",
+            "A"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 21
+    },
+    "timestamp": 1569263058468
+}, {
+    "time": 11565,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 21
+    },
+    "timestamp": 1569263058468
+}, {
+    "time": 1022,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 2,
+        "round": 21
+    },
+    "timestamp": 1569263059673
+}, {
+    "ParaK": [
+        "C10.jpg",
+        "C"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 22
+    },
+    "timestamp": 1569263071489
+}, {
+    "ParaK": [
+        "D6.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 22
+    },
+    "timestamp": 1569263071491
+}, {
+    "ParaK": [
+        "D3.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 22
+    },
+    "timestamp": 1569263071491
+}, {
+    "ParaK": [
+        "C12.jpg",
+        "C"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 22
+    },
+    "timestamp": 1569263071491
+}, {
+    "ParaK": [
+        "B12.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 22
+    },
+    "timestamp": 1569263071492
+}, {
+    "Puntaje": [
+        [
+            "C",
+            "D",
+            "D",
+            "C",
+            "B"
+        ],
+        [
+            "C",
+            "D",
+            "D",
+            "C",
+            "B"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 22
+    },
+    "timestamp": 1569263071492
+}, {
+    "time": 11662,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 22
+    },
+    "timestamp": 1569263071493
+}, {
+    "time": 781,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 2,
+        "round": 22
+    },
+    "timestamp": 1569263072480
+}, {
+    "ParaK": [
+        "C4.jpg",
+        "C"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 23
+    },
+    "timestamp": 1569263084129
+}, {
+    "ParaK": [
+        "B2.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 23
+    },
+    "timestamp": 1569263084131
+}, {
+    "ParaK": [
+        "D2.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 23
+    },
+    "timestamp": 1569263084131
+}, {
+    "ParaK": [
+        "B12.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 23
+    },
+    "timestamp": 1569263084132
+}, {
+    "ParaK": [
+        "B11.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 23
+    },
+    "timestamp": 1569263084132
+}, {
+    "Puntaje": [
+        [
+            "C",
+            "B",
+            "D",
+            "B",
+            "B"
+        ],
+        [
+            "C",
+            "B",
+            "D",
+            "B",
+            "B"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 23
+    },
+    "timestamp": 1569263084133
+}, {
+    "time": 11495,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 23
+    },
+    "timestamp": 1569263084133
+}, {
+    "time": 904,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 2,
+        "round": 23
+    },
+    "timestamp": 1569263085209
+}, {
+    "ParaK": [
+        "D10.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 24
+    },
+    "timestamp": 1569263094706
+}, {
+    "ParaK": [
+        "C7.jpg",
+        "C"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 24
+    },
+    "timestamp": 1569263094706
+}, {
+    "ParaK": [
+        "B1.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 24
+    },
+    "timestamp": 1569263094707
+}, {
+    "ParaK": [
+        "B6.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 24
+    },
+    "timestamp": 1569263094707
+}, {
+    "ParaK": [
+        "B8.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 24
+    },
+    "timestamp": 1569263094707
+}, {
+    "Puntaje": [
+        [
+            "D",
+            "C",
+            "B",
+            "B",
+            "B"
+        ],
+        [
+            "D",
+            "C",
+            "B",
+            "B",
+            "B"
+        ],
+        5
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 24
+    },
+    "timestamp": 1569263094709
+}, {
+    "time": 9336,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 24
+    },
+    "timestamp": 1569263094709
+}, {
+    "time": 1275,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 2,
+        "round": 24
+    },
+    "timestamp": 1569263096153
+}, {
+    "ParaK": [
+        "B9.jpg",
+        "B"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 25
+    },
+    "timestamp": 1569263112250
+}, {
+    "ParaK": [
+        "C8.jpg",
+        "C"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 25
+    },
+    "timestamp": 1569263112251
+}, {
+    "ParaK": [
+        "D7.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 25
+    },
+    "timestamp": 1569263112251
+}, {
+    "ParaK": [
+        "D4.jpg",
+        "D"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 25
+    },
+    "timestamp": 1569263112252
+}, {
+    "ParaK": [
+        "A11.jpg",
+        "C"
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 25
+    },
+    "timestamp": 1569263112252
+}, {
+    "Puntaje": [
+        [
+            "B",
+            "C",
+            "D",
+            "D",
+            "C"
+        ],
+        [
+            "B",
+            "C",
+            "D",
+            "D",
+            "A"
+        ],
+        4
+    ],
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 25
+    },
+    "timestamp": 1569263112252
+}, {
+    "time": 15902,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 1,
+        "round": 25
+    },
+    "timestamp": 1569263112253
+}, {
+    "time": 2289,
+    "timeup": false,
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 6,
+        "step": 2,
+        "round": 25
+    },
+    "timestamp": 1569263114721
+}, {
+    "time": 78800,
+    "timeup": false,
+    "valores_comprension": {
+        "id": "demo1",
+        "order": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "forms": {
+            "Cairn": {
+                "id": "Cairn",
+                "choice": "5",
+                "time": 73912,
+                "nClicks": 1,
+                "value": "6",
+                "isCorrect": true,
+                "attempts": []
+            },
+            "Norwich": {
+                "id": "Norwich",
+                "choice": "5",
+                "time": 69419,
+                "nClicks": 1,
+                "value": "6",
+                "isCorrect": true,
+                "attempts": []
+            },
+            "Irish": {
+                "id": "Irish",
+                "choice": "6",
+                "time": 69984,
+                "nClicks": 1,
+                "value": "7",
+                "isCorrect": true,
+                "attempts": []
+            },
+            "Scottish": {
+                "id": "Scottish",
+                "choice": "6",
+                "time": 70984,
+                "nClicks": 1,
+                "value": "7",
+                "isCorrect": true,
+                "attempts": []
+            }
+        },
+        "missValues": []
+    },
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 7,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1569263193677
+}, {
+    "time": 11900,
+    "timeup": false,
+    "valores_demogra": {
+        "id": "demo1",
+        "order": [
+            0,
+            1,
+            2
+        ],
+        "forms": {
+            "gender": {
+                "id": "gender",
+                "choice": "0",
+                "time": 3709,
+                "nClicks": 1,
+                "value": "Masculino",
+                "isCorrect": true,
+                "attempts": []
+            },
+            "age": {
+                "id": "age",
+                "choice": "1",
+                "time": 6092,
+                "nClicks": 1,
+                "value": "21-30",
+                "isCorrect": true,
+                "attempts": []
+            },
+            "carreer": {
+                "id": "carreer",
+                "choice": "4",
+                "time": 9724,
+                "nClicks": 1,
+                "value": "Facultad de Ciencia Política, Gobierno y Relaciones Internacionales",
+                "isCorrect": true,
+                "attempts": []
+            }
+        },
+        "missValues": []
+    },
+    "done": true,
+    "player": "635827706647708",
+    "stage": {
+        "stage": 8,
+        "step": 1,
+        "round": 1
+    },
+    "timestamp": 1569263205738
+}]
