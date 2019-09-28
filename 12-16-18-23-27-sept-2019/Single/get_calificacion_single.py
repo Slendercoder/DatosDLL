@@ -33,7 +33,7 @@ for i in range(1, int(End) + 1):
 # Listas con datos
 pareja = []
 jugador = []
-raza = []
+# raza = []
 calificacionA = []
 calificacionB = []
 calificacionC = []
@@ -63,15 +63,15 @@ for counter in indices:
 	# dyadName = str(Players[0][:5]) + '-' + str(Players[1][:5])
 	# print("Dyad name: ", dyadName)
 
-	razas = {}
-	if Data[0][u'player'] == Players[0]:
-		razas[Players[0]] = Data[0][u'Raza']
-		razas[Players[1]] = Data[1][u'Raza']
-	else:
-		razas[Players[0]] = Data[1][u'Raza']
-		razas[Players[1]] = Data[0][u'Raza']
-
-	print('Razas:', razas)
+	# razas = {}
+	# if Data[0][u'player'] == Players[0]:
+	# 	razas[Players[0]] = Data[0][u'Raza']
+	# 	razas[Players[1]] = Data[1][u'Raza']
+	# else:
+	# 	razas[Players[0]] = Data[1][u'Raza']
+	# 	razas[Players[1]] = Data[0][u'Raza']
+	#
+	# print('Razas:', razas)
 
 	# Getting data from Encuesta
 	for d in Data:
@@ -92,13 +92,13 @@ for counter in indices:
 			calificacionB.append(d[u'valores_comprension'][u'forms'][u'Irish'][u'value'])
 			calificacionD.append(d[u'valores_comprension'][u'forms'][u'Scottish'][u'value'])
 			jugador.append(d[u'player'])
-			raza.append(razas[d[u'player']])
+			# raza.append(razas[d[u'player']])
 		except:
 			# a = True
 			print("No grading phase. Skip!")
 
 print('len(jugador)', len(jugador))
-print('len(raza)', len(raza))
+# print('len(raza)', len(raza))
 print('len(calificacionA)', len(calificacionA))
 print('len(calificacionB)', len(calificacionB))
 print('len(calificacionC)', len(calificacionC))
@@ -107,7 +107,7 @@ print('len(calificacionD)', len(calificacionD))
 dict = {
 	# 'Dyad': pareja,
 	'Player': jugador,
-	'Kind': raza,
+	# 'Kind': raza,
 	'GradingA': calificacionA,
 	'GradingB': calificacionB,
 	'GradingC': calificacionC,

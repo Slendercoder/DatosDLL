@@ -4,6 +4,8 @@ library(ggplot2)
 library(gridExtra)
 library(latex2exp)
 library(grid)
+library(dplyr)
+
 
 get_legend<-function(myggplot){
   tmp <- ggplot_gtable(ggplot_build(myggplot))
@@ -106,38 +108,96 @@ g2 <- g2 + theme(legend.position="none")
 
 gScore <- grid.arrange(g1, g2, nrow = 1, bottom=legend)
 
+###############################################################
 
-dfCalificacion = read.csv('calificacion.csv')
-head(dfCalificacion)
+dfCalificacionGroup = read.csv('calificacion_group.csv')
+dfCalificacionGroup$Exp <- as.character('Pairs')
+head(dfCalificacionGroup)
 
-dfTerriers <- 
+dfCalificacionSingle = read.csv('calificacion_single.csv')
+dfCalificacionSingle$Exp <- as.character('Single')
+head(dfCalificacionSingle)
 
-proms <- c(mean(dfCalificacion$GradingA), 
-           mean(dfCalificacion$GradingB), 
-           mean(dfCalificacion$GradingC), 
-           mean(dfCalificacion$GradingD))
+dfCalificacion <- rbind(
+  dfCalificacionGroup[c(
+   'Player',
+   'Kind',
+   'GradingA',
+   'GradingB',
+   'GradingC',
+   'GradingD',
+   'Exp')
+   ],
+  dfCalificacionSingle[c(
+    'Player',
+    'Kind',
+    'GradingA',
+    'GradingB',
+    'GradingC',
+    'GradingD',
+    'Exp')
+    ]
+)
 
-proms
+calificacion_summary <- dfCalificacion %>% # the names of the new data frame and the data frame to be summarised
+  group_by(Kind) %>%   # the grouping variable
+  summarise(mean_PL = mean(GradingA),  # calculates the mean of each group
+            sd_PL = sd(GradingA), # calculates the standard deviation of each group
+            n_PL = n(),  # calculates the sample size per group
+            SE_PL = sd(GradingA)/sqrt(n())) # calculates the standard error of each group
 
-dfKindA <- summarySE(dfCalificacion, measurevar="GradingA", groupvars=c("Kind"))
-head(dfKindA)
+gA <- ggplot(calificacion_summary, aes(Kind, mean_PL)) + 
+  geom_col() +  
+  geom_errorbar(aes(ymin = mean_PL - sd_PL, ymax = mean_PL + sd_PL), width=0.2) +
+  ylim(c(0,8)) + 
+  ggtitle("Cairn Terrier") +
+  labs(y="Confidence ± s.d.", x = "Expertice") + 
+  theme_classic()
 
-dfKindB <- summarySE(dfCalificacion, measurevar="GradingB", groupvars=c("Kind"))
-head(dfKindB)
+calificacion_summary <- dfCalificacion %>% # the names of the new data frame and the data frame to be summarised
+  group_by(Kind) %>%   # the grouping variable
+  summarise(mean_PL = mean(GradingB),  # calculates the mean of each group
+            sd_PL = sd(GradingB), # calculates the standard deviation of each group
+            n_PL = n(),  # calculates the sample size per group
+            SE_PL = sd(GradingB)/sqrt(n())) # calculates the standard error of each group
 
-dfKindC <- summarySE(dfCalificacion, measurevar="GradingC", groupvars=c("Kind"))
-head(dfKindC)
+gB <- ggplot(calificacion_summary, aes(Kind, mean_PL)) + 
+  geom_col() +  
+  geom_errorbar(aes(ymin = mean_PL - sd_PL, ymax = mean_PL + sd_PL), width=0.2) +
+  ylim(c(0,8)) + 
+  ggtitle("Irish Wolfhound") + 
+  labs(y="Confidence ± s.d.", x = "Expertice") + 
+  theme_classic()
 
-dfKindD <- summarySE(dfCalificacion, measurevar="GradingD", groupvars=c("Kind"))
-head(dfKindD)
+calificacion_summary <- dfCalificacion %>% # the names of the new data frame and the data frame to be summarised
+  group_by(Kind) %>%   # the grouping variable
+  summarise(mean_PL = mean(GradingC),  # calculates the mean of each group
+            sd_PL = sd(GradingC), # calculates the standard deviation of each group
+            n_PL = n(),  # calculates the sample size per group
+            SE_PL = sd(GradingC)/sqrt(n())) # calculates the standard error of each group
 
-g2 <- ggplot(dfScore, aes(x = Round, y = Score, group = "Kind", color = "Kind")) +
-  geom_line(size=0.7) +
-  geom_ribbon(aes(ymin = Score - sd,
-                  ymax = Score + sd), alpha = 0.2) +
-  #  scale_colour_manual(values = c("Observed behavior" = "#999999", "WSLS" = "#E69F00", "FRA" = "#56B4E9")) +  
-  xlab("Round") +
-  ylab("Av. Score") +
-  theme_bw()
+gC <- ggplot(calificacion_summary, aes(Kind, mean_PL)) + 
+  geom_col() +  
+  geom_errorbar(aes(ymin = mean_PL - sd_PL, ymax = mean_PL + sd_PL), width=0.2) +
+  ylim(c(0,8)) + 
+  ggtitle("Norwich Terrier") + 
+  labs(y="Confidence ± s.d.", x = "Expertice") + 
+  theme_classic()
 
-g2
+calificacion_summary <- dfCalificacion %>% # the names of the new data frame and the data frame to be summarised
+  group_by(Kind) %>%   # the grouping variable
+  summarise(mean_PL = mean(GradingD),  # calculates the mean of each group
+            sd_PL = sd(GradingD), # calculates the standard deviation of each group
+            n_PL = n(),  # calculates the sample size per group
+            SE_PL = sd(GradingD)/sqrt(n())) # calculates the standard error of each group
+
+gD <- ggplot(calificacion_summary, aes(Kind, mean_PL)) + 
+  geom_col() +  
+  geom_errorbar(aes(ymin = mean_PL - sd_PL, ymax = mean_PL + sd_PL), width=0.2) +
+  ylim(c(0,8)) + 
+  ggtitle("Scottish Deerhound") + 
+  labs(y="Confidence ± s.d.", x = "Expertice") + 
+  theme_classic()
+
+gGrading <- grid.arrange(gA, gB, gC, gD, nrow = 2)
+``
