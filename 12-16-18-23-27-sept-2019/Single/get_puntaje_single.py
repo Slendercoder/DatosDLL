@@ -1,7 +1,7 @@
 # Python 3.7
 
 # 	Parse from json format into csv format
-# 	It creates "comunicacion.csv"
+# 	It creates "puntaje.csv"
 
 print("Importing libraries...")
 import json
@@ -35,12 +35,7 @@ pareja = []
 jugador = []
 stage = []
 ronda = []
-Contador = []
-objetoSolicitado = []
-rotulo = []
-Sups = []
-mensajeRecibido = []
-dictRecibido = {}
+puntaje = []
 
 for counter in indices:
 	# Opens json file with data from experiment and uploads it into Data
@@ -60,88 +55,35 @@ for counter in indices:
 			Players.append(d[u'player'])
 
 	print("Lista de jugadores: ", Players)
-	assert(len(Players) == 2), "Error: Pareja no contiene numero exacto de jugadores!"
+	assert(len(Players) == 1), "Error: Pareja no contiene numero exacto de jugadores!"
 
-	dyadName = str(Players[0][:5]) + '-' + str(Players[1][:5])
+	dyadName = str(Players[0][:5]) + '-' + str(Players[0][:5])
 	print("Dyad name: ", dyadName)
 
-	# Getting data from Comunicacion
-	# Encuentra primero que se respondio a cada pedido
+	# Getting data from Puntaje
 	for d in Data:
 		try:
-			print("Reading line with recibido data...", len(d[u'Respuesta']))
-			p = d[u'player']
-			s = d[u'stage'][u'stage']
-			r = d[u'stage'][u'round']
-			siNo = d[u'Respuesta'][0]
-			# perro = d[u'Respuesta'][1]
-			contador = int(d[u'Respuesta'][2])
-			print("Tupla: ", (p, s, r, contador))
-			dictRecibido[(p, s, r, contador)] = siNo
-			# m = int(d[u'Respuesta'][1])
-			# dictRecibido[(p, r, m)] = d[u'Respuesta'][0]
-			# print(dictRecibido)
-		except:
-			print("No respuesta. Skip!")
-		# # Verificar el mal marcado Comunicacion: Ignorar
-		# try:
-		# 	print("Verificando Ignorar escondido", len(d[u'Comunicacion']))
-		# 	if d[u'Comunicacion'][0] == 'Ignorar':
-		# 		print("Pillado!")
-		# 		p = d[u'player']
-		# 		r = d[u'stage'][u'round']
-		# 		m = d[u'Comunicacion'][1]
-		# 		dictRecibido[(p, r, m)] = 'Ignorar'
-		# 		print(dictRecibido)
-		# except:
-		# 	print("Continue")
-
-	for d in Data:
-		try:
-			print("Reading line with comunicacion data...", len(d[u'Comunicacion']))
-			# print('Intentando...')
+			print("Reading line with puntaje data...", len(d[u'Puntaje']))
 			pareja.append(dyadName)
 			jugador.append(d[u'player'])
-			s = d[u'stage'][u'stage']
-			stage.append(s)
-			r = d[u'stage'][u'round']
-			ronda.append(r)
-			rotulo.append(d[u'Comunicacion'][0])
-			objetoSolicitado.append(d[u'Comunicacion'][1])
-			Sups.append(d[u'Comunicacion'][2])
-			contador = d[u'Comunicacion'][3]
-			Contador.append(contador)
-			if Players[0] == d[u'player']:
-				p = Players[1]
-			else:
-				p = Players[0]
-			print("Tupla: ", (p, s, r, contador))
-			try:
-				o = dictRecibido[(p, s, r, contador)]
-				mensajeRecibido.append(o)
-			except:
-				print("No response!")
-				mensajeRecibido.append('-')
+			stage.append(d[u'stage'][u'stage'])
+			ronda.append(d[u'stage'][u'round'])
+			puntaje.append(d[u'Puntaje'][2])
 		except:
-			print("No comunicacion. Skip!")
+			print("No score. Skip!")
 
 dict = {
 	'Dyad': pareja,
 	'Player': jugador,
 	'Stage': stage,
 	'Round': ronda,
-	'Contador': Contador,
-	'Perro': objetoSolicitado,
-	'Rotulo': rotulo,
-	'suposicion': Sups,
-	'Recibido': mensajeRecibido
+	'Score': puntaje
 }
 data = pd.DataFrame.from_dict(dict)
 
-archivo = 'comunicacion.csv'
+archivo = 'puntaje.csv'
 data.to_csv(archivo, index=False)
 print("Data saved to ", archivo)
-
 
 	# matricesFrecuenciasP1 = [[[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]]]
 	# matricesFrecuenciasP2 = [[[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]]]

@@ -78,8 +78,8 @@ for counter in indices:
 			jugador.append(d[u'player'])
 			raza.append(razas[d[u'player']])
 			calificacionA.append(d[u'valores_comprension'][u'forms'][u'Cairn'][u'value'])
-			calificacionB.append(d[u'valores_comprension'][u'forms'][u'Norwich'][u'value'])
-			calificacionC.append(d[u'valores_comprension'][u'forms'][u'Irish'][u'value'])
+			calificacionC.append(d[u'valores_comprension'][u'forms'][u'Norwich'][u'value'])
+			calificacionB.append(d[u'valores_comprension'][u'forms'][u'Irish'][u'value'])
 			calificacionD.append(d[u'valores_comprension'][u'forms'][u'Scottish'][u'value'])
 		except:
 			print("No grading phase. Skip!")

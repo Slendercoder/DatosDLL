@@ -30,14 +30,15 @@ for i in range(1, int(End) + 1):
 	except:
 		print("No good! No indice " + str(i))
 
-# Nombres de los rotulos
-Rotulos = ['zal', 'xol', 'dup']
-
 # Listas con datos
 pareja = []
 jugador = []
-objeto = []
-marcadoCon = []
+genero = []
+edad = []
+carrera = []
+estrategia = []
+mensajes = []
+categorias = []
 
 for counter in indices:
 	# Opens json file with data from experiment and uploads it into Data
@@ -65,56 +66,50 @@ for counter in indices:
 	# Getting data from Encuesta
 	for d in Data:
 		try:
-			print("Reading line with encuesta data...", len(d[u'Encuesta']))
-			for i in range(1, 4):
-				if d[u'Encuesta'][i]:
-					pareja.append(dyadName)
-					jugador.append(d[u'player'])
-					objeto.append(d[u'Encuesta'][0])
-					marcadoCon.append(Rotulos[i -1])
+			print("Reading line with encuesta data...", len(d[u'valores_demogra']))
+			pareja.append(dyadName)
+			jugador.append(d[u'player'])
+			genero.append(d[u'valores_demogra'][u'forms'][u'gender'][u'choice'])
+			edad.append(d[u'valores_demogra'][u'forms'][u'age'][u'choice'])
+			carrera.append(d[u'valores_demogra'][u'forms'][u'carreer'][u'choice'])
+			estrategia.append(d[u'valores_strat'][u'forms'][u'strategy'][u'choice'])
+			mensajes.append(d[u'valores_strat'][u'forms'][u'messages'][u'choice'])
+			categorias.append(d[u'valores_strat'][u'forms'][u'recognition'][u'choice'])
+# =======
+# 			estrategia.append(d[u'valores'][u'forms'][u'strategy'][u'choice'])
+# 			genero.append(d[u'valores'][u'forms'][u'gender'][u'choice'])
+# 			edad.append(d[u'valores'][u'forms'][u'age'][u'choice'])
+# 			carrera.append(d[u'valores'][u'forms'][u'carreer'][u'choice'])
+# 			# mensajes.append((d[u'valores'][u'forms'][u'messages'][u'choice'])[0])
+# 			# categorias.append((d[u'valores'][u'forms'][u'recognition'][u'choice'])[0])
+# 			cat = ''
+# 			for i in d[u'valores'][u'forms'][u'recognition'][u'choice']:
+# 				val = i + ', '
+# 				cat += val
+# 			categorias.append(cat)
+# 			mes = ''
+# 			for i in d[u'valores'][u'forms'][u'messages'][u'choice']:
+# 				val = i + ', '
+# 				mes += val
+# 			mensajes.append(mes)
+# >>>>>>> d200add1b2a4d10633353c65154e2094edb38015
+
 		except:
 			print("No communication phase. Skip!")
 
 dict = {
 	'Dyad': pareja,
 	'Player': jugador,
-	'typeOfObject': objeto,
-	'Label': marcadoCon
+	'Genero': genero,
+	'Edad': edad,
+	'Carrera': carrera,
+	'Estrategia': estrategia,
+	'Mensajes': mensajes,
+	'Categoria': categorias
 }
+
 data = pd.DataFrame.from_dict(dict)
 
 archivo = 'encuesta.csv'
 data.to_csv(archivo, index=False)
 print("Data saved to ", archivo)
-
-	# matricesFrecuenciasP1 = [[[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]]]
-	# matricesFrecuenciasP2 = [[[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]], [[0,0,0], [0,0,0], [0,0,0]]]
-	# # Each matrix in the list represents a round in the game. The rows and columns in the matrices represent the words and the shapes in the game
-	# contador = 0
-	# player1 = Data[0][u'player']
-	# for d in Data:
-	# 	print "Counter: ", contador
-	# 	if d[u'stage'][u'stage'] == 3:
-	# 		if d[u'stage'][u'step'] == 2:
-	# 			try:
-	# 				for i in range(1, 4):
-	# 					if d[u'Encuesta'][i]:
-	# 						if d[u'Encuesta'][0] == "Circulo":
-	# 							if d[u'player'] == player1:
-	# 								matrizFrecuenciasp1[d[u'stage'][u'round']-1][i-1][0] += 1
-	# 							else:
-	# 								matrizFrecuenciasp2[d[u'stage'][u'round']-1][i-1][0] += 1
-	# 						elif d[u'Encuesta'][0] == "Cuadrado":
-	# 							if d[u'player'] == player1:
-	# 								matrizFrecuenciasp1[d[u'stage'][u'round']-1][i-1][1] += 1
-	# 							else:
-	# 								matrizFrecuenciasp2[d[u'stage'][u'round']-1][i-1][1] += 1
-	# 						else:
-	# 							if d[u'player'] == player1:
-	# 								matrizFrecuenciasp1[d[u'stage'][u'round']-1][i-1][2] += 1
-	# 							else:
-	# 								matrizFrecuenciasp2[d[u'stage'][u'round']-1][i-1][2] += 1
-	# 						break
-	# 			except:
-	# 				print "No communication phase. Skip!"
-	# 	contador += 1

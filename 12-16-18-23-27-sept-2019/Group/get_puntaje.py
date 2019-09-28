@@ -33,9 +33,8 @@ for i in range(1, int(End) + 1):
 # Listas con datos
 pareja = []
 jugador = []
+stage = []
 ronda = []
-objetoIzq = []
-objetoDer = []
 puntaje = []
 
 for counter in indices:
@@ -67,9 +66,8 @@ for counter in indices:
 			print("Reading line with puntaje data...", len(d[u'Puntaje']))
 			pareja.append(dyadName)
 			jugador.append(d[u'player'])
+			stage.append(d[u'stage'][u'stage'])
 			ronda.append(d[u'stage'][u'round'])
-			objetoIzq.append(d[u'Puntaje'][0])
-			objetoDer.append(d[u'Puntaje'][1])
 			puntaje.append(d[u'Puntaje'][2])
 		except:
 			print("No score. Skip!")
@@ -77,9 +75,8 @@ for counter in indices:
 dict = {
 	'Dyad': pareja,
 	'Player': jugador,
+	'Stage': stage,
 	'Round': ronda,
-	'objectLeft': objetoIzq,
-	'objectRight': objetoDer,
 	'Score': puntaje
 }
 data = pd.DataFrame.from_dict(dict)
