@@ -140,64 +140,83 @@ dfCalificacion <- rbind(
 )
 
 calificacion_summary <- dfCalificacion %>% # the names of the new data frame and the data frame to be summarised
-  group_by(Kind) %>%   # the grouping variable
+  group_by(Exp, Kind) %>%   # the grouping variable
   summarise(mean_PL = mean(GradingA),  # calculates the mean of each group
             sd_PL = sd(GradingA), # calculates the standard deviation of each group
             n_PL = n(),  # calculates the sample size per group
             SE_PL = sd(GradingA)/sqrt(n())) # calculates the standard error of each group
 
-gA <- ggplot(calificacion_summary, aes(Kind, mean_PL)) + 
-  geom_col() +  
-  geom_errorbar(aes(ymin = mean_PL - sd_PL, ymax = mean_PL + sd_PL), width=0.2) +
+gA <- ggplot(calificacion_summary, aes(Kind, group=Exp, fill=Exp)) + 
+  geom_col(aes(y=mean_PL), position="dodge") +  
+  geom_errorbar(aes(ymin = mean_PL - sd_PL, ymax = mean_PL + sd_PL),
+                size=0.3,
+                width=0.2,
+                position=position_dodge(.9)) +
   ylim(c(0,8)) + 
   ggtitle("Cairn Terrier") +
-  labs(y="Confidence ± s.d.", x = "Expertice") + 
+  labs(y="Confidence ± s.d.", 
+       x = "Expertice", 
+       fill = "Condition") +
   theme_classic()
 
 calificacion_summary <- dfCalificacion %>% # the names of the new data frame and the data frame to be summarised
-  group_by(Kind) %>%   # the grouping variable
+  group_by(Exp, Kind) %>%   # the grouping variable
   summarise(mean_PL = mean(GradingB),  # calculates the mean of each group
             sd_PL = sd(GradingB), # calculates the standard deviation of each group
             n_PL = n(),  # calculates the sample size per group
             SE_PL = sd(GradingB)/sqrt(n())) # calculates the standard error of each group
 
-gB <- ggplot(calificacion_summary, aes(Kind, mean_PL)) + 
-  geom_col() +  
-  geom_errorbar(aes(ymin = mean_PL - sd_PL, ymax = mean_PL + sd_PL), width=0.2) +
+gB <- ggplot(calificacion_summary, aes(Kind, group=Exp, fill=Exp)) + 
+  geom_col(aes(y=mean_PL), position="dodge") +  
+  geom_errorbar(aes(ymin = mean_PL - sd_PL, ymax = mean_PL + sd_PL),
+                size=0.3,
+                width=0.2,
+                position=position_dodge(.9)) +
   ylim(c(0,8)) + 
   ggtitle("Irish Wolfhound") + 
-  labs(y="Confidence ± s.d.", x = "Expertice") + 
+  labs(y="Confidence ± s.d.", 
+       x = "Expertice", 
+       fill = "Condition") +
   theme_classic()
 
 calificacion_summary <- dfCalificacion %>% # the names of the new data frame and the data frame to be summarised
-  group_by(Kind) %>%   # the grouping variable
+  group_by(Exp, Kind) %>%   # the grouping variable
   summarise(mean_PL = mean(GradingC),  # calculates the mean of each group
             sd_PL = sd(GradingC), # calculates the standard deviation of each group
             n_PL = n(),  # calculates the sample size per group
             SE_PL = sd(GradingC)/sqrt(n())) # calculates the standard error of each group
 
-gC <- ggplot(calificacion_summary, aes(Kind, mean_PL)) + 
-  geom_col() +  
-  geom_errorbar(aes(ymin = mean_PL - sd_PL, ymax = mean_PL + sd_PL), width=0.2) +
+gC <- ggplot(calificacion_summary, aes(Kind, group=Exp, fill=Exp)) + 
+  geom_col(aes(y=mean_PL), position="dodge") +  
+  geom_errorbar(aes(ymin = mean_PL - sd_PL, ymax = mean_PL + sd_PL),
+                size=0.3,
+                width=0.2,
+                position=position_dodge(.9)) +
   ylim(c(0,8)) + 
   ggtitle("Norwich Terrier") + 
-  labs(y="Confidence ± s.d.", x = "Expertice") + 
+  labs(y="Confidence ± s.d.", 
+       x = "Expertice", 
+       fill = "Condition") +
   theme_classic()
 
 calificacion_summary <- dfCalificacion %>% # the names of the new data frame and the data frame to be summarised
-  group_by(Kind) %>%   # the grouping variable
+  group_by(Exp, Kind) %>%   # the grouping variable
   summarise(mean_PL = mean(GradingD),  # calculates the mean of each group
             sd_PL = sd(GradingD), # calculates the standard deviation of each group
             n_PL = n(),  # calculates the sample size per group
             SE_PL = sd(GradingD)/sqrt(n())) # calculates the standard error of each group
 
-gD <- ggplot(calificacion_summary, aes(Kind, mean_PL)) + 
-  geom_col() +  
-  geom_errorbar(aes(ymin = mean_PL - sd_PL, ymax = mean_PL + sd_PL), width=0.2) +
+gD <- ggplot(calificacion_summary, aes(Kind, group=Exp, fill=Exp)) + 
+  geom_col(aes(y=mean_PL), position="dodge") +  
+  geom_errorbar(aes(ymin = mean_PL - sd_PL, ymax = mean_PL + sd_PL),
+                size=0.3,
+                width=0.2,
+                position=position_dodge(.9)) +
   ylim(c(0,8)) + 
   ggtitle("Scottish Deerhound") + 
-  labs(y="Confidence ± s.d.", x = "Expertice") + 
+  labs(y="Confidence ± s.d.", 
+       x = "Expertice", 
+       fill = "Condition") +
   theme_classic()
 
 gGrading <- grid.arrange(gA, gB, gC, gD, nrow = 2)
-``

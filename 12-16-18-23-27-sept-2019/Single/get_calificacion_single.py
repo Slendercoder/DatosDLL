@@ -33,7 +33,7 @@ for i in range(1, int(End) + 1):
 # Listas con datos
 pareja = []
 jugador = []
-# raza = []
+raza = []
 calificacionA = []
 calificacionB = []
 calificacionC = []
@@ -43,6 +43,7 @@ valores = [str(x) for x in range(8)]
 for counter in indices:
 	# Opens json file with data from experiment and uploads it into Data
 	data_archivo = 'data_lgc' + counter + '.json'
+	print('Processing file', data_archivo)
 	with open(data_archivo) as data_file:
 		Data = json.load(data_file)
 	data_file.close()
@@ -51,27 +52,18 @@ for counter in indices:
 	# Processing information of players performance
 	# --------------------------------------------------
 
-	# Finding dyad
-	Players = []
+	razas = ""
 	for d in Data:
-		if d[u'player'] not in Players:
-			Players.append(d[u'player'])
-
-	# print("Lista de jugadores: ", Players)
-	# assert(len(Players) == 2), "Error: Pareja no contiene numero exacto de jugadores!"
-	#
-	# dyadName = str(Players[0][:5]) + '-' + str(Players[1][:5])
-	# print("Dyad name: ", dyadName)
-
-	# razas = {}
-	# if Data[0][u'player'] == Players[0]:
-	# 	razas[Players[0]] = Data[0][u'Raza']
-	# 	razas[Players[1]] = Data[1][u'Raza']
-	# else:
-	# 	razas[Players[0]] = Data[1][u'Raza']
-	# 	razas[Players[1]] = Data[0][u'Raza']
-	#
-	# print('Razas:', razas)
+		# Encontrando razas
+		try:
+			if d[u'stage'][u'stage'] == 5:
+				if d[u'ParaK'][1] == "A" or d[u'ParaK'][1] == "C":
+					razas = "terrier"
+				else:
+					razas = "hound"
+				break
+		except:
+			print("Orden raro :(")
 
 	# Getting data from Encuesta
 	for d in Data:
@@ -92,13 +84,13 @@ for counter in indices:
 			calificacionB.append(d[u'valores_comprension'][u'forms'][u'Irish'][u'value'])
 			calificacionD.append(d[u'valores_comprension'][u'forms'][u'Scottish'][u'value'])
 			jugador.append(d[u'player'])
-			# raza.append(razas[d[u'player']])
+			raza.append(razas)
 		except:
-			# a = True
-			print("No grading phase. Skip!")
+			a = True
+			# print("No grading phase. Skip!")
 
 print('len(jugador)', len(jugador))
-# print('len(raza)', len(raza))
+print('len(raza)', len(raza))
 print('len(calificacionA)', len(calificacionA))
 print('len(calificacionB)', len(calificacionB))
 print('len(calificacionC)', len(calificacionC))
@@ -107,7 +99,7 @@ print('len(calificacionD)', len(calificacionD))
 dict = {
 	# 'Dyad': pareja,
 	'Player': jugador,
-	# 'Kind': raza,
+	'Kind': raza,
 	'GradingA': calificacionA,
 	'GradingB': calificacionB,
 	'GradingC': calificacionC,
