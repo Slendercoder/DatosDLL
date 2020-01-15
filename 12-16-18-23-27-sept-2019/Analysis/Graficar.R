@@ -154,7 +154,7 @@ gA <- ggplot(calificacion_summary, aes(Kind, group=Exp, fill=Exp)) +
                 position=position_dodge(.9)) +
   ylim(c(0,8)) + 
   ggtitle("Cairn Terrier") +
-  labs(y="Confidence ± s.d.", 
+  labs(y="Confidence in understanding", 
        x = "Expertice", 
        fill = "Condition") +
   theme_classic()
@@ -174,7 +174,7 @@ gB <- ggplot(calificacion_summary, aes(Kind, group=Exp, fill=Exp)) +
                 position=position_dodge(.9)) +
   ylim(c(0,8)) + 
   ggtitle("Irish Wolfhound") + 
-  labs(y="Confidence ± s.d.", 
+  labs(y="Confidence in understanding", 
        x = "Expertice", 
        fill = "Condition") +
   theme_classic()
@@ -194,7 +194,7 @@ gC <- ggplot(calificacion_summary, aes(Kind, group=Exp, fill=Exp)) +
                 position=position_dodge(.9)) +
   ylim(c(0,8)) + 
   ggtitle("Norwich Terrier") + 
-  labs(y="Confidence ± s.d.", 
+  labs(y="Confidence in understanding", 
        x = "Expertice", 
        fill = "Condition") +
   theme_classic()
@@ -214,7 +214,7 @@ gD <- ggplot(calificacion_summary, aes(Kind, group=Exp, fill=Exp)) +
                 position=position_dodge(.9)) +
   ylim(c(0,8)) + 
   ggtitle("Scottish Deerhound") + 
-  labs(y="Confidence ± s.d.", 
+  labs(y="Confidence in understanding", 
        x = "Expertice", 
        fill = "Condition") +
   theme_classic()
