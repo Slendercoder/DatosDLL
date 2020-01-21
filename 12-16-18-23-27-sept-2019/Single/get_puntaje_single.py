@@ -33,6 +33,7 @@ for i in range(1, int(End) + 1):
 # Listas con datos
 pareja = []
 jugador = []
+raza = []
 stage = []
 ronda = []
 puntaje = []
@@ -60,12 +61,26 @@ for counter in indices:
 	dyadName = str(Players[0][:5]) + '-' + str(Players[0][:5])
 	print("Dyad name: ", dyadName)
 
+	razas = ""
+	for d in Data:
+		# Encontrando razas
+		try:
+			if d[u'stage'][u'stage'] == 5:
+				if d[u'ParaK'][1] == "A" or d[u'ParaK'][1] == "C":
+					razas = "terrier"
+				else:
+					razas = "hound"
+				break
+		except:
+			print("Orden raro :(")
+
 	# Getting data from Puntaje
 	for d in Data:
 		try:
 			print("Reading line with puntaje data...", len(d[u'Puntaje']))
 			pareja.append(dyadName)
 			jugador.append(d[u'player'])
+			raza.append(razas)
 			stage.append(d[u'stage'][u'stage'])
 			ronda.append(d[u'stage'][u'round'])
 			puntaje.append(d[u'Puntaje'][2])
@@ -75,6 +90,7 @@ for counter in indices:
 dict = {
 	'Dyad': pareja,
 	'Player': jugador,
+	'Raza': raza,
 	'Stage': stage,
 	'Round': ronda,
 	'Score': puntaje

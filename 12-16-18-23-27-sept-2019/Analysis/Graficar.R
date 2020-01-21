@@ -12,11 +12,12 @@ get_legend<-function(myggplot){
   leg <- which(sapply(tmp$grobs, function(x) x$name) == "guide-box")
   legend <- tmp$grobs[[leg]]
   return(legend)
-}
+} # end get_legend
 
 ######################################################
 
 dfPuntajeGroup = read.csv('puntaje_group.csv')
+head(dfPuntajeGroup)
 dfPuntajeGroup$Stage <- factor(dfPuntajeGroup$Stage)
 dfPuntajeGroup$Exp <- as.character("Paired")
 head(dfPuntajeGroup)
@@ -35,15 +36,16 @@ dfPuntajeSingleGame <- dfPuntajeSingle[dfPuntajeSingle$Stage == 6, ]
 # Create single data frame for training rounds
 df <- rbind(
   dfPuntajeGroupTraining[c('Player',
-        'Stage',
-        'Round',
-        'Score',
-        'Exp')],
+                           'Raza',
+                           'Stage',
+                           'Round',
+                           'Score',
+                           'Exp')],
   dfPuntajeSingleTraining[c('Player',
-        'Stage',
-        'Round',
-        'Score',
-        'Exp')]
+                            'Raza',
+                            'Stage',
+                            'Round','Score',
+                            'Exp')]
 )
 df$Exp <- as.factor(df$Exp)
 #df$Exp <- factor(df$Exp, levels = c('Paired', 'Single'))
@@ -217,6 +219,15 @@ gD <- ggplot(calificacion_summary, aes(Kind, group=Exp, fill=Exp)) +
   labs(y="Confidence in understanding", 
        x = "Expertice", 
        fill = "Condition") +
-  theme_classic()
+  theme_classic() +
+  theme(legend.position="bottom")               # Position legend in bottom right
 
-gGrading <- grid.arrange(gA, gB, gC, gD, nrow = 2)
+legend <- get_legend(gD)
+gA <- gA + theme(legend.position="none")
+gB <- gB + theme(legend.position="none")
+gC <- gC + theme(legend.position="none")
+gD <- gD + theme(legend.position="none")
+
+gGradingTerriers <- grid.arrange(gA, gC, nrow = 1, bottom=legend)
+gGradingHounds <- grid.arrange(gB, gD, nrow = 1, bottom=legend)
+gGrading <- grid.arrange(gA, gB, gC, gD, nrow = 2, bottom=legend)
