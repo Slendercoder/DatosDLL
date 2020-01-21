@@ -5,7 +5,7 @@
 
 print("Importing libraries...")
 import json
-#import numpy as np
+import numpy as np
 import pandas as pd
 print("Done!")
 
@@ -33,6 +33,7 @@ for i in range(1, int(End) + 1):
 # Listas con datos
 pareja = []
 jugador = []
+raza = []
 stage = []
 ronda = []
 Contador = []
@@ -41,6 +42,9 @@ rotulo = []
 Sups = []
 mensajeRecibido = []
 dictRecibido = {}
+
+# Diccionario de experticias
+razas = {}
 
 for counter in indices:
 	# Opens json file with data from experiment and uploads it into Data
@@ -64,6 +68,16 @@ for counter in indices:
 
 	dyadName = str(Players[0][:5]) + '-' + str(Players[1][:5])
 	print("Dyad name: ", dyadName)
+
+	# Getting expertise from each player
+	if Data[0][u'player'] == Players[0]:
+		razas[Players[0]] = Data[0][u'Raza']
+		razas[Players[1]] = Data[1][u'Raza']
+	else:
+		razas[Players[0]] = Data[1][u'Raza']
+		razas[Players[1]] = Data[0][u'Raza']
+
+	print('Razas:', razas)
 
 	# Getting data from Comunicacion
 	# Encuentra primero que se respondio a cada pedido
@@ -102,6 +116,7 @@ for counter in indices:
 			# print('Intentando...')
 			pareja.append(dyadName)
 			jugador.append(d[u'player'])
+			raza.append(razas[d[u'player']])
 			s = d[u'stage'][u'stage']
 			stage.append(s)
 			r = d[u'stage'][u'round']
@@ -128,6 +143,7 @@ for counter in indices:
 dict = {
 	'Dyad': pareja,
 	'Player': jugador,
+	'Raza': raza,
 	'Stage': stage,
 	'Round': ronda,
 	'Contador': Contador,
@@ -137,6 +153,55 @@ dict = {
 	'Recibido': mensajeRecibido
 }
 data = pd.DataFrame.from_dict(dict)
+
+# Making sure there is at least one line per round per player
+for pl, grp in data.groupby('Player'):
+	print('Expertise check...')
+	try:
+		print(razas[list(grp.Player.unique())[0]])
+		print('Expertise ok!')
+	except:
+		print('Expertise error!')
+		print('Dyad', list(grp.Dyad.unique())[0])
+		print('Player', list(grp.Player.unique())[0])
+		print('Round', list(grp.Round.unique())[0])
+		print(razas)
+	rondas = list(grp.Round.unique())
+	# print('Rounds', rondas)
+	rondas_faltantes = [x for x in range(1, 26) if x not in rondas]
+	print('Missing rounds', rondas_faltantes)
+	for ronda in rondas_faltantes:
+		print('Including round', ronda)
+		data = data.append({'Dyad': list(grp.Dyad.unique())[0],
+		'Player': list(grp.Player.unique())[0],
+		'Raza': razas[list(grp.Player.unique())[0]],
+		'Stage': list(grp.Stage.unique())[0],
+		'Round': ronda,
+		'Contador': 0,
+		'Perro': np.nan,
+		'Rotulo': np.nan,
+		'suposicion': np.nan,
+		'Recibido': np.nan}, ignore_index=True)
+		print(data[-3:-1])
+
+jugadores = list(data.Player.unique())
+print('jugadores', jugadores)
+for ronda, grp in data.groupby('Round'):
+	print('Working with round', ronda)
+	lista = list(grp.Player.unique())
+	for pl in jugadores:
+		if pl not in lista:
+			print('Player', pl, ' not in DataFrame')
+			data = data.append({'Dyad': list(grp.Dyad.unique())[0],
+			'Player': pl,
+			'Raza': razas[pl],
+			'Stage': list(grp.Stage.unique())[0],
+			'Round': ronda,
+			'Contador': 0,
+			'Perro': np.nan,
+			'Rotulo': np.nan,
+			'suposicion': np.nan,
+			'Recibido': np.nan}, ignore_index=True)
 
 archivo = 'comunicacion.csv'
 data.to_csv(archivo, index=False)

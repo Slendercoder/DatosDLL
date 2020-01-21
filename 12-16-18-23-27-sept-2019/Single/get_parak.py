@@ -70,12 +70,6 @@ for counter in indices:
 		if d[u'player'] not in Players:
 			Players.append(d[u'player'])
 
-	print("Lista de jugadores: ", Players)
-	assert(len(Players) == 2), "Error: Pareja no contiene numero exacto de jugadores!"
-
-	dyadName = str(Players[0][:5]) + '-' + str(Players[1][:5])
-	print("Dyad name: ", dyadName)
-
 	# Getting expertise from each player
 	if Data[0][u'player'] == Players[0]:
 		razas[Players[0]] = Data[0][u'Raza']

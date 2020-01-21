@@ -38,6 +38,9 @@ stage = []
 ronda = []
 puntaje = []
 
+# Diccionario de experticias
+razas = {}
+
 for counter in indices:
 	# Opens json file with data from experiment and uploads it into Data
 	data_archivo = 'data_lgc' + counter + '.json'
@@ -61,7 +64,6 @@ for counter in indices:
 	dyadName = str(Players[0][:5]) + '-' + str(Players[1][:5])
 	print("Dyad name: ", dyadName)
 
-	razas = {}
 	if Data[0][u'player'] == Players[0]:
 		razas[Players[0]] = Data[0][u'Raza']
 		razas[Players[1]] = Data[1][u'Raza']
