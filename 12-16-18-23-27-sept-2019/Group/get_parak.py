@@ -111,6 +111,9 @@ dict = {
 }
 data = pd.DataFrame.from_dict(dict)
 
+# Finds kind of dog
+data['Kind'] = data.apply(lambda x: list(x['Object'])[0], axis=1)
+
 # Determining correctness per classification
 data['Correct'] = data.apply(lambda x: correctness(x), axis=1)
 

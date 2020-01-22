@@ -15,7 +15,7 @@ print("Done!")
 
 def correctness(x):
 	guess = list(x['Object'])[0]
-	print('guess', guess)
+	# print('guess', guess)
 	if guess == x['Label']:
 		return 1
 	else:
@@ -50,9 +50,6 @@ ronda = []
 Imagen = []
 Rotulo = []
 
-# Diccionario de experticias
-razas = {}
-
 for counter in indices:
 	# Opens json file with data from experiment and uploads it into Data
 	data_archivo = 'data_lgc' + counter + '.json'
@@ -70,15 +67,24 @@ for counter in indices:
 		if d[u'player'] not in Players:
 			Players.append(d[u'player'])
 
-	# Getting expertise from each player
-	if Data[0][u'player'] == Players[0]:
-		razas[Players[0]] = Data[0][u'Raza']
-		razas[Players[1]] = Data[1][u'Raza']
-	else:
-		razas[Players[0]] = Data[1][u'Raza']
-		razas[Players[1]] = Data[0][u'Raza']
+	print("Lista de jugadores: ", Players)
+	assert(len(Players) == 1), "Error: Pareja no contiene numero exacto de jugadores!"
 
-	print('Razas:', razas)
+	dyadName = str(Players[0][:5]) + '-' + str(Players[0][:5])
+	print("Dyad name: ", dyadName)
+
+	razas = ""
+	for d in Data:
+		# Encontrando razas
+		try:
+			if d[u'stage'][u'stage'] == 5:
+				if d[u'ParaK'][1] == "A" or d[u'ParaK'][1] == "C":
+					razas = "terrier"
+				else:
+					razas = "hound"
+				break
+		except:
+			print("Orden raro :(")
 
 	# Getting data from paraK
 	for d in Data:
@@ -86,7 +92,7 @@ for counter in indices:
 			print("Reading line with paraK data...", len(d[u'ParaK']))
 			pareja.append(dyadName)
 			jugador.append(d[u'player'])
-			raza.append(razas[d[u'player']])
+			raza.append(razas)
 			stage.append(d[u'stage'][u'stage'])
 			ronda.append(d[u'stage'][u'round'])
 			Imagen.append(d[u'ParaK'][0])
@@ -104,6 +110,9 @@ dict = {
 	'Label': Rotulo
 }
 data = pd.DataFrame.from_dict(dict)
+
+# Finds kind of dog
+data['Kind'] = data.apply(lambda x: list(x['Object'])[0], axis=1)
 
 # Determining correctness per classification
 data['Correct'] = data.apply(lambda x: correctness(x), axis=1)

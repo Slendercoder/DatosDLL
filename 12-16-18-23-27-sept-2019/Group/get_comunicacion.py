@@ -9,7 +9,6 @@ import numpy as np
 import pandas as pd
 print("Done!")
 
-
 ######################################################
 # Data parsing begins here...
 ######################################################
@@ -152,7 +151,75 @@ dict = {
 	'suposicion': Sups,
 	'Recibido': mensajeRecibido
 }
+
 data = pd.DataFrame.from_dict(dict)
+
+# Encontrando tipo de perro para cada pareja y cada ronda
+perros_dict = {}
+for counter in indices:
+	# Opens json file with data from experiment and uploads it into Data
+	data_archivo = 'data_lgc' + counter + '.json'
+	with open(data_archivo) as data_file:
+		Data = json.load(data_file)
+	data_file.close()
+
+	# --------------------------------------------------
+	# Processing information about dogs
+	# --------------------------------------------------
+
+	# Finding dyad
+	Players = []
+	for d in Data:
+		if d[u'player'] not in Players:
+			Players.append(d[u'player'])
+
+	print("Lista de jugadores: ", Players)
+	assert(len(Players) == 2), "Error: Pareja no contiene numero exacto de jugadores!"
+
+	dyadName = str(Players[0][:5]) + '-' + str(Players[1][:5])
+	print("Dyad name: ", dyadName)
+
+	# Getting data from Puntaje
+	for d in Data:
+		try:
+			print("Reading line with puntaje data...", len(d[u'Puntaje']))
+			print('******************', d[u'stage'][u'stage'])
+			print(d[u'Puntaje'][1])
+			print(type(d[u'stage'][u'stage']))
+			if d[u'stage'][u'stage'] == 2:
+				perros_dict[(dyadName, d[u'stage'][u'round'])] = d[u'Puntaje'][1]
+		except:
+			print("No score. Skip!")
+
+print(perros_dict)
+
+print(data[['Dyad', 'Round', 'Perro']][:10])
+
+def kind_dog(x):
+	dupla = (x['Dyad'], x['Round'])
+	print('dupla', dupla)
+	perro = int(str(x['Perro'])[-1])
+	print('Numero de perro', perro)
+	try:
+		tipo = perros_dict[dupla][perro - 1]
+	except:
+		tipo = np.nan
+	print('Tipo perro', tipo)
+	return tipo
+
+data['Kind'] = data.apply(lambda x: kind_dog(x), axis=1)
+
+def correcto(x):
+	if x['Kind'] == "":
+		return(np.nan)
+	elif (x['Rotulo'] == x['Kind']) and (x['Recibido'] == 'Si'):
+		return(1)
+	elif (x['Rotulo'] != x['Kind']) and (x['Recibido'] == 'No'):
+		return(1)
+	else:
+		return(0)
+
+data['Correctitud'] = data.apply(lambda x: correcto(x), axis=1)
 
 # Making sure there is at least one line per round per player
 for pl, grp in data.groupby('Player'):
@@ -202,6 +269,8 @@ for ronda, grp in data.groupby('Round'):
 			'Rotulo': np.nan,
 			'suposicion': np.nan,
 			'Recibido': np.nan}, ignore_index=True)
+
+# Determining the type of dog...
 
 archivo = 'comunicacion.csv'
 data.to_csv(archivo, index=False)
