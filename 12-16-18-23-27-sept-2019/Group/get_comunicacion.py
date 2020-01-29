@@ -221,106 +221,105 @@ def correcto(x):
 
 data['Correctitud'] = data.apply(lambda x: correcto(x), axis=1)
 
-def cooperacion(x):
+# def cooperacion(x):
+#
+# 	rounds = [i for i in range(1, 26)]
+# 	per_round = dict.fromkeys(rounds, 0)
+# 	cont_round = dict.fromkeys(rounds, 0)
+# 	index = dict.fromkeys(rounds, 0)
+#
+# 	# SUMAS DE MENSAJES CORRECTOS POR RONDA
+#
+# 	for i in range(0, len(x['Correctitud'])):
+# 		# if(x['Correctitud'][i] == 1.0):
+# 		# 	per_round[x['Round'][i]] += 1
+# 		if (x['Raza'][i] == 'hound'):
+# 			if(x['Rotulo'][i] == 'A' or x['Rotulo'][i] == 'C'):
+# 				if(x['Correctitud'][i] == 1.0):
+# 					per_round[x['Round'][i]] += 1
+# 		if (x['Raza'][i] == 'terrier'):
+# 			if(x['Rotulo'][i] == 'B' or x['Rotulo'][i] == 'D'):
+# 				if(x['Correctitud'][i] == 1.0):
+# 					per_round[x['Round'][i]] += 1
+#
+# 	# ASIGNA A CADA RONDA EL VALOR MAXIMO QUE ALCANZO EL CONTADOR DE MENSAJES
+#
+# 	for i in range(0, len(x['Contador'])):
+# 		if(x['Contador'][i] > cont_round[x['Round'][i]]):
+# 			cont_round[x['Round'][i]] = x['Contador'][i]
+#
+# 	# COCIENTES: SUMAS DE MENSAJES CORRECTOS POR RONDA DIVIDIDAS ENTRE NUMERO DE MENSAJES POR RONDA
+#
+# 	for i in range(1, 26):
+# 		if (cont_round[i] != 0):
+# 			index[i] = float(float(per_round[i])/float(cont_round[i]))
+#
+# 	# INDICE DE COOPERACION: SUMA DE COCIENTES POR RONDA DIVIDIDA ENTRE 25
+#
+# 	var = 0
+#
+# 	for i in range(1, 26):
+# 		var += index[i]
+# 	var = var/25
+#
+# 	print('***DICCIONARIO DE SUMAS', per_round)
+# 	print('***DICCIONARIO DE CONTADORES', cont_round)
+# 	print('***DICCIONARIO DE INDICES', index)
+# 	print('***INDICE DE COOPERACION', var)
+#
+# 	return var
+#
+# cooperacion(data)
+# # Making sure there is at least one line per round per player
 
-	rounds = [i for i in range(1, 26)]
-	per_round = dict.fromkeys(rounds, 0)
-	cont_round = dict.fromkeys(rounds, 0)
-	index = dict.fromkeys(rounds, 0)
-
-	# SUMAS DE MENSAJES CORRECTOS POR RONDA
-
-	for i in range(0, len(x['Correctitud'])):
-		# if(x['Correctitud'][i] == 1.0):
-		# 	per_round[x['Round'][i]] += 1
-		if (x['Raza'][i] == 'hound'):
-			if(x['Rotulo'][i] == 'A' or x['Rotulo'][i] == 'C'):
-				if(x['Correctitud'][i] == 1.0):
-					per_round[x['Round'][i]] += 1
-		if (x['Raza'][i] == 'terrier'):
-			if(x['Rotulo'][i] == 'B' or x['Rotulo'][i] == 'D'):
-				if(x['Correctitud'][i] == 1.0):
-					per_round[x['Round'][i]] += 1
-
-	# ASIGNA A CADA RONDA EL VALOR MAXIMO QUE ALCANZO EL CONTADOR DE MENSAJES
-
-	for i in range(0, len(x['Contador'])):
-		if(x['Contador'][i] > cont_round[x['Round'][i]]):
-			cont_round[x['Round'][i]] = x['Contador'][i]
-
-	# COCIENTES: SUMAS DE MENSAJES CORRECTOS POR RONDA DIVIDIDAS ENTRE NUMERO DE MENSAJES POR RONDA
-
-	for i in range(1, 26):
-		if (cont_round[i] != 0):
-			index[i] = float(float(per_round[i])/float(cont_round[i]))
-
-	# INDICE DE COOPERACION: SUMA DE COCIENTES POR RONDA DIVIDIDA ENTRE 25
-
-	var = 0
-
-	for i in range(1, 26):
-		var += index[i]
-	var = var/25
-
-	print('***DICCIONARIO DE SUMAS', per_round)
-	print('***DICCIONARIO DE CONTADORES', cont_round)
-	print('***DICCIONARIO DE INDICES', index)
-	print('***INDICE DE COOPERACION', var)
-
-	return var
-
-cooperacion(data)
-
-# Making sure there is at least one line per round per player
-for pl, grp in data.groupby('Player'):
-	print('Expertise check...')
-	try:
-		print(razas[list(grp.Player.unique())[0]])
-		print('Expertise ok!')
-	except:
-		print('Expertise error!')
-		print('Dyad', list(grp.Dyad.unique())[0])
-		print('Player', list(grp.Player.unique())[0])
-		print('Round', list(grp.Round.unique())[0])
-		print(razas)
-	rondas = list(grp.Round.unique())
-	# print('Rounds', rondas)
-	rondas_faltantes = [x for x in range(1, 26) if x not in rondas]
-	print('Missing rounds', rondas_faltantes)
-	for ronda in rondas_faltantes:
-		print('Including round', ronda)
-		data = data.append({'Dyad': list(grp.Dyad.unique())[0],
-		'Player': list(grp.Player.unique())[0],
-		'Raza': razas[list(grp.Player.unique())[0]],
-		'Stage': list(grp.Stage.unique())[0],
-		'Round': ronda,
-		'Contador': 0,
-		'Perro': np.nan,
-		'Rotulo': np.nan,
-		'suposicion': np.nan,
-		'Recibido': np.nan}, ignore_index=True)
-		print(data[-3:-1])
-
-jugadores = list(data.Player.unique())
-print('jugadores', jugadores)
-for ronda, grp in data.groupby('Round'):
-	print('Working with round', ronda)
-	lista = list(grp.Player.unique())
-	for pl in jugadores:
-		if pl not in lista:
-			print('Player', pl, ' not in DataFrame')
-			data = data.append({'Dyad': list(grp.Dyad.unique())[0],
-			'Player': pl,
-			'Raza': razas[pl],
-			'Stage': list(grp.Stage.unique())[0],
-			'Round': ronda,
-			'Contador': 0,
-			'Perro': np.nan,
-			'Rotulo': np.nan,
-			'suposicion': np.nan,
-			'Recibido': np.nan}, ignore_index=True)
-
-# Determining the type of dog...
+# for pl, grp in data.groupby('Player'):
+# 	print('Expertise check...')
+# 	try:
+# 		print(razas[list(grp.Player.unique())[0]])
+# 		print('Expertise ok!')
+# 	except:
+# 		print('Expertise error!')
+# 		print('Dyad', list(grp.Dyad.unique())[0])
+# 		print('Player', list(grp.Player.unique())[0])
+# 		print('Round', list(grp.Round.unique())[0])
+# 		print(razas)
+# 	rondas = list(grp.Round.unique())
+# 	# print('Rounds', rondas)
+# 	rondas_faltantes = [x for x in range(1, 26) if x not in rondas]
+# 	print('Missing rounds', rondas_faltantes)
+# 	for ronda in rondas_faltantes:
+# 		print('Including round', ronda)
+# 		data = data.append({'Dyad': list(grp.Dyad.unique())[0],
+# 		'Player': list(grp.Player.unique())[0],
+# 		'Raza': razas[list(grp.Player.unique())[0]],
+# 		'Stage': list(grp.Stage.unique())[0],
+# 		'Round': ronda,
+# 		'Contador': 0,
+# 		'Perro': np.nan,
+# 		'Rotulo': np.nan,
+# 		'suposicion': np.nan,
+# 		'Recibido': np.nan}, ignore_index=True)
+# 		print(data[-3:-1])
+#
+# jugadores = list(data.Player.unique())
+# print('jugadores', jugadores)
+# for ronda, grp in data.groupby('Round'):
+# 	print('Working with round', ronda)
+# 	lista = list(grp.Player.unique())
+# 	for pl in jugadores:
+# 		if pl not in lista:
+# 			print('Player', pl, ' not in DataFrame')
+# 			data = data.append({'Dyad': list(grp.Dyad.unique())[0],
+# 			'Player': pl,
+# 			'Raza': razas[pl],
+# 			'Stage': list(grp.Stage.unique())[0],
+# 			'Round': ronda,
+# 			'Contador': 0,
+# 			'Perro': np.nan,
+# 			'Rotulo': np.nan,
+# 			'suposicion': np.nan,
+# 			'Recibido': np.nan}, ignore_index=True)
+#
 
 archivo = 'comunicacion.csv'
 data.to_csv(archivo, index=False)
