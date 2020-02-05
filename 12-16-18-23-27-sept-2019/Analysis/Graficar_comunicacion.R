@@ -57,6 +57,7 @@ gCom <- ggplot(comunicacion_summary, aes(x=Round, y=meanMess)) +
 
 gCom
 
+# Por raza
 comunicacion_summary <- dfCom %>% # the names of the new data frame and the data frame to be summarised
   dplyr::group_by(Raza, Player, Round) %>%   # the grouping variable
   dplyr::summarise(maxMessag = max(Contador),
@@ -67,7 +68,6 @@ comunicacion_summary <- dfCom %>% # the names of the new data frame and the data
                    sd_PL = sd(n, na.rm=TRUE))
 head(comunicacion_summary)
 
-# Version dplyr
 gComRaza <- ggplot(comunicacion_summary, aes(x=Round, y=meanMess, group=Raza, color=Raza)) +
   geom_line(size=0.7) +
   geom_ribbon(aes(ymin = meanMess - sd_PL,
@@ -89,6 +89,7 @@ gComRaza <- gComRaza + theme(legend.position="none")
 gMessag <- grid.arrange(gCom, gComRaza, nrow=1, 
                         top="Amount of communication",
                         right=legend)
+
 ##########################################################################
 # Drawing average number of correct replies per round 
 ##########################################################################
@@ -107,15 +108,15 @@ comunicacion_summary <- dfCom %>% # the names of the new data frame and the data
 head(comunicacion_summary)
 
 gComCorr <- ggplot(comunicacion_summary, aes(x = Round, y = mean_PL, color=Raza, group=Raza)) +
-  geom_line(size=0.7) +
-  geom_ribbon(aes(ymin = mean_PL - sd_PL,
-                  ymax = mean_PL + sd_PL), alpha = 0.2) +
+  geom_line(size=0.9) +
+#  geom_ribbon(aes(ymin = mean_PL - sd_PL,
+#                  ymax = mean_PL + sd_PL), alpha = 0.2) +
   scale_colour_manual(values = c("terrier" = "#999999", "hound" = "#E69F00")) + 
   labs(color = "Expertise") +
   xlab("Round") +
   ylab("Av. number of correct answered messages") +
-  ylim(c(0,1.25)) + 
-  ggtitle("Correctness per round") +
+  ylim(c(0,1)) + 
+#  ggtitle("Correctness per round") +
   theme_bw() +
   theme(legend.position="bottom")
 
@@ -143,6 +144,30 @@ g <- ggplot(comunicacion_summary, aes(x=mean_Corr, y=lead(meanMess))) +
   theme_bw()
 
 g
+
+##########################################################################################
+# Drawing dispersion between average correctnes and average index of cooperation
+##########################################################################################
+
+comunicacion_summary <- dfCom %>% # the names of the new data frame and the data frame to be summarised
+  dplyr::group_by(Round, Player) %>%   # the grouping variable
+  dplyr::summarise(maxMessag = max(Contador),
+                   mean_Corr = mean(Correctitud, na.rm=TRUE)) %>%
+  ungroup() %>%
+  dplyr::group_by(Round) %>%
+  dplyr::summarise(meanMess = mean(maxMessag),
+                   mean_Corr = mean(mean_Corr, na.rm=TRUE))
+head(comunicacion_summary)
+
+g <- ggplot(comunicacion_summary, aes(x=mean_Corr, y=lead(meanMess))) +
+  geom_point(color='blue') + 
+  geom_smooth(method = "lm", se = TRUE) +
+  xlab("Av. correctness of replies") +
+  ylab("Av. number of messages on next round") +
+  theme_bw()
+
+g
+
 
 ##########################################################################
 # Drawing composition of messages from experts
@@ -348,7 +373,34 @@ gC
 
 gExpertHounds <- grid.arrange(gA, gC, nrow = 1, top="Hound experts")
 
+##########################################################################
+# Drawing average % of responded messages 
+##########################################################################
 
+comunicacion_summary <- dfCom %>% # the names of the new data frame and the data frame to be summarised
+  dplyr::group_by(Round) %>%
+  dplyr::mutate(nTotal = n()) %>%
+  ungroup() %>%
+  dplyr::group_by(Round, Recibido) %>%   # the grouping variables
+  dplyr::summarise(freqReci = n()/median(nTotal))
+head(comunicacion_summary)
+
+comunicacion_summary <- comunicacion_summary[comunicacion_summary$Recibido == '-', ]
+
+gResp <- ggplot(comunicacion_summary, aes(x=Round, y=freqReci)) +
+  geom_line(size=0.7) +
+  xlab("Round") +
+  ylab("Percentage of unanswered messages") +
+  ylim(c(0,1)) + 
+#  ggtitle("Aggregate") +
+  theme_bw() 
+
+gResp
+
+
+##############
+##############
+##############
 ##############
 # Meando fuera del tiesto
 ###############

@@ -20,7 +20,6 @@ get_legend<-function(myggplot){
 
 df = read.csv('indice.csv')
 head(df)
-df[10:20, ]
 
 comunicacion_summary <- df %>% # the names of the new data frame and the data frame to be summarised
   dplyr::group_by(Round, Player) %>%   # the grouping variable
@@ -92,14 +91,14 @@ head(comunicacion_summary)
 
 gIndice <- ggplot(comunicacion_summary, aes(x=Round, y=meanIndice)) +
   geom_line(size=0.8) +
-  geom_ribbon(aes(ymin = meanIndice - sd_PL,
-                  ymax = meanIndice + sd_PL), alpha = 0.2) +
+#  geom_ribbon(aes(ymin = meanIndice - sd_PL,
+#                  ymax = meanIndice + sd_PL), alpha = 0.2) +
 #  scale_colour_manual(values = c("terrier" = "#999999", "hound" = "#E69F00")) + 
 #  labs(color = "Expertise") +
   xlab("Round") +
   ylab("Av. cooperation index") +
-#  ylim(c(0,1)) + 
-  ggtitle("Aggregate") +
+  ylim(c(0,1)) + 
+#  ggtitle("Aggregate") +
   theme_bw() +
   theme(legend.position="none")
 
@@ -142,3 +141,50 @@ legend <- get_legend(gIndiceRaza)
 gIndiceRaza <- gIndiceRaza + theme(legend.position="none")
 
 g <- grid.arrange(gIndice, gIndiceRaza, nrow=1, right=legend, top="Cooperation index")
+
+
+#############################################################################################
+# Encontrando indice por persona por ronda
+#############################################################################################
+
+indiceCooperacion <- df %>% # the names of the new data frame and the data frame to be summarised
+  dplyr::group_by(Round, Player) %>%   # the grouping variable
+  dplyr::summarise(numerator = sum(Numerador),
+                   N = sum(Novatada)) %>%
+  mutate(indiceCop = numerator/N) 
+
+indiceCooperacion <- indiceCooperacion %>% select(1, 2, 5)
+indiceCooperacion <- indiceCooperacion[indiceCooperacion$Round < 8, ]
+head(indiceCooperacion)
+
+dfPuntajeGroup = read.csv('puntaje_group.csv')
+dfPuntajeGroupGame <- dfPuntajeGroup[dfPuntajeGroup$Stage == 2, ]
+head(dfPuntajeGroupGame)
+
+dfScore <- dfPuntajeGroupGame %>%
+  dplyr::group_by(Round, Player) %>%   # the grouping variable
+  dplyr::summarise(Score = median(Score)) 
+head(dfScore)
+
+total <- merge(indiceCooperacion, dfScore, by=c('Round', 'Player'))
+head(total)
+dim(total)
+
+g <- ggplot(total, aes(x=indiceCop, y=Score)) +
+  geom_point(color='blue', alpha=0.2) + 
+  geom_smooth(method = "lm", se = TRUE) +
+  xlab("Cooperation index") +
+  ylab("Score") +
+  theme_bw()
+
+g
+
+# Regressing indice coop w.r.t. Score
+model1 <- lm(Score ~ indiceCop, data = total)
+summary(model1) # => Positive correlation is significant
+
+par(mfrow=c(2,2)) # init 4 charts in 1 panel
+plot(model1)
+
+library(lmtest)
+lmtest::bptest(model1)  # Breusch-Pagan test studentized Breusch-Pagan test

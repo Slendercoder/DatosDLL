@@ -71,19 +71,25 @@ gTrainingCondition <- ggplot(dfScore, aes(x = Round, y = Score, color=Exp, group
   
 gTrainingCondition
 
-dfScore <- summarySE(df, measurevar="Score", groupvars=c("Raza", "Round"))
+dfScore <- df %>% # the names of the new data frame and the data frame to be summarised
+  dplyr::group_by(Round, Raza) %>%   # the grouping variable
+  dplyr::summarise(meanCorrect = mean(Score, na.rm=TRUE),
+                   sdCorrect = sd(Score, na.rm=TRUE),
+                   nCorrect = n()) %>% # calculates the standard error of each group
+  dplyr::mutate(seCorrect = sdCorrect / sqrt(nCorrect),
+                ciCorrect = qt(1 - (0.05 / 2), nCorrect - 1) * seCorrect)
 head(dfScore)
 
-gTrainingRaza <- ggplot(dfScore, aes(x = Round, y = Score, color=Raza, group=Raza)) +
+gTrainingRaza <- ggplot(dfScore, aes(x=Round, y=meanCorrect, color=Raza, group=Raza)) +
   geom_line(size=0.7) +
-  geom_ribbon(aes(ymin = Score - sd,
-                  ymax = Score + sd), alpha = 0.2) +
+#  geom_ribbon(aes(ymin = meanCorrect - ciCorrect,
+#                  ymax = meanCorrect + ciCorrect), alpha = 0.2) +
   scale_colour_manual(values = c("terrier" = "#999999", "hound" = "#E69F00")) + 
   labs(color = "Expertise") +
   xlab("Round") +
   ylab("Av. Score") +
   ylim(c(1,6)) + 
-  ggtitle("Training vs. Expertise") +
+  ggtitle("Performance in Training rounds per Expertise") +
   theme_bw() +
   theme(legend.position="bottom")
 
