@@ -154,7 +154,8 @@ indiceCooperacion <- df %>% # the names of the new data frame and the data frame
   mutate(indiceCop = numerator/N) 
 
 indiceCooperacion <- indiceCooperacion %>% select(1, 2, 5)
-indiceCooperacion <- indiceCooperacion[indiceCooperacion$Round < 8, ]
+indiceCooperacion <- indiceCooperacion[indiceCooperacion$Round < 6, ]
+#indiceCooperacion <- indiceCooperacion[indiceCooperacion$Round > 19, ]
 head(indiceCooperacion)
 
 dfPuntajeGroup = read.csv('puntaje_group.csv')
@@ -175,7 +176,8 @@ g <- ggplot(total, aes(x=indiceCop, y=Score)) +
   geom_smooth(method = "lm", se = TRUE) +
   xlab("Cooperation index") +
   ylab("Score") +
-  theme_bw()
+  theme_bw() +
+  ggtitle("First 5 rounds")
 
 g
 
@@ -183,8 +185,31 @@ g
 model1 <- lm(Score ~ indiceCop, data = total)
 summary(model1) # => Positive correlation is significant
 
-par(mfrow=c(2,2)) # init 4 charts in 1 panel
-plot(model1)
+#par(mfrow=c(2,2)) # init 4 charts in 1 panel
+#plot(model1)
 
 library(lmtest)
 lmtest::bptest(model1)  # Breusch-Pagan test studentized Breusch-Pagan test
+
+##########################################################################################
+# Drawing dispersion between index of cooperation and score
+##########################################################################################
+
+comunicacion_summary <- dfCom %>% # the names of the new data frame and the data frame to be summarised
+  dplyr::group_by(Round, Player) %>%   # the grouping variable
+  dplyr::summarise(maxMessag = max(Contador),
+                   mean_Corr = mean(Correctitud, na.rm=TRUE)) %>%
+  ungroup() %>%
+  dplyr::group_by(Round) %>%
+  dplyr::summarise(meanMess = mean(maxMessag),
+                   mean_Corr = mean(mean_Corr, na.rm=TRUE))
+head(comunicacion_summary)
+
+g <- ggplot(comunicacion_summary, aes(x=mean_Corr, y=lead(meanMess))) +
+  geom_point(color='blue') + 
+  geom_smooth(method = "lm", se = TRUE) +
+  xlab("Av. correctness of replies") +
+  ylab("Av. number of messages on next round") +
+  theme_bw()
+
+g

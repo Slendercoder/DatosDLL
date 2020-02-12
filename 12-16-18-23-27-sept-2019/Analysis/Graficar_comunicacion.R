@@ -114,13 +114,37 @@ gComCorr <- ggplot(comunicacion_summary, aes(x = Round, y = mean_PL, color=Raza,
   scale_colour_manual(values = c("terrier" = "#999999", "hound" = "#E69F00")) + 
   labs(color = "Expertise") +
   xlab("Round") +
-  ylab("Av. number of correct answered messages") +
+  ylab("Av. correct response") +
   ylim(c(0,1)) + 
 #  ggtitle("Correctness per round") +
   theme_bw() +
   theme(legend.position="bottom")
 
 gComCorr
+
+##########################################################################
+# Drawing average % of responded messages 
+##########################################################################
+
+comunicacion_summary <- dfCom %>% # the names of the new data frame and the data frame to be summarised
+  dplyr::group_by(Round) %>%
+  dplyr::mutate(nTotal = n()) %>%
+  ungroup() %>%
+  dplyr::group_by(Round, Recibido) %>%   # the grouping variables
+  dplyr::summarise(freqReci = (1 - n()/median(nTotal))*100)
+head(comunicacion_summary)
+
+comunicacion_summary <- comunicacion_summary[comunicacion_summary$Recibido == '-', ]
+
+gResp <- ggplot(comunicacion_summary, aes(x=Round, y=freqReci)) +
+  geom_line(size=0.9) +
+  xlab("Round") +
+  ylab("Answered messages (%)") +
+  ylim(c(0,100)) + 
+  #  ggtitle("Aggregate") +
+  theme_bw() 
+
+gResp
 
 ##########################################################################
 # Drawing dispersion between average correctnes and average number of messages
@@ -144,30 +168,6 @@ g <- ggplot(comunicacion_summary, aes(x=mean_Corr, y=lead(meanMess))) +
   theme_bw()
 
 g
-
-##########################################################################################
-# Drawing dispersion between average correctnes and average index of cooperation
-##########################################################################################
-
-comunicacion_summary <- dfCom %>% # the names of the new data frame and the data frame to be summarised
-  dplyr::group_by(Round, Player) %>%   # the grouping variable
-  dplyr::summarise(maxMessag = max(Contador),
-                   mean_Corr = mean(Correctitud, na.rm=TRUE)) %>%
-  ungroup() %>%
-  dplyr::group_by(Round) %>%
-  dplyr::summarise(meanMess = mean(maxMessag),
-                   mean_Corr = mean(mean_Corr, na.rm=TRUE))
-head(comunicacion_summary)
-
-g <- ggplot(comunicacion_summary, aes(x=mean_Corr, y=lead(meanMess))) +
-  geom_point(color='blue') + 
-  geom_smooth(method = "lm", se = TRUE) +
-  xlab("Av. correctness of replies") +
-  ylab("Av. number of messages on next round") +
-  theme_bw()
-
-g
-
 
 ##########################################################################
 # Drawing composition of messages from experts
@@ -193,7 +193,7 @@ gTerriersAsk <- ggplot(comunicacion_summary, aes(Rotulo, fill=Rotulo)) +
   ggtitle("What messages do Terrier experts ask?") +
   ylim(c(0,0.6)) + 
   labs(y="Relative frequency", 
-       x = "Message") +
+       x = "") +
   scale_fill_colorblind() +
   theme_classic() +
   theme(legend.position="none")
@@ -220,23 +220,25 @@ gHoundsAsk <- ggplot(comunicacion_summary, aes(Rotulo, fill=Rotulo)) +
   ggtitle("What messages do Hound experts ask?") +
   ylim(c(0,0.6)) + 
   labs(y="Relative frequency", 
-       x = "Message") +
+       x = "Message \'Is this a ...\'") +
   scale_fill_colorblind() +
   theme_classic() +
   theme(legend.position="none")
 
 gHoundsAsk
 
-gAsk <- grid.arrange(gTerriersAsk, gHoundsAsk, nrow = 2, top="What experts ask")
+gAsk <- grid.arrange(gTerriersAsk, gHoundsAsk, nrow = 2)
 
 ##########################################################################
 # Drawing composition of guesses when terrier expert asks about hounds
 ##########################################################################
 
 dfTerriers <- dfCom[dfCom$Raza == 'terrier', ]
-dfTerriersB <- dfTerriers[dfTerriers$Rotulo == 'B', ]
+#dfTerriersB <- dfTerriers[dfTerriers$Rotulo == 'B', ]
 dfTerriersB <- dfTerriersB[dfTerriersB$suposicion != '', ]
 dfTerriersB <- dfTerriersB[complete.cases(dfTerriersB$suposicion), ]
+dfTerriersB <- dfTerriersB[complete.cases(dfTerriersB$Kind), ]
+dfTerriersB <- dfTerriersB[dfTerriersB$Kind != '', ]
 levels(dfTerriersB$suposicion)
 dfTerriersB$suposicion <- mapvalues(dfTerriersB$suposicion, 
                                     from = levels(dfTerriersB$suposicion), 
@@ -245,6 +247,23 @@ dfTerriersB$suposicion <- mapvalues(dfTerriersB$suposicion,
                                            'Norwich Terrier', 
                                            'Scottish Deerhound',
                                            'No guess'))
+levels(dfTerriersB$Kind)
+dfTerriersB$Kind <- mapvalues(dfTerriersB$Kind, 
+                                    from = levels(dfTerriersB$Kind), 
+                                    to = c('NA',
+                                           'Incorrect',
+                                           'Correct', 
+                                           'Incorrect',
+                                           'Incorrect'))
+
+head(dfTerriersB)
+tabla <- table(dfTerriersB$Kind)
+gB <- ggplot(as.data.frame(tabla), aes(x=gender, y = Freq, fill=fraud)) + 
+  geom_bar(stat="identity")
+
+
+gB
+
 
 comunicacion_summary <- dfTerriersB %>% # the names of the new data frame and the data frame to be summarised
   dplyr::group_by(Rotulo, suposicion) %>%   # the grouping variable
@@ -299,7 +318,7 @@ gD <- ggplot(comunicacion_summary, aes(suposicion, fill=suposicion)) +
 
 gD
 
-gExpertTerriers <- grid.arrange(gB, gD, nrow = 1, top="Terrier experts")
+gExpertTerriers <- grid.arrange(gB, gD, nrow = 2, top="Terrier experts")
 
 ##########################################################################
 # Drawing composition of guesses when hound expert asks about hounds
@@ -373,29 +392,6 @@ gC
 
 gExpertHounds <- grid.arrange(gA, gC, nrow = 1, top="Hound experts")
 
-##########################################################################
-# Drawing average % of responded messages 
-##########################################################################
-
-comunicacion_summary <- dfCom %>% # the names of the new data frame and the data frame to be summarised
-  dplyr::group_by(Round) %>%
-  dplyr::mutate(nTotal = n()) %>%
-  ungroup() %>%
-  dplyr::group_by(Round, Recibido) %>%   # the grouping variables
-  dplyr::summarise(freqReci = n()/median(nTotal))
-head(comunicacion_summary)
-
-comunicacion_summary <- comunicacion_summary[comunicacion_summary$Recibido == '-', ]
-
-gResp <- ggplot(comunicacion_summary, aes(x=Round, y=freqReci)) +
-  geom_line(size=0.7) +
-  xlab("Round") +
-  ylab("Percentage of unanswered messages") +
-  ylim(c(0,1)) + 
-#  ggtitle("Aggregate") +
-  theme_bw() 
-
-gResp
 
 
 ##############
