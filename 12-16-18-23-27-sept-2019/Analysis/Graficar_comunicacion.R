@@ -190,7 +190,7 @@ head(comunicacion_summary)
 
 gTerriersAsk <- ggplot(comunicacion_summary, aes(Rotulo, fill=Rotulo)) + 
   geom_col(aes(y=freq)) +
-  ggtitle("What messages do Terrier experts ask?") +
+  ggtitle("What messages do Hound Laymen ask?") +
   ylim(c(0,0.6)) + 
   labs(y="Relative frequency", 
        x = "") +
@@ -217,7 +217,7 @@ head(comunicacion_summary)
 
 gHoundsAsk <- ggplot(comunicacion_summary, aes(Rotulo, fill=Rotulo)) + 
   geom_col(aes(y=freq)) +
-  ggtitle("What messages do Hound experts ask?") +
+  ggtitle("What messages do Terrier Laymen ask?") +
   ylim(c(0,0.6)) + 
   labs(y="Relative frequency", 
        x = "Message \'Is this a ...\'") +

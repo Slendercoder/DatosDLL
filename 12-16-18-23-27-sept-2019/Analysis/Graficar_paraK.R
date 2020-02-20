@@ -59,7 +59,7 @@ head(dfCalificacion)
 
 correct_summary <- dfCalificacion %>% # the names of the new data frame and the data frame to be summarised
   dplyr::group_by(Kind, Round) %>%   # the grouping variable
-  dplyr::summarise(meanCorrect = mean(Correct, na.rm=TRUE),  # calculates the mean of each group
+  dplyr::summarise(meanCorrect = mean(Correct, na.rm=TRUE)*100,  # calculates the mean of each group
                    sd_PL = sd(Correct, na.rm=TRUE), # calculates the standard deviation of each group
                    n_PL = n(),  # calculates the sample size per group
                    SE_PL = sd(Correct, na.rm=TRUE)/sqrt(n())) # calculates the standard error of each group
@@ -74,8 +74,8 @@ gTrainingRaza <- ggplot(correct_summary, aes(x=Round, y=meanCorrect, color=Kind,
   labs(color = "Race") +
   xlab("Round") +
   ylab("Av. correct classification (%)") +
-  scale_color_colorblind() +
-  ylim(c(0.5,1)) + 
+#  scale_color_colorblind() +
+  ylim(c(50,100)) + 
 #  ggtitle("Cairn Terrier") +
   theme_bw() +
   theme(legend.position="right")

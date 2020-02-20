@@ -51,28 +51,14 @@ for counter in indices:
 	# Processing information of players performance
 	# --------------------------------------------------
 
-	# Finding dyad
-	Players = []
-	for d in Data:
-		if d[u'player'] not in Players:
-			Players.append(d[u'player'])
-
-	print("Lista de jugadores: ", Players)
-	assert(len(Players) == 2), "Error: Pareja no contiene numero exacto de jugadores!"
-
-	dyadName = str(Players[0][:5]) + '-' + str(Players[1][:5])
-	print("Dyad name: ", dyadName)
-
 	# Getting data from Encuesta
 	for d in Data:
 		try:
 			print("Reading line with encuesta data...", len(d[u'valores_demogra']))
-			pareja.append(dyadName)
 			jugador.append(d[u'player'])
 			genero.append(d[u'valores_demogra'][u'forms'][u'gender'][u'choice'])
 			edad.append(d[u'valores_demogra'][u'forms'][u'age'][u'choice'])
 			carrera.append(d[u'valores_demogra'][u'forms'][u'carreer'][u'choice'])
-			estrategia.append(d[u'valores_strat'][u'forms'][u'strategy'][u'choice'])
 # =======
 # 			estrategia.append(d[u'valores'][u'forms'][u'strategy'][u'choice'])
 # 			genero.append(d[u'valores'][u'forms'][u'gender'][u'choice'])
@@ -96,20 +82,16 @@ for counter in indices:
 			print("No communication phase. Skip!")
 
 dict = {
-	'Dyad': pareja,
 	'Player': jugador,
 	'Genero': genero,
 	'Edad': edad,
-	'Carrera': carrera,
-	'Estrategia': estrategia
+	'Carrera': carrera
 }
 
-print('len(pareja)', len(pareja))
 print('len(jugador)', len(jugador))
 print('len(genero)', len(genero))
 print('len(edad)', len(edad))
 print('len(carrera)', len(carrera))
-print('len(estrategia)', len(estrategia))
 
 data = pd.DataFrame.from_dict(dict)
 
