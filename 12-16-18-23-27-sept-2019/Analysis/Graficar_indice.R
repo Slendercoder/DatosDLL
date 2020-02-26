@@ -2,6 +2,7 @@ library(ggplot2)
 library(Rmisc)
 library(gridExtra)
 library(dplyr)
+library(readxl)
 
 ##########################################################################
 # Functions
@@ -213,3 +214,78 @@ g <- ggplot(comunicacion_summary, aes(x=mean_Corr, y=lead(meanMess))) +
   theme_bw()
 
 g
+
+##########################################################################################
+# Uso efectivo de palabras por expertos
+##########################################################################################
+
+df = read_excel('uso-experto.xlsx')
+head(df)
+
+uso <- df %>%
+  dplyr::group_by(Player, Kind) %>%
+  dplyr::summarise(numera = sum(Numerador),
+                   N = n()) %>%
+  dplyr::mutate(indice = numera/N) %>%
+  ungroup()
+
+
+uso <- uso %>%
+  dplyr::mutate(promedio = mean(indice),
+                desvest = sd(indice)) %>%
+  dplyr::group_by(Player, Kind) %>%
+  dplyr::mutate(zUSo = (indice - promedio)/desvest)
+
+uso$Player <- as.character(uso$Player)
+uso <- uso[order(uso$Player),]
+uso$ID <- paste(uso$Player, uso$Kind, sep="")
+uso <- uso[uso$ID != "845030447613389D", ]
+head(uso)
+
+df1 = read.csv('reporte-comp.csv', sep=";")
+df1$Player <- as.character(df1$Player)
+# OJO: TOCA REVISAR ESTA PAREJA QUE FALTA EN COMUNICACION
+df1 <- df1[df1$Player != "101017895939220", ]
+df1 <- df1[df1$Player != "833437527724022", ]
+df1 <- df1[df1$Player != "322563841246444", ]
+df1 <- df1[order(df1$Player),]
+df1$ID <- paste(df1$Player, df1$Kind, sep="")
+# OJO: Revisar por que faltan estos jugadores
+df1 <- df1[df1$ID != "696092780970702D", ]
+df1 <- df1[df1$ID != "765625247183286A", ]
+df1 <- df1[df1$ID != "781261847597636B", ]
+df1 <- df1[df1$ID != "845030447613389B", ]
+head(df1)
+df1 <- df1 %>%
+  dplyr::mutate(promedio = mean(Reporte),
+                desvest = sd(Reporte)) %>%
+  dplyr::mutate(zReporte = (Reporte - promedio)/desvest)
+
+
+a <- unique(uso$Player)
+b <- unique(df1$Player)
+length(a)
+length(b)
+setdiff(a, b)
+
+a <- unique(uso$ID)
+b <- unique(df1$ID)
+length(a)
+length(b)
+setdiff(a, b)
+
+total <- merge(uso, df1, by="ID")
+head(total)
+
+total <- total[c('ID', 'zUSo', 'zReporte')]
+
+g <- ggplot(total, aes(x=zUSo, y=zReporte)) +
+  geom_point(color='blue') + 
+  geom_smooth(method = "lm", se = TRUE) +
+  xlab("Uso efectivo") +
+  ylab("Reporte de comprension") +
+  theme_bw()
+
+g
+
+
