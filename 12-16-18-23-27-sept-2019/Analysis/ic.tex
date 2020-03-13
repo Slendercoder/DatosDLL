@@ -1,0 +1,39 @@
+\documentclass[preview]{standalone}
+\usepackage{amsmath}
+
+\begin{document}
+
+\noindent Let $N_r=\{x_1,\ldots,x_{n_r}\}$ be the set of dogs belonging to kinds \emph{out}side the player's expertise and which are presented to him or her during round $r$. Let $p_i$ be defined as follows:
+%
+\[
+p_i=\begin{cases}
+1, &\mbox{ if player sent a message about }x_i\\
+0, &\mbox{ otherwise}
+\end{cases}
+\]
+%
+We define the novice's index (\textsc{ni}) in the following way:
+%
+\[
+\mbox{\textsc{ni}}=\displaystyle\sum_{r\in\mbox{Rounds}}\left[\frac{\sum_{i=1}^{n_r} x_i*p_i}{n_r}\right]
+\]
+
+\ \\
+
+\noindent Let $M_r=\{y_1,\ldots,y_{k_r}\}$ be the set of messages about dogs belonging to kinds \emph{in}side the player's expertise during round $r$. Let $c_i$ be defined as follows:
+%
+\[
+c_i=\begin{cases}
+1, &\mbox{ if player correctly answered message }y_i\\
+0, &\mbox{ otherwise}
+\end{cases}
+\]
+%
+We define the expert's index (\textsc{ei}) in the following way:
+%
+\[
+\mbox{\textsc{ei}}=\displaystyle\sum_{r\in\mbox{Rounds}}\left[\frac{\sum_{i=1}^{n_r} y_i*c_i}{k_r}\right]
+\]
+
+
+\end{document}
