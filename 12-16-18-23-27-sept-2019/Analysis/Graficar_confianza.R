@@ -49,7 +49,7 @@ dfCalificacion <- rbind(
 head(dfCalificacion)
 
 ############################################################################################################
-# Analizando autoevaluacion de comprensión por condicion
+# Analizando autoevaluacion de comprensi?n por condicion
 ############################################################################################################
 
 calificacion_summary <- dfCalificacion %>% # the names of the new data frame and the data frame to be summarised
@@ -151,7 +151,7 @@ gGradingHounds <- grid.arrange(gB, gD, nrow = 1, bottom=legend)
 gGrading <- grid.arrange(gA, gB, gC, gD, nrow = 2)
 
 ############################################################################################################
-# Analizando autoevaluacion de comprensión por experticia GLOBAL
+# Analizando autoevaluacion de comprensi?n por experticia GLOBAL
 ############################################################################################################
 
 calificacion_summary <- dfCalificacion %>% # the names of the new data frame and the data frame to be summarised
@@ -253,7 +253,7 @@ gGradingHounds <- grid.arrange(gB, gD, nrow = 1, bottom=legend)
 gGrading <- grid.arrange(gA, gB, gC, gD, nrow = 2)
 
 ############################################################################################################
-# Analizando autoevaluacion de comprensión por experticia PAREJAS
+# Analizando autoevaluacion de comprensi?n por experticia PAREJAS
 ############################################################################################################
 
 dfCalificacionPairs <- dfCalificacion[dfCalificacion$Exp == 'Pairs', ]
@@ -357,7 +357,7 @@ gGradingHounds <- grid.arrange(gB, gD, nrow = 1, bottom=legend)
 gGrading <- grid.arrange(gA, gB, gC, gD, nrow = 2, top="Pairs condition")
 
 ############################################################################################################
-# Analizando autoevaluacion de comprensión por experticia INDIVIDUAL
+# Analizando autoevaluacion de comprensi?n por experticia INDIVIDUAL
 ############################################################################################################
 
 dfCalificacionIndiv <- dfCalificacion[dfCalificacion$Exp == 'Single', ]
@@ -461,7 +461,7 @@ gGradingHounds <- grid.arrange(gB, gD, nrow = 1, bottom=legend)
 gGrading <- grid.arrange(gA, gB, gC, gD, nrow = 2, top="Individual condition")
 
 ############################################################################################################
-# Analizando autoevaluacion de comprensión de expertos 
+# Analizando autoevaluacion de comprensi?n de expertos 
 ############################################################################################################
 
 dfHounds <- dfCalificacion[dfCalificacion$Kind == 'hound', ]
@@ -568,7 +568,7 @@ gExpertTerriers <- grid.arrange(gA, gC, nrow = 2, top="Terrier experts")
 gExpert <- grid.arrange(gExpertTerriers, gExpertHounds, nrow=1)
 
 ############################################################################################################
-# Analizando autoevaluacion de comprensión de novatos
+# Analizando autoevaluacion de comprensi?n de novatos
 ############################################################################################################
 
 dfHounds <- dfCalificacion[dfCalificacion$Kind == 'terrier', ]
