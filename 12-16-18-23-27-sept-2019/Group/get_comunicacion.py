@@ -40,6 +40,8 @@ objetoSolicitado = []
 rotulo = []
 Sups = []
 mensajeRecibido = []
+time_sent = []
+time_received = []
 dictRecibido = {}
 
 # Diccionario de experticias
@@ -87,10 +89,11 @@ for counter in indices:
 			s = d[u'stage'][u'stage']
 			r = d[u'stage'][u'round']
 			siNo = d[u'Respuesta'][0]
+			tiempo = d[u'timestamp']
 			# perro = d[u'Respuesta'][1]
 			contador = int(d[u'Respuesta'][2])
 			print("Tupla: ", (p, s, r, contador))
-			dictRecibido[(p, s, r, contador)] = siNo
+			dictRecibido[(p, s, r, contador)] = (siNo, tiempo)
 			# m = int(d[u'Respuesta'][1])
 			# dictRecibido[(p, r, m)] = d[u'Respuesta'][0]
 			# print(dictRecibido)
@@ -123,6 +126,7 @@ for counter in indices:
 			rotulo.append(d[u'Comunicacion'][0])
 			objetoSolicitado.append(d[u'Comunicacion'][1])
 			Sups.append(d[u'Comunicacion'][2])
+			time_sent.append(d[u'timestamp'])
 			contador = d[u'Comunicacion'][3]
 			Contador.append(contador)
 			if Players[0] == d[u'player']:
@@ -131,11 +135,14 @@ for counter in indices:
 				p = Players[0]
 			print("Tupla: ", (p, s, r, contador))
 			try:
-				o = dictRecibido[(p, s, r, contador)]
+				o = dictRecibido[(p, s, r, contador)][0]
+				t = dictRecibido[(p, s, r, contador)][1]
 				mensajeRecibido.append(o)
+				time_received.append(t)
 			except:
 				print("No response!")
 				mensajeRecibido.append('-')
+				time_received.append(np.nan)
 		except:
 			print("No comunicacion. Skip!")
 
@@ -149,7 +156,9 @@ dict = {
 	'Perro': objetoSolicitado,
 	'Rotulo': rotulo,
 	'suposicion': Sups,
-	'Recibido': mensajeRecibido
+	'Recibido': mensajeRecibido,
+	'Time_sent': time_sent,
+	'Time_received': time_received
 }
 
 data = pd.DataFrame.from_dict(dict)

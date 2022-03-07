@@ -1,0 +1,69 @@
+
+### Classifying dog breeds datasets ###
+
+Principal Investigator / Contact person: Edgar J. Andrade-Lotero, Universidad del Rosario, Bogota, Colombia,  edgar.andrade@urosario.edu.co
+In collaboration with: Robert L. Goldstone, Indiana University, Bloomington, Indiana, USA, rgoldsto@indiana.edu
+In collaboration with: Javier Alejandro Velazco Garcia, Universidad del Rosario, Bogota, Colombia, javier.velasco8@gmail.com
+
+Publications using these data:
+
+[1] Andrade-Lotero, E., & Goldstone, R. L., & Ortiz-Duque, J. M., & Velazco-Garcia, J. A. (2021). An experiment on the division of linguistic labor. In preparation.
+
+Datasets described here:
+- performances.csv
+- rep-understanding.csv
+
+=======================
+
+Filename: performances.csv
+
+Location: https://github.com/EAndrade-Lotero/SPUoDLL/blob/master/performances.csv
+
+Behavioral data of 20 dyads playing the "Classifying dog breeds" experiment in the paired condition and 44 individuals playing the solo condition (see https://www.protocols.io/edit/classifying-dog-breeds-bvm6n49e). Data was obtained from raw json files output from nodeGame and processed into a single dataframe.
+
+Method of data collection: nodeGame platform. Freely available at: https://github.com/Slendercoder/DLL (paired condition; Spanish interface) and at: https://github.com/Slendercoder/DLL_single (solo condition; Spanish interface).
+
+Methods of data processing: Dataset generated from raw data via python scripts to create a single csv from multiple json output from nodeGame.
+
+Number of variables: 13
+Number of rows: 20735
+Variables:
+1. treatment: single or dyad.
+2. dyad: dyad's name.
+3. player: player's id.
+4. expert_in: refers to the player's expert-dogs (terriers or hounds), that is, the kinds of dogs on which the player trained during training rounds.
+5. novice_in: refers to the player's novice-dogs (terriers or hounds).
+6. stage: experiment's stage (training or game).
+7. round: round of the respective stage.
+8. kind: dog's kind.
+9. classif: refers to the label the player used to classify the dog.
+10. accuracy: whether classification was correct (0=incorrect/1=correct).
+11. queried: number of times the player asked partner about dog (NaN if no query was made or if player belongs to treatment==single).
+12. label: label used by player to query partner (NaN if player didn't query or treatment==single).
+13. answered: proportion of times query was answered by partner.
+14. answer_correct: whether partner's answer was correct or not (0=incorrect/1=correct).
+
+=======================
+
+Filename: rep-understanding.csv
+
+Location: https://github.com/EAndrade-Lotero/SPUoDLL/blob/master/rep-understanding.csv
+
+Self-understanding reports from each participant for each dog breed, obtained at the end of the "Classifying dog breeds" experiment.
+
+Method of data collection: nodeGame platform.
+
+Methods of data processing: Dataset generated from raw data via a python script to create a single csv from multiple json output from nodeGame.
+
+Number of variables: 9
+Number of rows: 336
+Variables:
+1. treatment: single or dyad.
+2. player: player's id.
+3. kind: the dog's kind.
+4. expertise: whether the player was trained on this kind of dog or not (experts or novices).
+5. report: player's reported understanding score on this kind of dog.
+6. accuracy: mean accuracy over game rounds on this kind of dog.
+7. query: proportion of times the player queried their partner on this kind of dog.
+8. answered: proportion of times queries on this kind of dog were answered by partner.
+9. player_responded: proportion of times player responded to queries on this kind of dog.
